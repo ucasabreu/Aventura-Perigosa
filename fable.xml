@@ -1,5 +1,7 @@
 <fable>
-  
+    <page background="Battleground3.png">
+    <agent text="O pequeno Cavaleiro" font-size="20" x="20" y="460" width="400" color="white"/>
+    </page>
 	<page background="0.png">
     
     <agent img="256_Path Dirt Vertical 02.png" x="135" y="0" width="256" height="256"/>
