@@ -1,7 +1,7 @@
 <fable>
 	<page background="bg.png">
     <agent text="O pequeno Cavaleiro" font-size="20" x="20" y="460" width="400"/>
-    <agent img="Actor1.png"
-    
+
+    <agent img="Actor1.png" x="260" y="65" width="44" height="10"/>
   </page>
 </fable>
