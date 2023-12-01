@@ -3,7 +3,7 @@
     <agent text="O pequeno Cavaleiro" font-size="20" x="20" y="460" width="400" color="white"/>
 
     
-    <agent img="256_Path Dirt Vertical 02.png" x="2" y="65" width="256" height="256"/>
+    <agent img="256_Path Dirt Vertical 02.png" x="145" y="0" width="256" height="256"/>
     <agent img="Actor1.png" x="250" y="65" width="44" height="72"/>
   </page>
 </fable>
