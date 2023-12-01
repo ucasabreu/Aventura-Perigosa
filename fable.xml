@@ -5,7 +5,8 @@
     
     <agent img="256_Path Dirt Vertical 02.png" x="135" y="0" width="256" height="256"/>
     <agent img="256_Path Dirt Junction 01.png" x="125" y="256" width="256" height="256"/>   
-    <agent img="256_Path Dirt Horizontal 01.png" x="370" y="270" width="256" height="256"/>
+    <agent img="256_Path Dirt Horizontal 01.png" x="380" y="240" width="256" height="256"/>
+    <agent img="256_Path Dirt Horizontal 01.png" x="10" y="240" width="256" height="256"/>
     <agent img="Actor1.png" x="250" y="65" width="44" height="72"/>
   </page>
 </fable>
