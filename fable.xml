@@ -20,6 +20,6 @@
 
     
     
-    <agent img="Actor1.png" x="250" y="65" width="44" height="72"/>
+    <agent img="Actor1.png" x="240" y="65" width="44" height="72"/>
   </page>
 </fable>
