@@ -120,7 +120,9 @@
         
 </page>
 
-<page background="panel_Example3.png"</page>
+<page background="panel_Example3.png"
+    <agent text="texto" x="50" y="50">
+</page>
     
 
 <page background="0.png">
