@@ -52,7 +52,7 @@
         
     </page>
 
-    <page background="sky.png".png">
+<page background="sky.png".png">
 
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
     <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
