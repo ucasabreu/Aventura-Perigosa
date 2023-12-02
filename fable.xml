@@ -15,9 +15,9 @@
     </agent>
   
     <agent text="Olá, destemido aventureiro! Antes de permitir sua passagem,
-    devo testar sua sagacidade." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story2" on-trigger="story">
-        <story2 text="Lance seu desafio"/>
-        <story text="teste de story2"/>
+    devo testar sua sagacidade." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story">
+        <story text="Resolva esta charada para adentrar os portões sombrios desta dungeon"/>
+       
     </agent>
      
     <agent img="basicscroll.png" x="-200" y="90" width="35" height="35" on-trigger="story2" >
