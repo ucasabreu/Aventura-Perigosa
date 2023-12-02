@@ -70,7 +70,7 @@
         <story on-touch="_NEXT_PAGE"/>
     </agent>
   
-    <agent text="Na sala dos quatro destinos, as afinidades são a chave da passagem. Que a Paixão abrace a Fluidez, que a Fluidez nutra a Solidez, que a Solidez respire com o Sopro. Siga a harmonia das afinidades, e a porta oculta se abrirá para os que entendem a sinfonia das palavras." font-size="9" x="100" y="40" width="340" height="20">
+    <agent text="Na sala dos quatro destinos, as afinidades são a chave da passagem. Que a Paixão abrace a Fluidez, que a Fluidez nutra a Solidez, que a Solidez respire com o Sopro. Siga a harmonia das afinidades, e a porta oculta se abrirá para os que entendem a sinfonia das palavras." font-size="10" x="100" y="40" width="340" height="30">
       
     </agent>
         
