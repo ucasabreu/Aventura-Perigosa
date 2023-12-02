@@ -103,13 +103,13 @@
         <story img="masterFace.png"/>
     </agent>
     
-    <agent img="Chests.png" x="50" y="50" width="20" height="28" on-touch 
+    <agent img="Chests.png" x="50" y="50" width="20" height="28" on-touch="teste1"> 
     </agent>
     
-    <agent>
+    <agent img="Chests2.png" x="50" y="50" width="20" height="28" on-touch="teste1"> 
     </agent>
     
-    <agent>
+    <agent img="Chests3.png" x="50" y="50" width="20" height="28" on-touch="teste1"> 
     </agent>
     
     <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
