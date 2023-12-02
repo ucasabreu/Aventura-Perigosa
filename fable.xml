@@ -6,7 +6,7 @@
     <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
     <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
 
-        <agent img="arrow_example.png" x="475" y="10" width="20" height="40" on-touch="story">
+    <agent img="arrow_example.png" x="475" y="15" width="30" height="40" on-touch="story">
         
     </agent>
         
