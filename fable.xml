@@ -24,7 +24,7 @@
     </agent>
         
     <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story2">
-        <story img="ActorFace.png" x="50" y="20" width="40" height="40" />
+        <story2 img="ActorFace.png" x="50" y="20" width="40" height="40" />
         
     </agent>
         
