@@ -120,7 +120,10 @@
         
 </page>
 
-<page background="panel_Example3.png".png">
+<page background="panel_Example3.png">
+ <agent text="Sempre quando chego trago a tristeza Mas sempre chego na hora certa As vezes venho depois de uma doença E outras, depois de um ato de violência"  font-size="12" x="200" y="350" width="100" height="1"> 
+ </agent>
+      
 </page>
 
 <page background="0.png">
