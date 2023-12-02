@@ -103,7 +103,7 @@
         <story img="masterFace.png"/>
     </agent>
     
-    <agent img="Chests.png" x="-200" y="80" width="34" height="28" on-touch="teste1"> 
+    <agent img="Chests.png" x="-200" y="80" width="34" height="28" on-trigger="story" on-touch="teste1"> 
         <story x="200"/>
     </agent>
     
