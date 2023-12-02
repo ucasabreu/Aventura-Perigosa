@@ -12,7 +12,7 @@
     <agent img="arrow_example.png" x="470" y="10" width="20" height="40"/>
     
     <agent text="Olá, destemido aventureiro! Antes de permitir sua passagem,
-    devo testar sua sagacidade." font-size="10" x="120" y="40" width="-350" height="20" on-touch="prox_text">
+    devo testar sua sagacidade." font-size="12" x="160" y="40" width="340" height="20" on-touch="prox_text">
     <prox_text text="Resolva esta charada para adentrar os portões 
     sombrios desta dungeon." font-size="10" x="120" y="40" width="350"/>       
     </agent>
@@ -22,7 +22,7 @@
         <prox_text  x="200"/>
     </agent>
         
-    <agent img="masterFace.png" x="60" y="10" width="40" height="40">
+    <agent img="masterFace.png" x="100" y="10" width="40" height="40">
     </agent>
         
     <agent img="ActorFace.png" x="-100" y="10" width="40" height="40" >
