@@ -12,8 +12,9 @@
         
     </agent>
     
-    <agent text="Olá, destemido aventureiro! Antes de permitir sua passagem," font-size="10" x="120" y="50" width="400"/>
-     <agent text="Olá, destemido aventureiro! Antes de permitir sua passagem," font-size="10" x="110" y="50" width="400"/>
+    <agent text="Olá, destemido aventureiro! Antes de permitir sua passagem,
+        devo testar sua sagacidade. Resolva esta charada para adentrar os portões sombrios desta dungeon" font-size="10" x="120" y="50" width="400"/>
+    
         
       
         
