@@ -9,7 +9,7 @@
     <agent img="panel_Example3.png" x="80" y="-20" width="450" height="120">
     </agent>
 
-    <agent img="arrow_example.png" x="120" y="9" width="20" height="40"/>
+    <agent img="arrow_example.png" x="470" y="10" width="20" height="40"/>
     
     <agent text="Olá, destemido aventureiro! Antes de permitir sua passagem,
     devo testar sua sagacidade." font-size="10" x="120" y="40" width="350" on-touch="prox_text">
@@ -22,7 +22,7 @@
         <prox_text  x="200"/>
     </agent>
         
-    <agent img="masterFace.png" x="450" y="10" width="40" height="40">
+    <agent img="masterFace.png" x="60" y="10" width="40" height="40">
     </agent>
         
     <agent img="ActorFace.png" x="-100" y="10" width="40" height="40" >
