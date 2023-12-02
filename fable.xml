@@ -80,7 +80,7 @@
         
 </page>
        
-<page background="sky.png".png">
+<page background="sky.png">
 
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
     <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
@@ -120,8 +120,10 @@
         
 </page>
 
-<page background="panel_Example3.png"
-    <agent text="texto" x="50" y="50">
+<page background="panel_Example3.png"/>
+    <agent text="(analisa a charada com atenção) Hmm, interessante. Parece ser algo formidável. Dê-me um momento para refletir." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
+        <story text="Claro, nobre aventureiro. Enquanto pondera, aqui estão três baús diante de você, cada um guardando um desafio para desvendar a charada."/>
+    </agent>
 </page>
     
 
