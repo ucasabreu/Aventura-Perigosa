@@ -68,8 +68,7 @@
     <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE"">
     </agent>
   
-    <agent text="Sempre quando chego trago a tristeza 
-        Mas sempre chego na hora certa As vezes venho depois de uma doença E outras, depois de um ato de violência"  font-size="12" x="200" y="350" width="100" height="2">  
+    <agent text="Sempre quando chego trago a tristeza Mas sempre chego na hora certa As vezes venho depois de uma doença E outras, depois de um ato de violência"  font-size="12" x="200" y="350" width="100" height="1">  
       
     </agent>
         
