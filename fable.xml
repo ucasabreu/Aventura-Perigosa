@@ -37,7 +37,7 @@
     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
     </agent>
 
-    <agent img="basicscroll.png" x="90" y="90" width="40" height="40" on-touch="pergaminho">
+    <agent img="basicscroll.png" x="90" y="90" width="40" height="40" on-touch="_NEXT_PAGE">
         <pergaminho y="-900"/>
     </agent>
     
@@ -46,8 +46,7 @@
     </agent>
   
     <agent text="Resolva esta charada para adentrar os portões sombrios desta dungeon." font-size="12" x="100" y="40" width="340" height="20" on-trigger="pergaminho">
-        <pergaminho text="Na sala dos quatro destinos, as afinidades são a chave da passagem. Que a Paixão abrace a Fluidez, que a Fluidez nutra a Solidez, que a Solidez respire com o Sopro. Siga a harmonia das afinidades, e a porta oculta se abrirá para os que entendem a sinfonia das palavras." font-size="11" x="100" y="40" width="40" height="20" />
-        
+      
     </agent>
         
     <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
