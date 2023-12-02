@@ -23,8 +23,12 @@
     </agent>
 
     
-    <agent text="." font-size="12" x="100" y="-40" width="340" height="20" on-trigger="story2">
+    <agent text="Lance seu desafio!" font-size="12" x="100" y="-40" width="340" height="20" on-trigger="story">
         <story y="40"/>
+    </agent>
+
+    <agent text="Lance seu desafio!" font-size="12" x="100" y="-40" width="340" height="20" on-trigger="stor2">
+        <story2 y="40"/>
     </agent>
         
      
