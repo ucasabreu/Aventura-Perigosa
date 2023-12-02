@@ -11,8 +11,8 @@
     
     <agent text="Olá, destemido aventureiro! Antes de permitir sua passagem,
     devo testar sua sagacidade. Resolva esta charada para adentrar os portões 
-    sombrios desta dungeon" font-size="10" x="120" y="30" width="350" on-trigger="storyMaster">
-       
+    sombrios desta dungeon" font-size="10" x="120" y="30" width="350" on-touch="prox_text">
+    <prox_text text=""/>       
     </agent>
     
     <agent img="basicscroll.png" x="-200" y="90" width="35" height="35">
