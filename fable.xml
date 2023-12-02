@@ -104,15 +104,15 @@
     </agent>
     
     <agent img="Chests.png" x="-200" y="80" width="34" height="28" on-trigger="story"> 
-        <story x="200" on-touch/>
+        <story x="200" on-touch="_NEXT_PAGE"/>
     </agent>
     
     <agent img="Chests2.png" x="-200" y="110" width="34" height="28" on-trigger="story" > 
-        <story x="200"/>
+        <story x="200"  on-touch="_NEXT_PAGE"/>
     </agent>
     
     <agent img="Chests3.png" x="-200" y="140" width="34" height="28" on-trigger="story"> 
-        <story x="200"/>
+        <story x="200" on-touch="_NEXT_PAGE"/>
     </agent>
     
     <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
