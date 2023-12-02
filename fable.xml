@@ -1,5 +1,5 @@
 <fable>
-    <page background="sky.png".png">
+<page background="sky.png".png">
 
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
     <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
@@ -50,7 +50,7 @@
     <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
-    </page>
+</page>
 
 <page background="sky.png".png">
 
@@ -78,7 +78,7 @@
     <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
-    </page>
+</page>
     
 	<page background="0.png">
     
