@@ -119,7 +119,9 @@
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
 </page>
-   
+
+<page background="panel_Example3.png"</page>
+    
 
 <page background="0.png">
     
