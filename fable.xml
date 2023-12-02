@@ -21,12 +21,12 @@
       
         
         
-    <agent img="masterFace.png" x="450" y="10" width="40" height="40" on-trigger="prox_painel">
-        <prox_painel img="masterFace.png" x="-110" />  
+    <agent img="masterFace.png" x="450" y="10" width="40" height="40">
+        
     </agent>
         
-    <agent img="ActorFace.png" x="-100" y="10" width="40" height="40" on-trigger="prox_painel">
-        <prox_painel img="ActorFace.png" x="10"/>
+    <agent img="ActorFace.png" x="-100" y="10" width="40" height="40" >
+        
     </agent>
         
     <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
