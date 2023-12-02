@@ -6,8 +6,8 @@
     <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
     <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
     
-    <agent img="panel_Example3.png" x="80" y="-20" width="450" height="120" on-touch="next_painel">
-        <next_painel img="panel_Example3.png" x="-30" y="-20"/>
+    <agent img="panel_Example3.png" x="80" y="-20" width="450" height="120" on-touch="prox_painel">
+        <prox_painel img="panel_Example3.png" x="-30" y="-20"/>
 
     </agent>
     
