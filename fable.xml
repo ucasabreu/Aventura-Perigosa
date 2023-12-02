@@ -104,11 +104,11 @@
     </agent>
     
     <agent img="Chests.png" x="-200" y="80" width="34" height="28" on-trigger="story"> 
-        <story x="200" on-touch="_NEXT_PAGE"/>
+        <story x="200" on-touch="_GOTO_PAGE:5"/>
     </agent>
     
     <agent img="Chests2.png" x="-200" y="110" width="34" height="28" on-trigger="story" > 
-        <story x="200"  on-touch="_NEXT_PAGE"/>
+        <story x="200"  on-touch="_GOTO_PAGE:"/>
     </agent>
     
     <agent img="Chests3.png" x="-200" y="140" width="34" height="28" on-trigger="story"> 
@@ -119,7 +119,8 @@
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
 </page>
-	<page background="0.png">
+
+<page background="0.png">
     
     <agent img="256_Path Dirt Vertical 02.png" x="135" y="0" width="256" height="256"/>
     <agent img="256_Path Dirt Junction 01.png" x="125" y="256" width="256" height="256"/>   
