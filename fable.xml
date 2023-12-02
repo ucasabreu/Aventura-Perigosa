@@ -15,14 +15,11 @@
     </agent>
   
     <agent text="Olá, destemido aventureiro! Antes de permitir sua passagem,
-    devo testar sua sagacidade." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story">
+    devo testar sua sagacidade." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story" on-trigger="story2">
         <story y="-40"/>
     </agent>
     
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
-        <story x="-50"/>    
-    </agent>
-     
+    
     <agent img="arrow_example.png" x="-420" y="20" width="40" height="40" on-touch="story">
         <story y="420"/>
     </agent>
