@@ -19,7 +19,7 @@
   
     <agent text="Olá, destemido aventureiro! Antes de permitir sua passagem,
     devo testar sua sagacidade." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story">
-        <story y="-40"/>
+        <story text="Lance seu desafio!" on-trigger="story"/>
     </agent>
 
     
