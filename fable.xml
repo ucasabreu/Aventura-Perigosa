@@ -11,7 +11,7 @@
     </agent>
     
     <agent text="Ola nobre explorador. Como posso ajuda-lo nessa floresta?" font-size="12" x="120" y="50" width="400" on-trigger="prox_painel">
-      <prox_painel text="Como"
+      <prox_painel text="Como posso passar para proxima area?" font-size="12" x="20" y"50"/>
     
     </agent>
         
