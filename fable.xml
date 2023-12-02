@@ -45,7 +45,7 @@
         <story text="Resolva esta charada para adentrar os portões sombrios desta dungeon."/>
     </agent>
         
-    <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger>
+    <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
         <story img="masterFAce.png"/>
     </agent>
     <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
