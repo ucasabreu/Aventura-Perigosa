@@ -103,7 +103,8 @@
         <story img="masterFace.png"/>
     </agent>
     
-    <!-- Baus  -->
+    
+    
     
     <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
