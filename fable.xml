@@ -20,8 +20,8 @@
         <story2  x="200"/>
     </agent>
 
-     <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="story2">
-        <story2 x="-50"/> 
+     <agent img="ActorFace.png" x="-50" y="20" width="40" height="40" on-trigger="story">
+        <story2 x="50"/> 
     </agent>
         
     <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
@@ -29,10 +29,6 @@
     </agent>
 
       
-        
-   
-   
-    
         
     <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
