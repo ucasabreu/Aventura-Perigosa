@@ -37,12 +37,12 @@
     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
     </agent>
 
-    <agent img="basicscroll.png" x="90" y="90" width="40" height="40" ont-touch="perg">
+    <agent img="basicscroll.png" x="90" y="90" width="40" height="40" on-touch="perg">
         <perg y="-9"/>
     </agent>
     
     <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-trigger="perg">
-        <perg arr/>
+        <perg y="-80"/>
     </agent>
   
     <agent text="Resolva esta charada para adentrar os portões sombrios desta dungeon." font-size="12" x="100" y="40" width="340" height="20" on-trigger="perg">
