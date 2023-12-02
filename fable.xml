@@ -22,13 +22,11 @@
         <story  y="-40"/>
     </agent>
         
-    <agent text="Lance seu desafio!" font-size="12" x="100" y="40" width="340" height="20" on-trigger="story">
-        <story  text="Resolva esta charada para adentrar os portões sombrios desta dungeon."/>
+    <agent text="Lance seu desafio!" font-size="12" x="100" y="-40" width="340" height="20" on-trigger="story">
+        <story text="Resolva esta charada para adentrar os portões sombrios desta dungeon." y="40"/>
     </agent>
         
-     <agent  font-size="12" x="100" y="-40" width="340" height="20" on-trigger="story2">
-        <story2  y="40" />
-    </agent>
+     
      
     <agent img="basicscroll.png" x="-200" y="90" width="35" height="35" on-trigger="story2" >
         <story2  x="200"/>
