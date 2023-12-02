@@ -120,12 +120,8 @@
         
 </page>
 
-<page background="panel_Example3.png"/>
-    <agent text="(analisa a charada com atenção) Hmm, interessante. Parece ser algo formidável. Dê-me um momento para refletir." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
-        <story text="Claro, nobre aventureiro. Enquanto pondera, aqui estão três baús diante de você, cada um guardando um desafio para desvendar a charada."/>
-    </agent>
+<page background="panel_Example3.png".png">
 </page>
-    
 
 <page background="0.png">
     
