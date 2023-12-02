@@ -11,12 +11,12 @@
     
     <agent img="arrow_example.png" x="430" y="15" width="30" height="40" on-touch="story">
         <story on-touch="story2"/>
-        <story2/>
+        <story2 img="arrow_example.png" x="430" y="15" width="30" height="40"/>
     </agent>
     
     <agent text="Olá, destemido aventureiro! Antes de permitir sua passagem,
     devo testar sua sagacidade." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story">
-    <story text="Lance seu desafio então!" font-size="12" x="100" y="40" width="340" height="20" on-trigger="story2"/>
+    <story text="Lance seu desafio então!" font-size="12" x="100" y="40" width="340" height="20" on-trigger="story2">
     <story2 text="Resolva esta charada para adentrar os portões sombrios desta dungeon" font-size="12" x="100" y="40" width="340" height="20"/>
     </agent>
 
