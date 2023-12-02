@@ -13,7 +13,7 @@
     
     <agent text="Ola nobre explorador. Como posso ajuda-lo nessa floresta?" font-size="12" x="120" y="50" width="400"/>
     <agent img="masterFace.png" x="450" y="10" width="40" height="40" on-touch="next_page">
-    <next_page img="Ac"/>    
+    <next_page img="masterFace.png" x="-2200" y="200"/>    
     </agent>
     <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
