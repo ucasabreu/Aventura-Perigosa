@@ -94,7 +94,8 @@
         <story on-touch="_NEXT_PAGE"/>
     </agent>
   
-    <agent text="(analisa a charada com atenção) Hmm, interessante. Parece ser algo formidável. Dê-me um momento para refletir." font-size="12" x="100" y="40" width="340" height="20">  
+    <agent text="(analisa a charada com atenção) Hmm, interessante. Parece ser algo formidável. Dê-me um momento para refletir." font-size="12" x="100" y="40" width="340" height="20" on-touch="story"> 
+        <story text=""/>
       
     </agent>
         
