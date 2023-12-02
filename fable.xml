@@ -103,9 +103,11 @@
         <story img="masterFace.png"/>
     </agent>
     
-    <agent>
+    <agent img="Chests.png" x="50" y="50" width="20" height="28" on-touch 
     </agent>
     
+    <agent>
+    </agent>
     
     <agent>
     </agent>
