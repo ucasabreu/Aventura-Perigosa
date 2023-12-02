@@ -5,12 +5,13 @@
         
     <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
 
-    <agent img="tree_face.png" x="100" y="-70" width="1980" height="600"/>
+    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
 
 
         
     <agent text="O pequeno Cavaleiro" font-size="20" x="20" y="460" width="400" color="white"/>
-    <agent img="Actor1.png" x="25" y="65" width="44" height="72"/>
+    <agent img="Actor2.png" x="25" y="65" width="44" height="72"/>
+    <agent img="Actor2.png" x="25" y="65" width="44" height="72"/>
     </page>
     
 	<page background="0.png">
