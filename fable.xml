@@ -9,7 +9,7 @@
     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
     </agent>
     <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
-        <story on-touch="story2"/>
+        <story img="arrow_example.png" on-touch="story2"/>
         <story2/>
     </agent>
 
@@ -26,7 +26,7 @@
         <story x="-50" on-trigger="story2"/>    
     </agent>
 
-    <agent img="ActorFace.png" x="-50" y="20" width="40" height="40" on-trigger="story">
+    <agent img="ActorFace.png" x="-50" y="20" width="40" height="40" on-trigger="story2">
         <story2 x="50" on-trigger="story2"/>    
     </agent>
     
