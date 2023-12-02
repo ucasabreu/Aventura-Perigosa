@@ -10,7 +10,9 @@
         <prox_painel img="panel_Example3.png" x="-30" y="-20"/>
     </agent>
     
-    <agent text="Ola nobre explorador. Como posso ajuda-lo nessa floresta?" font-size="12" x="120" y="50" width="400">
+    <agent text="Ola nobre explorador. Como posso ajuda-lo nessa floresta?" font-size="12" x="120" y="50" width="400" on-trigger="prox_painel">
+      <prox_painel text="Como"
+    
     </agent>
         
     <agent img="masterFace.png" x="450" y="10" width="40" height="40" on-trigger="prox_painel">
