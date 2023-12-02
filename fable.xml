@@ -12,9 +12,11 @@
         
     </agent>
     
-    <agent text="Olá, destemido aventureiro! Antes de permitir sua passagem," font-size="10" x="120" y="50" width="400" on-trigger="prox_painel">
-      <prox_painel text="Como posso passar para proxima area?" font-size="12" x="20" y="50"/>
-    </agent>
+    <agent text="Olá, destemido aventureiro! Antes de permitir sua passagem," font-size="10" x="120" y="50" width="400"/>
+     <agent text="Olá, destemido aventureiro! Antes de permitir sua passagem," font-size="10" x="110" y="50" width="400"/>
+        
+      
+        
         
     <agent img="masterFace.png" x="450" y="10" width="40" height="40" on-trigger="prox_painel">
         <prox_painel img="masterFace.png" x="-110" />  
