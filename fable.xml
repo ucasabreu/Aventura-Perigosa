@@ -290,9 +290,7 @@
         <item img="cookie_01a.png"/>
     </agent>
 
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE">
-    </agent>
-  
+   
     <agent text="Boa escolha, pelo visto voce é um aventureiro de sorte.Vamos voltar para a escolha da resposta." font-size="12" x="-500" y="50" width="340" height="20" on-trigger="isOpenGood">
         <isOpenGood x="100"/>
     </agent>
@@ -301,6 +299,33 @@
         <isOpenBad x="100"/>
     </agent>
         
+</page>
+
+
+<page background="sky.png">
+    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+    
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
+        <story on-touch="_NEXT_PAGE"/>
+    </agent>
+  
+    <agent text="Esse escolha te da uma dica sobre o que busca." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
+        <story text="A palavra que busca possui _ _ R _ _"/>
+      
+    </agent>
+        
+    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
+    
+    </agent>
+    
+    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
 </page>
     
