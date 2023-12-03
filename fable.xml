@@ -42,7 +42,7 @@
 
     <agent img="skill_icons3.png" x="92" y="370" width="35" height="35"
         on-touch="addSkill">
-        <addSkill x="40" y="40" width="30" height="30"/>    
+        <addSkill x="80" y="80" width="30" height="30"/>    
     </agent>
     
     <agent img="skill_icons47.png" x="190" y="370" width="35" height="35"></agent>
