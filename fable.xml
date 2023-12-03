@@ -291,7 +291,7 @@
     </agent>
 
      <agent img="arrow_example.png" x="-420" y="20" width="40" height="40" on-trigger="isOpen">
-         <isOpen x="420" on-touch="_GOTO_PAGE:9"/>
+         <isOpen x="420" on-touch="_GOTO_PAGE:10"/>
     </agent>
 
 </page>
