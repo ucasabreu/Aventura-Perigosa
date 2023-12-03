@@ -157,10 +157,9 @@
     
     <agent text="O pequeno Cavaleiro" font-size="20" x="20" y="460" width="400" color="white"/>
 
-    
-    
     <agent img="Actor1.png" x="0" y="65" width="44" height="72"/>
 </page>
+    
 <page background="back1.png">
  <agent  img="back2.png" x="0" y="0" width="500" height="500"/>
  <agent  img="foice1.png" x="63" y="50" width="63" height="27" draggable="true"/>
