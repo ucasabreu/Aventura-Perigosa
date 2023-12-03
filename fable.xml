@@ -163,8 +163,12 @@
         <opcao_2 x="160"/>
     </agent>
 
-    <agent text="2. esta ecrito: NORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_2">
-        <opcao_2 x="160"/>
+    <agent text="3. esta ecrito: MORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_2">
+        <opcao_2 x="180"/>
+    </agent>
+
+    <agent text="3. esta ecrito: FORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_3">
+        <opcao_2 x="200"/>
     </agent>
     
     <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
