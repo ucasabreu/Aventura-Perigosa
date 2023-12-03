@@ -580,8 +580,8 @@
     <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
     <agent img="master2.png" x="300" y="85" width="44" height="72" on-trigger="proxLVL">
         <proxLVL img="master1.png" y="120"/>
-        
     </agent>
+    <agent img="fireflys.png" x="50" y="50" 
         
 </page> 
     
