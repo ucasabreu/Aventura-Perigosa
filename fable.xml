@@ -57,7 +57,7 @@
     
     <agent img="towerred.png" x="378" y="345" width="63" height="122" draggable="true" on-drop="localRed" on-zone="replaceRed" on-trigger="replaceRed">
         <replaceRed img="skill_icons3.png" x="392" y="370" width="35" height="35"
-          draggable="false" on-touch=="_NEXT_PAGE" />
+          draggable="false" on-touch="_NEXT_PAGE" />
        
     </agent>
     
