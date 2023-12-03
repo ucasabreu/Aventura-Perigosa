@@ -58,7 +58,7 @@
     <agent img="towerred.png" x="378" y="345" width="63" height="122" draggable="true" on-drop="localRed" on-zone="replaceRed" on-trigger="replaceRed">
         <replaceRed img="skill_icons3.png" x="392" y="370" width="35" height="35"
             on-touch=="teste"/>
-        <agent text="(analize) Então o segredo está nas torres..." font-size="12" x="100" y="40" width="340" height="20"/>
+        <agent text="(analize)" font-size="20" x="100" y="40" width="340" height="20"/>
     </agent>
     
 
