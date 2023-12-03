@@ -51,11 +51,13 @@
     </agent>
     
     <agent img="towerblue.png" x="278" y="345" width="63" height="122" draggable="true" on-drop="localBlue" on-zone="replaceBlue" on-trigger="replaceBlue">
-        <replaceBlue img="skill_icons47.png" x="292" y="370" width="35" height="35"/>
+        <replaceBlue img="skill_icons47.png" x="292" y="370" width="35" height="35"
+            on-touch="_NEXT_PAGE"/>
     </agent>
     
     <agent img="towerred.png" x="378" y="345" width="63" height="122" draggable="true" on-drop="localRed" on-zone="replaceRed" on-trigger="replaceRed">
-        <replaceRed img="skill_icons3.png" x="392" y="370" width="35" height="35"/>
+        <replaceRed img="skill_icons3.png" x="392" y="370" width="35" height="35"
+            on-touch=="_"/>
     </agent>
     
 
