@@ -168,7 +168,7 @@
     </agent>
     <agent img="scroll_01a.png" x="145" y="255" width="34" height="28"
         on-touch="opcao_2">
-        <opcao_2 img="scrollOpen.png"/>
+        <opcao_2 img="scrollOpen.png" on-touch="_GOTO_PAGE:12"/>
     </agent>
     <agent img="scroll_01a.png" x="359" y="255" width="34" height="28"
         on-touch="opcao_5">
