@@ -188,8 +188,8 @@
         <story on-touch="_NEXT_PAGE"/>
     </agent>
   
-    <agent text="Essa opcão te da a opção de encontrar a resposta abrindo um dos baus acima mas escolha com sabedoria pois alguns escondem consequncias perigosas." font-size="12" x="100" y="50" width="340" height="20" on-trigger="isOpen"> 
-        <story text="adicionar proximo texto"/>
+    <agent text="Essa opcão te da a opção de encontrar a resposta abrindo um dos baus acima mas escolha com sabedoria pois alguns escondem consequncias perigosas." font-size="12" x="100" y="50" width="340" height="20" on-trigger="story"> 
+        <story text="adici"/>
       
     </agent>
         
