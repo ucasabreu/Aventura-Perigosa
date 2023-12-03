@@ -38,10 +38,10 @@
         
     </agent>
     <agent img="towerpink.png" x="178" y="345" width="63" height="122" draggable="true" on-drop="localPink" on-zone="outscreen"></agent>
-    <agent img="towerblue.png" x="278" y="345" width="63" height="122" draggable="true" on-drop="localBlue" on-zone="raplaceBlue" on-trigger="outscreenBlue">
-        <outscreenBlue img="skill_icons47.png" x="292" y="370" width="35" height="35"/>
+    <agent img="towerblue.png" x="278" y="345" width="63" height="122" draggable="true" on-drop="localBlue" on-zone="raplaceBlue" on-trigger="rapleceBlue">
+        <raplaceBlue img="skill_icons47.png" x="292" y="370" width="35" height="35"/>
     </agent>
-    <agent img="towerred.png" x="378" y="345" width="63" height="122" draggable="true" on-drop="localRed" on-zone="outscreenRed" on-trigger="outscreenRed">
+    <agent img="towerred.png" x="378" y="345" width="63" height="122" draggable="true" on-drop="localRed" on-zone="replaceRed" on-trigger="replaceRed">
         <outscreenRed img="skill_icons3.png" x="392" y="370" width="35" height="35"/>
     </agent>
     
