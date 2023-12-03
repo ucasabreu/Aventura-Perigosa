@@ -1,4 +1,5 @@
 <fable>
+    
 <page background="sky.png">
 
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
@@ -139,7 +140,6 @@
  </agent>
       
 </page>
-
     
 <page background="sky.png">
 
@@ -170,7 +170,7 @@
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
 </page>
-
+    
 <page background="0.png">
     
     <agent img="256_Path Dirt Vertical 02.png" x="135" y="0" width="256" height="256"/>
@@ -184,4 +184,5 @@
     
     <agent img="Actor1.png" x="0" y="65" width="44" height="72"/>
   </page>
+    
 </fable>
