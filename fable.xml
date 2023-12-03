@@ -162,12 +162,12 @@
     </agent>
   
     <agent text="Esse escolha te da uma dica sobre o que busca." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
-        <story text="adicionar pr"/>
+        <story text="A palavra que busca possui _ _ R _ _"/>
       
     </agent>
         
-    <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
-        <story img="masterFace.png"/>
+    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
+    
     </agent>
     
     <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
