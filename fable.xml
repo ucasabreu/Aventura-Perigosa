@@ -53,8 +53,7 @@
 
     <agent img="Actor4.png" x="230" y="200" width="44" height="72"/>
     
-    <agent img="scrollOpen.png" x="230" y="300" width="34" height="28" on-touch="isOpen">
-    </agent>    
+        
 </page>
 
 <page background="hills&trees.png">
