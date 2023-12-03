@@ -63,7 +63,7 @@
         <addSkill y="80"/>
     </agent>
 
-    <agent img="arrow right.png" x="10" y=""/>
+    <agent img="arrow right.png" x="10" y="300" width="27" height="27"/>
     <agent img="Actor4.png" x="230" y="200" width="44" height="72"/>
     
         
