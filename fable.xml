@@ -39,7 +39,7 @@
     </agent>
 
     <agent img="towershield.png" x="78" y="345" width="63" height="122" draggable="true" on-drop="localShield" on-zone="replaceShield" on-trigger="replaceShield" >
-        <replace
+        <replaceShield img="skill_icons22.png" x="292" y="370" width="35" height="35"/>
         
     </agent>
     <agent img="towerpink.png" x="178" y="345" width="63" height="122" draggable="true" on-drop="localPink" on-zone="raplacePink" on-trigger="replacePink">
