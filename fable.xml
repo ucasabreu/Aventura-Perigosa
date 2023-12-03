@@ -40,21 +40,14 @@
     height="80">
     </agent>
 
-    <agent img="skill_icons3.png" x="92" y="370" width="35" height="35" draggable="true" on-drop="localShield" on-zone="replaceShield" on-trigger="replaceShield" >
-        <replaceShield img="skill_icons22.png" x="92" y="370" width="35" height="35"/>
+    <agent img="skill_icons3.png" x="92" y="370" width="35" height="35"></agent>
+    
+    <agent img="skill_icons47.png" x="190" y="370" width="35" height="35"></agent>
+    
+    <agent img="skill_icons22.png" x="292" y="370" width="35" height="35">
     </agent>
     
-    <agent img="skill_icons47.png" x="190" y="370" width="35" height="35" draggable="true" on-drop="localPink" on-zone="replacePink" on-trigger="replacePink">
-        <replacePink img="skill_icons16.png" x="190" y="370" width="35" height="35"/>
-    </agent>
-    
-    <agent img="skill_icons22.png" x="292" y="370" width="35" height="35" draggable="true" on-drop="localBlue" on-zone="replaceBlue" on-trigger="replaceBlue">
-        <replaceBlue img="skill_icons47.png" x="292" y="370" width="35" height="35"/>
-    </agent>
-    
-    <agent img="skill_icons16.png" x="392" y="370" width="35" height="35" draggable="true" on-drop="localRed" on-zone="replaceRed" on-trigger="replaceRed">
-        <replaceRed img="skill_icons3.png" x="392" y="370" width="35" height="35"/>
-       
+    <agent img="skill_icons16.png" x="392" y="370" width="35" height="35">       
     </agent>
     
 
