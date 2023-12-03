@@ -453,17 +453,18 @@
     </agent>
 
     <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="nextChance">
+        <nextChance on-touch="" />
     </agent>
   
     <agent text="Infelismente essa não é a resposta correta." font-size="12" x="100" y="50" width="340" height="20" on-trigger="nextChance">
-        <openScroll text="Deixe-me tentar novamente."/>
+        <nextChance text="Deixe-me tentar novamente."/>
     </agent>
 
     <agent img="scrollOpen.png" x="100" y="140" width="34" height="28"/>
         
     
     <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="nextChance">
-        <next
+        <nextChance img="ActorFace.png"/>
     </agent>
     
     <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
