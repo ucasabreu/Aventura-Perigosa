@@ -184,7 +184,7 @@
         <story on-touch="_NEXT_PAGE"/>
     </agent>
     
-    
+    <agent img="Chests3.png" x="50" y="50" width=/>
   
     <agent text="Essa opcão te da a opção de encontrar a resposta abrindo um dos baus acima mas escolha com sabedoria pois alguns escondem consequncias perigosas." font-size="12" x="100" y="50" width="340" height="20" on-trigger="story"> 
         <story text="adicionar proximo texto"/>
