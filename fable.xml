@@ -134,7 +134,8 @@
  <agent  img="foice10.png" x="310" y="5" width="71" height="67" draggable="true"/>
  <agent  img="foice11.png" x="5" y="310" width="69" height="158" draggable="true"/>
  <agent  img="foice12.png" x="400" y="400" width="50" height="91" draggable="true"/>
-     
+ <agent  img="foice13.png" x="400" y="400" width="50" height="91" draggable="true"/>
+         
  </agent>
       
 </page>
