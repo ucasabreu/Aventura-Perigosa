@@ -160,7 +160,7 @@
     </agent>
     <agent img="scroll_01a.png" x="215" y="255" width="34" height="28"
         on-touch="opcao_3">
-        <opcao_3 img="scrollOpen.png" on-touch="_GOTO_PAGE:12"/>
+        <opcao_3 img="scrollOpen.png" on-touch="_GOTO_PAGE:1"/>
     </agent>
     <agent img="scroll_01a.png" x="285" y="255" width="34" height="28"
         on-touch="opcao_4">
@@ -370,7 +370,7 @@
         <openScroll text="A resposta é MORTE!"/>
     </agent>
 
-    <agent img="Chests3Open.png" x="200" y="140" width="34" height="28"></agent>
+   
 
     <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
         <openScroll x="-500"/>
