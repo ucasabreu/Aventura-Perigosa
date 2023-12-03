@@ -16,7 +16,7 @@
         <story on-touch="_NEXT_PAGE"/>
     </agent>
 
-    <agent text="(anali." font-size="12" x="100" y="40" width="340" height="20" on-trigger="isOpen">
+    <agent text="(analize) Então o segredo está nas torres..." font-size="12" x="100" y="40" width="340" height="20" on-trigger="isOpen">
     <isOpen text="Na sala dos quatro destinos, as afinidades são a chave da passagem. Que a *Paixão* abrace a Fluidez, que a *Fluidez* nutra a Solidez, que a *Solidez* respire com o Sopro. Siga a harmonia das afinidades, e a porta oculta se abrirá para os que entenderem a sinfonia das palavras." y="85"/>
     </agent>
 
@@ -37,8 +37,7 @@
 
     <agent img="Actor4.png" x="230" y="200" width="44" height="72"/>
     
-    <agent img="scroll_01a.png" x="230" y="300" width="34" height="28" on-touch="isOpen">
-        <isOpen img="scrollOpen.png"/>
+    <agent img="scrollOpen.png" x="230" y="300" width="34" height="28" on-touch="isOpen">
     </agent>    
 </page>
     
