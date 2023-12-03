@@ -164,14 +164,14 @@
     </agent>
     <agent img="scroll_01a.png" x="285" y="255" width="34" height="28"
         on-touch="opcao_4">
-        <opcao_4 img="scrollOpen.png" />
+        <opcao_4 img="scrollOpen.png" on-touch="_GOTO_PAGE:14"/>
     </agent>
     <agent img="scroll_01a.png" x="145" y="255" width="34" height="28"
         on-touch="opcao_2">
         <opcao_2 img="scrollOpen.png" on-touch="_GOTO_PAGE:13"/>
     </agent>
     <agent img="scroll_01a.png" x="359" y="255" width="34" height="28"
-        on-touch="opcao_5">
+        on-touch="opcao_5" on-touch="_GOTO_PAGE:15">
         <opcao_5 img="scrollOpen.png"/>
     </agent>
   
@@ -471,6 +471,7 @@
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
 </page>
+    
 
 <page background="sky.png">
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
