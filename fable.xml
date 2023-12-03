@@ -26,7 +26,7 @@
 
     <agent img="256_Tile Pattern 02 Grass.png" x="70" y="340" width="80"
     height="80" drop-zone="localRed">
-        
+        <localRed img="256_Tiles Pattern 06 Red"/>
     </agent>
     <agent img="256_Tile Pattern 02 Grass.png" x="170" y="340" width="80" height="80"/>
     <agent img="256_Tile Pattern 02 Grass.png" x="270" y="340" width="80" height="80"/>
