@@ -130,30 +130,13 @@
         <story on-touch="_NEXT_PAGE"/>
     </agent>
 
-    <agent img="scroll_01a.png" x="71" y="255" width="34" height="28" 
-        on-touch="opcao_1">
-        <opcao_1 img="scrollOpen.png"/>
-    </agent>
-    <agent img="scroll_01a.png" x="215" y="255" width="34" height="28"
-        on-touch="opcao_3">
-        <opcao_3 img="scrollOpen.png"/>
-    </agent>
-    <agent img="scroll_01a.png" x="285" y="255" width="34" height="28"
-        on-touch="opcao_4">
-        <opcao_4 img="scrollOpen.png"/>
-    </agent>
-    <agent img="scroll_01a.png" x="145" y="255" width="34" height="28"
-        on-touch="opcao_2">
-        <opcao_2 img="scrollOpen.png"/>
-    </agent>
-    <agent img="scroll_01a.png" x="359" y="255" width="34" height="28"
-        on-touch="opcao_5">
-        <opcao_5 img="scrollOpen.png"/>
-    </agent>
+    <agent img="scroll_01a.png" x="71" y="255" width="34" height="28" />
+    <agent img="scroll_01a.png" x="215" y="255" width="34" height="28"/>
+    <agent img="scroll_01a.png" x="285" y="255" width="34" height="28"/>
+    <agent img="scroll_01a.png" x="145" y="255" width="34" height="28"/>
+    <agent img="scroll_01a.png" x="359" y="255" width="34" height="28"/>
   
-    <agent text="." font-size="12" x="100" y="40" width="340" height="20" on-trigger="opcao_1"> 
-        <story x="-500"/>
-    </agent>
+    <agent text="." font-size="12" x="100" y="40" width="340" height="20" />
 
     <agent text="1. esta ecrito: SORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_1">
         <opcao_1 x="100"/>
