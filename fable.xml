@@ -581,7 +581,7 @@
     <agent img="master2.png" x="300" y="85" width="44" height="72" on-trigger="proxLVL">
         <proxLVL img="master1.png" y="120"/>
     </agent>
-    <agent img="fireflys.png" x="50" y="50" 
+    <agent img="fireflys.png" x="50" y="50" width="1920" height="400"/>
         
 </page> 
     
