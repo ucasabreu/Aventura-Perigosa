@@ -438,9 +438,7 @@
         <story on-touch="_NEXT_PAGE"/>
 </agent>
 
-<agent text="Forme uma imagem com as partes acima " font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
-        <story text="A palavra que busca possui M _ _ _ _"/>
-      
+<agent text="Caro aventureiro, diante de você está um quebra-cabeça intrigante, uma composição de peças que, quando unidas, revelarão uma imagem crucial para desvendar o poema. " font-size="12" x="100" y="40" width="340" height="20">     
 </agent>
     
  <agent  img="foice1.png" x="63" y="50" width="63" height="27" draggable="true"/>
