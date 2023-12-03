@@ -17,6 +17,7 @@
     <agent text="O pequeno Cavaleiro" font-size="20" x="20" y="460" width="400" color="white"/>
 
     <agent img="Actor4.png" x="230" y="65" width="44" height="72"/>
+    <agent img="scroll_01a.png" x="230" y="65" width="20" height="20"/>
 </page>
     
 <page background="sky.png">
