@@ -41,7 +41,7 @@
         width="80" height="80"/>
    
 
-     <agent img="Actor3.png" x="430" y="200" width="44" height="72"/>
+     <agent img="Actor3.png" x="430" y="50" width="44" height="72"/>
 </page>
 
     
