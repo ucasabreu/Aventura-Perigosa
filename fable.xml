@@ -48,11 +48,11 @@
         <replacePink img="skill_icons16.png" x="190" y="370" width="35" height="35"/>
     </agent>
     
-    <agent img="towerblue.png" x="278" y="345" width="63" height="122" draggable="true" on-drop="localBlue" on-zone="replaceBlue" on-trigger="replaceBlue">
+    <agent img="skill_icons22.png" x="292" y="370" width="35" height="35" draggable="true" on-drop="localBlue" on-zone="replaceBlue" on-trigger="replaceBlue">
         <replaceBlue img="skill_icons47.png" x="292" y="370" width="35" height="35"/>
     </agent>
     
-    <agent img="towerred.png" x="378" y="345" width="63" height="122" draggable="true" on-drop="localRed" on-zone="replaceRed" on-trigger="replaceRed">
+    <agent img="skill_icons16.png" x="392" y="370" width="35" height="35" draggable="true" on-drop="localRed" on-zone="replaceRed" on-trigger="replaceRed">
         <replaceRed img="skill_icons3.png" x="392" y="370" width="35" height="35"/>
        
     </agent>
