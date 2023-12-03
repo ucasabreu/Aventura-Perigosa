@@ -186,17 +186,15 @@
 
     
   
-    <agent text="Essa opcão te da a opção de encontrar a resposta abrindo um dos baus acima mas escolha com sabedoria pois alguns escondem consequncias perigosas." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
+    <agent text="Essa opcão te da a opção de encontrar a resposta abrindo um dos baus acima mas escolha com sabedoria pois alguns escondem consequncias perigosas." font-size="12" x="100" y="50" width="340" height="20" on-trigger="story"> 
         <story text="adicionar proximo texto"/>
       
     </agent>
         
-    <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
-        <story img="masterFace.png"/>
+    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
+        
     </agent>
     
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
 </page>
 
