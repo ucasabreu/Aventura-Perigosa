@@ -16,7 +16,7 @@
         
     </agent>
 
-    <agent text="Poderes misteriosos surgiram ao mover as torres corretamente." font-size="12" x="100" y="40" width="340" height="20" on-trigger="nextText">
+    <agent text="Poderes misteriosos surgiram ao mover as torres corretamente. Devo pega-los." font-size="12" x="100" y="40" width="340" height="20" on-trigger="nextText">
    
     </agent>
 
