@@ -9,7 +9,7 @@
     <agent img="256_Path Dirt Horizontal 01.png" x="-130" y="240" width="256" height="256"/>
 
      <agent img="panel_Example3.png" x="8" y="-20" width="490" height="170" on-trigger="isOpen">
-         <isOpen height="170"/>
+        
     </agent>
 
     <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
@@ -17,11 +17,11 @@
     </agent>
 
     <agent text="Na sala dos quatro destinos, as afinidades são a chave da passagem. Que a *Paixão* abrace a Fluidez, que a *Fluidez* nutra a Solidez, que a *Solidez* respire com o Sopro. Siga a harmonia das afinidades, e a porta oculta se abrirá para os que entenderem a sinfonia das palavras." font-size="12" x="100" y="85" width="340" height="20" on-trigger="isOpen">
-    <isOpen text= y="85"/>
+    
     </agent>
 
      <agent img="basicscroll.png" x="50" y="50" width="40" height="40" on-trigger="isOpen">
-         <isOpen img="basicscroll.png" y="50"/>
+         
      </agent>        
 
     <agent img="256_Tile Pattern 02 Grass.png" x="70" y="340" width="80" height="80"/>
@@ -37,8 +37,8 @@
 
     <agent img="Actor4.png" x="230" y="200" width="44" height="72"/>
     
-    <agent img="scroll_01a.png" x="230" y="300" width="34" height="28" on-touch="isOpen">
-        <isOpen img="scrollOpen.png"/>
+    <agent img="scrollOpen.png" x="230" y="300" width="34" height="28" on-touch="isOpen">
+       
     </agent>    
 </page>
     
