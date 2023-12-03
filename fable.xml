@@ -189,8 +189,10 @@
     </agent>
   
     <agent text="Essa opcão te da a opção de encontrar a resposta abrindo um dos baus acima mas escolha com sabedoria pois alguns escondem consequncias perigosas." font-size="12" x="100" y="50" width="340" height="20" on-trigger="story"> 
-        <story text="adici"/>
-      
+        <story text="Vamos voltar para a escolha da resposta"/>
+    </agent>
+
+    <agent text="Boa escolha, pelo visto voce é um aventure">
     </agent>
         
     <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
