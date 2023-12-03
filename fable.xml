@@ -122,7 +122,7 @@
 
 <page background="back1.png">
  <agent  img="back2.png" x="0" y="0" width="500" height="500">
- <agent  img="back2.png" x="0" y="0" width="500" height="500">
+ <agent  img="foice1.png" x="50" y="50" width="63" height="27">
      
  </agent>
       
