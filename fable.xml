@@ -91,7 +91,7 @@
     </agent>
 
     <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
-        <story on-touch="_NEXT_PAGE"/>
+        <story on-touch="_GOTO_PAGE:8"/>
     </agent>
   
     <agent text="(analisa a charada com atenção) Hmm, interessante. Parece ser algo formidável. Dê-me um momento para refletir." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
@@ -123,6 +123,11 @@
 <page background="back1.png">
  <agent  img="back2.png" x="0" y="0" width="500" height="500"/>
  <agent  img="foice1.png" x="50" y="50" width="63" height="27" draggable="true"/>
+<agent  img="foice2.png" x="50" y="50" width="63" height="27" draggable="true"/>
+    <agent  img="foice3.png" x="50" y="50" width="63" height="27" draggable="true"/>
+    <agent  img="foice4.png" x="50" y="50" width="63" height="27" draggable="true"/>
+    <agent  img="foice1.png" x="50" y="50" width="63" height="27" draggable="true"/>
+    <agent  img="foice1.png" x="50" y="50" width="63" height="27" draggable="true"/>
      
  </agent>
       
