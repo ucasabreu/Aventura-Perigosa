@@ -168,7 +168,7 @@
     </agent>
 
     <agent text="4. esta ecrito: FORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_4">
-        <opcao_4 x="200"/>
+        <opcao_4 x="400"/>
     </agent>
 
     <agent text="5. esta ecrito: CORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_5">
