@@ -1,4 +1,8 @@
 <fable>
+    
+
+
+    
 <page background="hills&trees.png">
 
     <agent img="hills&trees 2.png" x="0" y="100" width="1920" height="400"/>
@@ -184,10 +188,7 @@
         
 </page>
 
-   
-    
-
-    
+        
 <page background="sky.png">
 
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
