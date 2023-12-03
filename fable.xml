@@ -455,11 +455,11 @@
     <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE">
     </agent>
   
-    <agent text="Infelismente " font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
+    <agent text="Infelismente essa não é a resposta correta." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
         <openScroll text="A resposta é MORTE!"/>
     </agent>
 
-    <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
+    <agent img="scrollOpen.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
         <openScroll x="-500"/>
     </agent>
     
