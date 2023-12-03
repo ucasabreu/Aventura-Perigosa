@@ -575,12 +575,14 @@
         <proxLVL text="Como recompensa por tua astúcia, as portas se abrem, permitindo-te avançar para a próxima área da tua jornada.Prossegue com confiança, pois novos mistérios aguardam, e tua sagacidade será tua guia constante."/>
     </agent>
 
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
-        <openScroll img="ActorFace.png"/>
-    </agent>
+    <agent img="masterFace.png" x="50" y="20" width="40" height="40"/>
+       
+ 
     
     <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+    <agent img="master2.png" x="300" y="85" width="44" height="72" on-trigger="proxLVL">
+        
+    </agent>
         
 </page> 
     
