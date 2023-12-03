@@ -214,13 +214,13 @@
     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
     </agent>
 
-    <agent img="Chests3.png" x="215" y="255" width="34" height="28"/>
-    <agent img="Chests3.png" x="215" y="298" width="34" height="28"/>
-    <agent img="Chests3.png" x="215" y="212" width="34" height="28"/>
-    <agent img="Chests3.png" x="215" y="341" width="34" height="28"/>
-    <agent img="Chests3.png" x="215" y="169" width="34" height="28"/>
-    <agent img="Chests3.png" x="285" y="255" width="34" height="28"/>
-    <agent img="Chests3.png" x="285" y="298" width="34" height="28"/>
+    <agent img="Chests3.png" x="215" y="255" width="34" height="28"></agent>
+    <agent img="Chests3.png" x="215" y="298" width="34" height="28"></agent>
+    <agent img="Chests3.png" x="215" y="212" width="34" height="28"></agent>
+    <agent img="Chests3.png" x="215" y="341" width="34" height="28"></agent>
+    <agent img="Chests3.png" x="215" y="169" width="34" height="28"></agent>
+    <agent img="Chests3.png" x="285" y="255" width="34" height="28"></agent>
+    <agent img="Chests3.png" x="285" y="298" width="34" height="28"></agent>
     <agent img="Chests3.png" x="285" y="212" width="34" height="28"/>
     <agent img="Chests3.png" x="285" y="341" width="34" height="28"/>
     <agent img="Chests3.png" x="285" y="169" width="34" height="28"/>
