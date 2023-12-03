@@ -214,6 +214,8 @@
     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
     </agent>
 
+    <agent img="key_01d.png" x=""/>
+    
     <agent img="Chests3.png" x="215" y="255" width="34" height="28" drop-zone="isOpen">
         <isOpen img="Chests3Open.png" on-touch="item"/>
         <item img="cookie_01a.png"/>
