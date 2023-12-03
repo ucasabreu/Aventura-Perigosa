@@ -1,7 +1,7 @@
 <fable>
     
 <page background="256_Grass 03 Mud.png">
-    <agent
+    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" width="156" height="156"/>
 </page>
 
     
