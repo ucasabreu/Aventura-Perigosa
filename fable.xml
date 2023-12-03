@@ -42,7 +42,7 @@
         <outscreenBlue img="skill_icons47.png" x="292" y="370" width="35" height="35"/>
     </agent>
     <agent img="towerred.png" x="378" y="345" width="63" height="122" draggable="true" on-drop="localRed" on-zone="outscreenRed" on-trigger="outscreenRed">
-        <outscreen img="skill_icons3.png" x="392" y="370" width="35" height="35"/>
+        <outscreenRed img="skill_icons3.png" x="392" y="370" width="35" height="35"/>
     </agent>
     
 
