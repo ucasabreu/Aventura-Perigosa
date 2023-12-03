@@ -211,9 +211,6 @@
     
 <page background="background4.png">
     
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
     <agent img="key_01d.png" x="400" y="400" width="48" height="48" draggable="true" on-drop="isOpen" on-zone="outscreen" on-trigger="outscreen">
       <outscreen y="-200" />
     </agent>
@@ -304,10 +301,6 @@
         <isOpenBad x="100"/>
     </agent>
         
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
-        
-    </agent>
-    
         
 </page>
     
