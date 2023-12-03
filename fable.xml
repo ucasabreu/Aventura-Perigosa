@@ -175,11 +175,7 @@
         
 </page>
 
-<page background="sky.png">
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+<page background="background4.png">
     
     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
     </agent>
@@ -188,7 +184,7 @@
         <story on-touch="_NEXT_PAGE"/>
     </agent>
   
-    <agent text="Essa opcão te da a opção de encontrar a resposta abrindo um dos baus acima mas escolha com sabedoria pois alguns escondem consequncia" font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
+    <agent text="Essa opcão te da a opção de encontrar a resposta abrindo um dos baus acima mas escolha com sabedoria pois alguns escondem consequncias perigosas." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
         <story text="adicionar proximo texto"/>
       
     </agent>
