@@ -130,7 +130,7 @@
         <story on-touch="_NEXT_PAGE"/>
     </agent>
   
-    <agent text="Veja as opções nos pergaminhos acima e escolha a que achar ser a correta" font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
+    <agent text="Veja as opções nos pergaminhos acima e escolha a que achar ser a correta. Que a Deusa da sorte te abençoe." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
         <story text="adicionar proximo texto"/>
       
     </agent>
