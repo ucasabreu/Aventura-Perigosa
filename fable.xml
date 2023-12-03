@@ -105,7 +105,7 @@
     </agent>
     
      <agent img="Chests2.png" x="-200" y="110" width="34" height="28" on-trigger="story" > 
-        <story x="200"  on-touch="_GOTO_PAGE:7"/>
+        <story x="200"  on-touch="_GOTO_PAGE:6"/>
     </agent>
     
     <agent img="Chests.png" x="-200" y="80" width="34" height="28" on-trigger="story"> 
@@ -168,7 +168,6 @@
       
 </page>
     
-
 <page background="0.png">
     
     <agent img="256_Path Dirt Vertical 02.png" x="135" y="0" width="256" height="256"/>
