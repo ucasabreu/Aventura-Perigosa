@@ -177,9 +177,6 @@
         <opcao_5 img="scrollOpen.png"/>
     </agent>
   
-    <agent text="." font-size="12" x="100" y="40" width="340" height="20" on-trigger="opcao_1"> 
-        <story x="-500"/>
-    </agent>
 
     <agent text="1. esta ecrito: SORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_1">
         <opcao_1 x="100"/>
