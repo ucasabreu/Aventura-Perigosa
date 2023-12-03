@@ -351,11 +351,11 @@
     <agent img="Chests3Open.png" x="-200" y="140" width="34" height="28"></agent>
 
     <agent img="cookie_01a.png" x="100" y="140" width="34" height="28" on-touch="cookie">
-        <op x="-500"/>
+        <cookie x="-500"/>
     </agent>
     
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
-        
+    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="cookie">
+        <cookie img="Actor" />
     </agent>
     
     <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
