@@ -423,7 +423,7 @@
     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
     </agent>
 
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:13">
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:16">
     </agent>
   
     <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
@@ -452,7 +452,7 @@
     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
     </agent>
 
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:13">
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:16">
     </agent>
   
     <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
@@ -481,7 +481,7 @@
     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
     </agent>
 
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:13">
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:16">
     </agent>
   
     <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
@@ -510,7 +510,7 @@
     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
     </agent>
 
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:13">
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:16">
     </agent>
   
     <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
