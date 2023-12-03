@@ -56,10 +56,10 @@
     
     <agent img="skill_icons16.png" x="392" y="370" width="35" height="35"
         on-touch="addSkill">
-        <addSkill x="80" y="80" width="30" height="30"/>       
+        <addSkill x="178" y="80" width="30" height="30"/>       
     </agent>
-    
 
+        <agent text="SKILL:" >
     <agent img="Actor4.png" x="230" y="200" width="44" height="72"/>
     
         
