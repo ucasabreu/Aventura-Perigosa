@@ -29,10 +29,10 @@
     <agent img="256_Tile Pattern 02 Grass.png" x="270" y="340" width="80" height="80"/>
     <agent img="256_Tile Pattern 02 Grass.png" x="370" y="340" width="80" height="80"/>
 
-    <agent img="towerred.png" x="78" y="345" width="63" height="122" draggable="true" on-drop="localRed" on-zone="outscreen"/>
-    <agent img="towerblue.png" x="178" y="345" width="63" height="122" draggable="true"/>
-    <agent img="towerpink.png" x="278" y="345" width="63" height="122" draggable="true"/>
-    <agent img="towershield.png" x="378" y="345" width="63" height="122" draggable="true"/>
+    <agent img="towerred.png" x="78" y="345" width="63" height="122" draggable="true" on-drop="localRed" on-zone="outscreen"></agent>
+    <agent img="towerblue.png" x="178" y="345" width="63" height="122" draggable="true" on-drop="localBlue" on-zone="outscreen"></agent>
+    <agent img="towerpink.png" x="278" y="345" width="63" height="122" draggable="true" on-drop="localPink" on-zone="outscreen"></agent>
+    <agent img="towershield.png" x="378" y="345" width="63" height="122" draggable="true" on-drop="localRed" on-zone="outscreen"></agent>
     
 
     <agent img="Actor4.png" x="230" y="200" width="44" height="72"/>
