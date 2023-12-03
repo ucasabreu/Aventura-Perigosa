@@ -122,18 +122,18 @@
 
 <page background="back1.png">
  <agent  img="back2.png" x="0" y="0" width="500" height="500"/>
- <agent  img="foice1.png" x="50" y="50" width="63" height="27" draggable="true"/>
- <agent  img="foice2.png" x="50" y="100" width="83" height="27" draggable="true"/>
- <agent  img="foice3.png" x="50" y="200" width="30" height="27" draggable="true"/>
- <agent  img="foice4.png" x="50" y="450" width="350" height="27" draggable="true"/>
- <agent  img="foice5.png" x="50" y="350" width="350" height="27" draggable="true"/>
- <agent  img="foice6.png" x="50" y="230" width="470" height="27" draggable="true"/>
- <agent  img="foice7.png" x="50" y="50" width="470" height="27" draggable="true"/>
- <agent  img="foice8.png" x="50" y="280" width="280" height="27" draggable="true"/>
- <agent  img="foice9.png" x="50" y="420" width="380" height="27" draggable="true"/>
+ <agent  img="foice1.png" x="63" y="50" width="63" height="27" draggable="true"/>
+ <agent  img="foice2.png" x="83" y="100" width="83" height="27" draggable="true"/>
+ <agent  img="foice3.png" x="30" y="200" width="30" height="27" draggable="true"/>
+ <agent  img="foice4.png" x="350" y="450" width="350" height="27" draggable="true"/>
+ <agent  img="foice5.png" x="350" y="350" width="350" height="27" draggable="true"/>
+ <agent  img="foice6.png" x="470" y="230" width="470" height="27" draggable="true"/>
+ <agent  img="foice7.png" x="470" y="50" width="470" height="27" draggable="true"/>
+ <agent  img="foice8.png" x="280" y="280" width="280" height="27" draggable="true"/>
+ <agent  img="foice9.png" x="3" y="420" width="380" height="27" draggable="true"/>
  <agent  img="foice10.png" x="50" y="5" width="310" height="27" draggable="true"/>
  <agent  img="foice11.png" x="50" y="310" width="5" height="27" draggable="true"/>
- <agent  img="foice12.png" x="50" y="" width="63" height="27" draggable="true"/>
+ <agent  img="foice12.png" x="50" y="400" width="400" height="27" draggable="true"/>
      
  </agent>
       
