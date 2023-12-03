@@ -180,7 +180,7 @@
         <opcao_1 x="100"/>
     </agent>
 
-     <agent text="2. esta ecrito: NORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_2">
+     <agent text="2. esta ecrito: MARTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_2">
         <opcao_2 y="25" x="100"/>
     </agent>
 
