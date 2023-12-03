@@ -67,7 +67,8 @@
         <next x="460" on-touch="_NEXT_PAGE"/>
     </agent>
 
-    <agent 
+    <agent img="arrow - left.png" x="100" y="360" width="27" height="27" on-trigger="next">
+    </
     
     <agent img="Actor4.png" x="230" y="200" width="44" height="72"/>
     
