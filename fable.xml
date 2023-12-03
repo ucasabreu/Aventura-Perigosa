@@ -427,7 +427,7 @@
     </agent>
   
     <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
-        <openScroll text="A resposta é MARTE!"/>
+        <openScroll text="A resposta é SORTE!"/>
     </agent>
 
     <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
