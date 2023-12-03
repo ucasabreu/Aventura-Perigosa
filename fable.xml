@@ -28,23 +28,24 @@
     height="80" drop-zone="localRed">
         <localRed img="256_Tiles Pattern 06 Red.png"/>
     </agent>
+    
     <agent img="256_Tile Pattern 02 Grass.png" x="170" y="340" width="80" height="80" drop-zone="localBlue">
         <localBlue img="256_Tiles Pattern 06 Red.png"/>
     </agent>
+    
     <agent img="256_Tile Pattern 02 Grass.png" x="270" y="340" width="80" height="80" drop-zone="localShield">
         <localShield img="256_Tiles Pattern 06 Red.png"/>
     </agent>
+    
     <agent img="256_Tile Pattern 02 Grass.png" x="370" y="340" width="80" height="80" drop-zone="localPink">
         <localPink img="256_Tiles Pattern 06 Red.png"/>
     </agent>
 
     <agent img="towershield.png" x="78" y="345" width="63" height="122" draggable="true" on-drop="localShield" on-zone="replaceShield" on-trigger="replaceShield" >
         <replaceShield img="skill_icons22.png" x="92" y="370" width="35" height="35"/>
-        
     </agent>
     <agent img="towerpink.png" x="178" y="345" width="63" height="122" draggable="true" on-drop="localPink" on-zone="replacePink" on-trigger="replacePink">
-        <replacePink img="skill_icons16.png" x="200" y="370" width="35" height="35"/>
-        
+        <replacePink img="skill_icons16.png" x="190" y="370" width="35" height="35"/>
     </agent>
     
     <agent img="towerblue.png" x="278" y="345" width="63" height="122" draggable="true" on-drop="localBlue" on-zone="replaceBlue" on-trigger="replaceBlue">
