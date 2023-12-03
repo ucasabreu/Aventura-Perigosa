@@ -317,9 +317,10 @@
 
     <agent img="Chests3Open.png" x="200" y="140" width="34" height="28"></agent>
 
-    <agent img="scr" x="100" y="140" width="34" height="28"></agent>
+    <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll"></agent>
     
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
+    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
+        <openScroll i/>
     
     </agent>
     
