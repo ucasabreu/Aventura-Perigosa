@@ -63,7 +63,12 @@
         <addSkill y="80"/>
     </agent>
 
-    <agent img="arrow right.png" x="-460" y="360" width="27" height="27" on-trigger></agent>
+    <agent img="arrow right.png" x="-460" y="360" width="27" height="27" on-trigger="next">
+        <next x="460" on-touch="_NEXT_PAGE"/>
+    </agent>
+
+    <agent 
+    
     <agent img="Actor4.png" x="230" y="200" width="44" height="72"/>
     
         
