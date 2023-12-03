@@ -3,42 +3,15 @@
 <page background="256_Grass 03 Mud.png">
      <agent img="256_Path Dirt Horizontal 01.png" x="0" y="100" 
         width="556" height="256"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="10" 
+    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" 
         width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="80" 
+    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" 
         width="80" height="80"/>
-     <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="160" 
+    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" 
         width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="240" 
-        width="80" height="80"/>
-     <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="320" 
-        width="80" height="80"/>
-     <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="400" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="10" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="80" 
-        width="80" height="80"/>
-     <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="160" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="240" 
-        width="80" height="80"/>
-     <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="320" 
-        width="80" height="80"/>
-     <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="400" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="10" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="80" 
-        width="80" height="80"/>
-     <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="160" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="240" 
-        width="80" height="80"/>
-     <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="320" 
-        width="80" height="80"/>
-     <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="400" 
-        width="80" height="80"/>
+    
+    
+   
    
 
      <agent img="Actor3.png" x="430" y="50" width="44" height="72"/>
