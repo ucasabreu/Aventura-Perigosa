@@ -572,7 +572,7 @@
     </agent>
   
     <agent text="Boa escolha, pelo visto voce é um aventureiro de sorte." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
-        <openScroll text="A resposta é MORTE!"/>
+        <openScroll text/>
     </agent>
 
     <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
