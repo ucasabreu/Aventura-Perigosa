@@ -139,7 +139,7 @@
     <agent img="scroll_01a.png" x="359" y="255" width="34" height="28" 
         on-touch="_NEXT_PAGE"/>
   
-    <agent text="Abreu os pergaminhos acima e veja qual opcão é a resposta para o enigma. Que a Deusa da sorte abençoe sua escolha" font-size="12" x="100" y="40" width="340" height="20"/>
+    <agent text="Abra e escolha um dos pergaminhos acima e veja qual opcão é a resposta para o enigma. Que a Deusa da sorte abençoe sua escolha." font-size="12" x="100" y="40" width="340" height="20"/>
 
     <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story"></agent>
     
@@ -152,9 +152,7 @@
     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
     </agent>
 
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
-        <story on-touch="_NEXT_PAGE"/>
-    </agent>
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch=on-touch="_NEXT_PAGE"/>
 
     <agent img="scroll_01a.png" x="71" y="255" width="34" height="28" 
         on-touch="opcao_1">
