@@ -346,7 +346,7 @@
     </agent>
   
     <agent text="Esse item não ira te ajudar em nada, pelo visto nem todos são abençoados pela deusa da sorte.Vamos voltar para a escolha da resposta." font-size="12" x="100" y="50" width="340" height="20" on-trigger="cookie">
-        <cookie text="(mastiga) "/>
+        <cookie text="(mastiga) Pelo menos é um ótimo biscoito :)"/>
     </agent>
 
     <agent img="Chests3Open.png" x="-200" y="140" width="34" height="28"></agent>
