@@ -428,7 +428,7 @@
     <agent img="Actor1.png" x="0" y="65" width="44" height="72"/>
 </page>
     
-<page background="back1.png">
+<page background="background4.png">
  <agent  img="back2.png" x="0" y="0" width="500" height="500"/>
  <agent  img="foice1.png" x="63" y="50" width="63" height="27" draggable="true"/>
  <agent  img="foice2.png" x="83" y="100" width="62" height="52" draggable="true"/>
