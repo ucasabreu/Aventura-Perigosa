@@ -14,6 +14,7 @@
     <agent img="256_Tile Pattern 02 Grass.png" x="170" y="340" width="80" height="80"/>
     <agent img="256_Tile Pattern 02 Grass.png" x="270" y="340" width="80" height="80"/>
     <agent img="256_Tile Pattern 02 Grass.png" x="370" y="340" width="80" height="80"/>
+    
     <agent text="O pequeno Cavaleiro" font-size="20" x="20" y="460" width="400" color="white"/>
 
     <agent img="Actor4.png" x="230" y="65" width="44" height="72"/>
