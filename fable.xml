@@ -5,8 +5,8 @@
         width="80" height="80"/>
     <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="80" 
         width="80" height="80"/>
-    <agent img="256_Path Dirt Horizontal 01.png" x="430" y="80" 
-        width="80" height="80"/>
+    <agent img="256_Path Dirt Horizontal 01.png" x="230" y="100" 
+        width="356" height="156"/>
 
      <agent img="Actor3.png" x="430" y="200" width="44" height="72"/>
 </page>
