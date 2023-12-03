@@ -181,7 +181,8 @@
     </agent>
 
     <agent img="Chests3.png" x="200" y="240" width="34" height="28" on-touch="isOpenBad"> 
-        <isOpenBad img="Chests3Open.png"/>
+        <isOpenBad img="Chests3Open.png" on-touch="badItem"/>
+        <badItem img=""
     </agent>
 
     <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE">
