@@ -188,14 +188,14 @@
     <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE">
     </agent>
   
-    <agent text="Essa opcão te d de encontrar a resposta abrindo um dos baus acima mas escolha com sabedoria pois alguns escondem consequncias perigosas." font-size="12" x="100" y="50" width="340" height="20">
+    <agent text="Essa opcão te permite encontrar a resposta abrindo um dos baus acima mas escolha com sabedoria pois alguns escondem consequncias perigosas." font-size="12" x="100" y="50" width="340" height="20">
     </agent>
 
     <agent text="Boa escolha, pelo visto voce é um aventureiro de sorte.Vamos voltar para a escolha da resposta." font-size="12" x="-100" y="50" width="340" height="20" on-trigger="isOpenGood">
         <isOpenGood x="100"/>
     </agent>
     
-    <agent text="Que terrivel, pelo visto nem todos são abençoados pela deusa da sorte.Vamos voltar para a escolha da resposta." font-size="12" x="-100" y="50" width="340" height="20" on-trigger="isOpenBad">
+    <agent text="Esse item não ira te ajudar em nada, pelo visto nem todos são abençoados pela deusa da sorte.Vamos voltar para a escolha da resposta." font-size="12" x="-100" y="50" width="340" height="20" on-trigger="isOpenBad">
         <isOpenBad x="100"/>
     </agent>
         
