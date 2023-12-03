@@ -211,12 +211,14 @@
     
 <page background="background4.png">
     
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120" draggable="true" on-drop="explode" on-zone="outscreen" 
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+    </agent>
+
+    <agent img="key_01d.png" x="420" y="420" width="48" height="48" draggable="true" on-drop="isOpen" on-zone="outscreen" 
       on-trigger="outscreen">
     
       <outscreen y="-200" />
-
-    <agent img="key_01d.png" x="420" y="420" width="48" height="48"/>
+    </agent>
     
     <agent img="Chests3.png" x="215" y="255" width="34" height="28" drop-zone="isOpen">
         <isOpen img="Chests3Open.png" on-touch="item"/>
