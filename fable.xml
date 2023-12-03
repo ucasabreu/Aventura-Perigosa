@@ -34,7 +34,8 @@
 
     <agent img="Actor4.png" x="230" y="95" width="44" height="72"/>
     <agent img="scroll_01a.png" x="230" y="300" width="34" height="28" on-touch="isOpen">
-        <isOpen img="scr"/>
+        <isOpen img="scrollOpen.png"/>
+    </agent>    
 </page>
     
 <page background="sky.png">
