@@ -148,7 +148,6 @@
         
 </page>
 
-
 <page background="sky.png">
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
     <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
@@ -162,7 +161,7 @@
         <story on-touch="_NEXT_PAGE"/>
     </agent>
   
-    <agent text="PAGINA 7" font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
+    <agent text="PAGINA 6" font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
         <story text="adicionar proximo texto"/>
       
     </agent>
