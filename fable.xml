@@ -558,6 +558,35 @@
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
 </page>
+
+<page background="sky.png">
+    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+    
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE">
+    </agent>
+  
+    <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
+        <openScroll text="A resposta é MORTE!"/>
+    </agent>
+
+    <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
+        <openScroll x="-500"/>
+    </agent>
+    
+    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
+        <openScroll img="ActorFace.png"/>
+    </agent>
+    
+    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        
+</page> 
     
 <page background="0.png">
     
