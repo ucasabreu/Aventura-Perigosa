@@ -164,7 +164,69 @@
     </agent>
 
     <agent text="3. esta ecrito: MORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_3">
-        <opcao_3 x="10"/>
+        <opcao_3 y="10" x="100"/>
+    </agent>
+
+    <agent text="4. esta ecrito: FORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_4">
+        <opcao_4 x="240"/>
+    </agent>
+
+    <agent text="5. esta ecrito: CORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_5">
+        <opcao_5 y="10" x="240"/>
+    </agent>
+    
+    <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
+        <story img="masterFace.png"/>
+    </agent>
+    
+   
+        
+</page>
+    
+<page background="background4.png">
+   
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
+        <story on-touch="_NEXT_PAGE"/>
+    </agent>
+
+    <agent img="scroll_01a.png" x="71" y="255" width="34" height="28" 
+        on-touch="opcao_1">
+        <opcao_1 img="scrollOpen.png"/>
+    </agent>
+    <agent img="scroll_01a.png" x="215" y="255" width="34" height="28"
+        on-touch="opcao_3">
+        <opcao_3 img="scrollOpen.png"/>
+    </agent>
+    <agent img="scroll_01a.png" x="285" y="255" width="34" height="28"
+        on-touch="opcao_4">
+        <opcao_4 img="scrollOpen.png"/>
+    </agent>
+    <agent img="scroll_01a.png" x="145" y="255" width="34" height="28"
+        on-touch="opcao_2">
+        <opcao_2 img="scrollOpen.png"/>
+    </agent>
+    <agent img="scroll_01a.png" x="359" y="255" width="34" height="28"
+        on-touch="opcao_5">
+        <opcao_5 img="scrollOpen.png"/>
+    </agent>
+  
+    <agent text="." font-size="12" x="100" y="40" width="340" height="20" on-trigger="opcao_1"> 
+        <story x="-500"/>
+    </agent>
+
+    <agent text="1. esta ecrito: SORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_1">
+        <opcao_1 x="100"/>
+    </agent>
+
+     <agent text="2. esta ecrito: NORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_2">
+        <opcao_2 y="25" x="100"/>
+    </agent>
+
+    <agent text="3. esta ecrito: MORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_3">
+        <opcao_3 y="10" x="100"/>
     </agent>
 
     <agent text="4. esta ecrito: FORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_4">
