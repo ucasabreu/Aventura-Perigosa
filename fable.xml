@@ -135,15 +135,21 @@
         <opcao_1 img="scrollOpen.png"/>
     </agent>
     <agent img="scroll_01a.png" x="215" y="255" width="34" height="28"
-        on-touch="opcao_1">
-        <opcao_1 img="scrollOpen.png"/>
+        on-touch="opcao_2">
+        <opcao_2 img="scrollOpen.png"/>
     </agent>
     <agent img="scroll_01a.png" x="285" y="255" width="34" height="28"
-        on-touch="opcao_1">
-        <opcao_1 img="scrollOpen.png"/>
+        on-touch="opcao_3">
+        <opcao_3 img="scrollOpen.png"/>
     </agent>
-    <agent img="scroll_01a.png" x="145" y="255" width="34" height="28"/>
-    <agent img="scroll_01a.png" x="359" y="255" width="34" height="28"/>
+    <agent img="scroll_01a.png" x="145" y="255" width="34" height="28"
+        on-touch="opcao_4">
+        <opcao_4 img="scrollOpen.png"/>
+    </agent>
+    <agent img="scroll_01a.png" x="359" y="255" width="34" height="28"
+        on-touch="opcao_5">
+        <opcao_5 img="scrollOpen.png"/>
+    </agent>
   
     <agent text="Veja as opções nos pergaminhos acima e escolha a que achar ser a correta. Que a Deusa da sorte te abençoe." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
         <story text="adicionar proximo texto"/>
