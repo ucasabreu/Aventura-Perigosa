@@ -312,14 +312,14 @@
         <story on-touch="_NEXT_PAGE"/>
     </agent>
   
-    <agent text="Boa escolha, pelo visto voce é um aventureiro de sorte.Veja a resposta no pergaminho aventureiro" font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
+    <agent text="Boa escolha, pelo visto voce é um aventureiro de sorte.Veja a resposta no pergaminho aventureiro." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
         <openScroll text="A resposta é MORTE!"/>
     </agent>
 
     <agent img="Chests3Open.png" x="200" y="140" width="34" height="28"></agent>
 
     <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
-        <openScroll x="-500"
+        <openScroll x="-500"/>
     </agent>
     
     <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
