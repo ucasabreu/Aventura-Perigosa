@@ -32,12 +32,14 @@
         <localBlue img="256_Tiles Pattern 06 Red.png"/>
     </agent>
     <agent img="256_Tile Pattern 02 Grass.png" x="270" y="340" width="80" height="80" drop-zone="localShield">
+        <localShield img="256_Tiles Pattern 06 Red.png"/>
     </agent>
     <agent img="256_Tile Pattern 02 Grass.png" x="370" y="340" width="80" height="80" drop-zone="localPink">
         <localPink img="256_Tiles Pattern 06 Red.png"/>
     </agent>
 
-    <agent img="towershield.png" x="78" y="345" width="63" height="122" draggable="true" on-drop="localShield" on-zone="outscreen" >
+    <agent img="towershield.png" x="78" y="345" width="63" height="122" draggable="true" on-drop="localShield" on-zone="replaceShield" on-trigger="replaceShield" >
+        <replace
         
     </agent>
     <agent img="towerpink.png" x="178" y="345" width="63" height="122" draggable="true" on-drop="localPink" on-zone="raplacePink" on-trigger="replacePink">
