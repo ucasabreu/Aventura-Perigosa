@@ -217,7 +217,7 @@
     
     <agent img="Chests3.png" x="215" y="255" width="34" height="28" drop-zone="isOpen">
         <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="isOpenBad"/>
+        <item img="cookie_01a.png"/>
     </agent>
     
     <agent img="Chests3.png" x="215" y="298" width="34" height="28" drop-zone="isOpen">
@@ -291,7 +291,7 @@
     </agent>
 
      <agent img="arrow_example.png" x="-420" y="20" width="40" height="40" on-trigger="isOpen">
-         <isOpen x="420" on-touch="_GO"/>
+         <isOpen x="420" on-touch="_GOTO_PAGE:9"/>
     </agent>
 
 </page>
