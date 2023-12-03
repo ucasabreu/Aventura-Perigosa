@@ -156,7 +156,7 @@
     </agent>
   
     <agent text="Essa escolha te da o direito a uma dica" font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
-        <story text="Sua resposta possui as letras _ _  T _"/>
+        <story text="Sua resposta possui a letra _ _ R _ _"/>
       
     </agent>
         
