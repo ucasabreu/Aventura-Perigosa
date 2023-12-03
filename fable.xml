@@ -345,7 +345,8 @@
         <story on-touch="_NEXT_PAGE"/>
     </agent>
   
-    <agent text="Esse item não ira te ajudar em nada, pelo visto nem todos são abençoados pela deusa da sorte.Vamos voltar para a escolha da resposta." font-size="12" x="100" y="50" width="340" height="20">
+    <agent text="Esse item não ira te ajudar em nada, pelo visto nem todos são abençoados pela deusa da sorte.Vamos voltar para a escolha da resposta." font-size="12" x="100" y="50" width="340" height="20" on-trigger="cookie">
+        <cookie text="(mastiga) "/>
     </agent>
 
     <agent img="Chests3Open.png" x="-200" y="140" width="34" height="28"></agent>
@@ -355,7 +356,7 @@
     </agent>
     
     <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="cookie">
-        <cookie img="Actor" />
+        <cookie img="ActorFace.png"/>
     </agent>
     
     <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
