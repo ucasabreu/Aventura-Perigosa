@@ -175,6 +175,33 @@
         
 </page>
 
+<page background="sky.png">
+    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+    
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
+        <story on-touch="_NEXT_PAGE"/>
+    </agent>
+  
+    <agent text="PAGINA 7" font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
+        <story text="adicionar proximo texto"/>
+      
+    </agent>
+        
+    <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
+        <story img="masterFace.png"/>
+    </agent>
+    
+    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        
+</page>
+
 <page background="0.png">
     
     <agent img="256_Path Dirt Vertical 02.png" x="135" y="0" width="256" height="256"/>
