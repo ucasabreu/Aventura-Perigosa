@@ -138,7 +138,10 @@
         on-touch="opcao_1">
         <opcao_1 img="scrollOpen.png"/>
     </agent>
-    <agent img="scroll_01a.png" x="285" y="255" width="34" height="28"/>
+    <agent img="scroll_01a.png" x="285" y="255" width="34" height="28"
+        on-touch="opcao_1">
+        <opcao_1 img="scrollOpen.png"/>
+    </agent>
     <agent img="scroll_01a.png" x="145" y="255" width="34" height="28"/>
     <agent img="scroll_01a.png" x="359" y="255" width="34" height="28"/>
   
