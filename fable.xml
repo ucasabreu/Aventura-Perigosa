@@ -109,7 +109,7 @@
     </agent>
     
     <agent img="Chests2.png" x="-200" y="110" width="34" height="28" on-trigger="story" > 
-        <story x="200"  on-touch="_GOTO_PAGE:7"/>
+        <story x="200"  on-touch='_GOTO_PAGE:7'/>
     </agent>
     
     <agent img="Chests3.png" x="-200" y="140" width="34" height="28" on-trigger="story"> 
