@@ -43,7 +43,7 @@
         
     </agent>
     <agent img="towerpink.png" x="178" y="345" width="63" height="122" draggable="true" on-drop="localPink" on-zone="raplacePink" on-trigger="replacePink">
-        <replacePink img="skill_icons16.png" x="092" y="370" width="35" height="35"/>
+        <replacePink img="skill_icons16.png" x="392" y="370" width="35" height="35"/>
         
     </agent>
     
