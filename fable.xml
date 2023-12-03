@@ -16,8 +16,9 @@
     <agent img="256_Tile Pattern 02 Grass.png" x="370" y="340" width="80" height="80"/>
 
     <agent img="towerred.png" x="78" y="345" width="63" height="122"/>
-    <agent img="towerblue.png" x="78" y="345" width="63" height="122"/>
-    
+    <agent img="towerblue.png" x="178" y="345" width="63" height="122"/>
+    <agent img="towerpink.png" x="278" y="345" width="63" height="122"/>
+    <agent img="towerred.png" x="78" y="345" width="63" height="122"/>
     
 
     <agent img="Actor4.png" x="230" y="65" width="44" height="72"/>
