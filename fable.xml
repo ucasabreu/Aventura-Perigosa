@@ -123,10 +123,10 @@
 <page background="back1.png">
  <agent  img="back2.png" x="0" y="0" width="500" height="500"/>
  <agent  img="foice1.png" x="63" y="50" width="63" height="27" draggable="true"/>
- <agent  img="foice2.png" x="83" y="100" width="83" height="27" draggable="true"/>
- <agent  img="foice3.png" x="30" y="200" width="30" height="27" draggable="true"/>
- <agent  img="foice4.png" x="350" y="450" width="350" height="27" draggable="true"/>
- <agent  img="foice5.png" x="350" y="350" width="350" height="27" draggable="true"/>
+ <agent  img="foice2.png" x="83" y="100" width="62" height="52" draggable="true"/>
+ <agent  img="foice3.png" x="30" y="200" width="87" height="50" draggable="true"/>
+ <agent  img="foice4.png" x="350" y="450" width="71" height="44" draggable="true"/>
+ <agent  img="foice5.png" x="350" y="350" width="30" height="43" draggable="true"/>
  <agent  img="foice6.png" x="470" y="230" width="470" height="27" draggable="true"/>
  <agent  img="foice7.png" x="470" y="50" width="470" height="27" draggable="true"/>
  <agent  img="foice8.png" x="280" y="280" width="280" height="27" draggable="true"/>
