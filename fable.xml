@@ -135,7 +135,7 @@
     </agent>
   
     <agent text="adicionar texto" font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
-        <story text="Claro, nobre aventureiro. Enquanto pondera, aqui estão três baús diante de você, cada um guardando um desafio para desvendar a charada."/>
+        <story text="adicionar proximo texto"/>
       
     </agent>
         
