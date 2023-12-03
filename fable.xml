@@ -2,8 +2,6 @@
 <page background="hills&trees.png">
 
     <agent img="hills&trees 2.png" x="0" y="100" width="1920" height="400"/>
-
-    
     
     <agent img="256_Path Dirt Vertical 02.png" x="135" y="0" width="256" height="256"/>
     <agent img="256_Path Dirt Junction 01.png" x="125" y="256" width="256" height="256"/>   
@@ -18,7 +16,7 @@
     <agent img="towerred.png" x="78" y="345" width="63" height="122"/>
     <agent img="towerblue.png" x="178" y="345" width="63" height="122"/>
     <agent img="towerpink.png" x="278" y="345" width="63" height="122"/>
-    <agent img="towerred.png" x="78" y="345" width="63" height="122"/>
+    <agent img="towershield.png" x="378" y="345" width="63" height="122"/>
     
 
     <agent img="Actor4.png" x="230" y="65" width="44" height="72"/>
