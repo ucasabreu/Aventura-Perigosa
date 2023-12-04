@@ -62,7 +62,7 @@
     
 </page> 
 
-<page background="256_Water Shallow 01.png">
+ <page background="256_Water Shallow 01.png">
 
     <agent img="4.png" x="0" y="80" 
         width="500" height="420"/>
@@ -93,29 +93,23 @@
         <story x="-420"/>
     </agent>
 
-    <agent text="Ataque na ordem correta..." font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
+    <agent text="Rrrraaaahhhhh!!!!" font-size="16" color="red" x="110" y="430" width="340" height="20" on-trigger="story">
         <story y="-500"/>
     </agent>
-    <agent text="Qual será a ordem dos ataques?" font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
+    <agent text="Droga! Se eu soubece que era hora do jantar tinha trago algo alem de deliciosos biscoitos. Você não tem cara de quem gosta de biscoitos." font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
         <story y="430"/>
     </agent>
 
-    <agent img="Cerberus.png" x="10" y="0" width="130" height="210" drop-zone="attackRed">
-        <attackRed img="CerberusDamage1.png"/>
-        
-        
-    </agent>
-
-    <agent text="SKILLs:" x="40" y="460" color="white"/>
+    
     <agent img="CerberusFace.png" x="50" y="405" width="50" height="50" on-trigger="story">
-        <story img="ActorFace.png" width="40" height="40"/>
+        
     </agent> 
    
-    
+    <agent img="Cerberus.png" x="10" y="0" width="130" height="210"/>
     <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
-    <agent img="scrollOpen.png" x="380" y="20" width="30" height="30"></agent>
     
-</page> 
+    
+</page>
     
 <page background="256_Water Shallow 01.png">
 
