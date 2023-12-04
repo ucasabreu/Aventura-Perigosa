@@ -27,7 +27,6 @@
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
     </page>
-
 <page background="sky.png">
 
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
@@ -55,7 +54,6 @@
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
 </page>
-    
 <page background="sky.png">
 
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
@@ -80,7 +78,6 @@
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
 </page>
-       
 <page background="sky.png">
 
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
@@ -145,8 +142,7 @@
     
    
         
-</page>
-    
+</page>   
 <page background="background4.png">
    
     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
@@ -203,7 +199,6 @@
    
         
 </page>
-
 <page background="sky.png">
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
     <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
@@ -230,7 +225,6 @@
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
 </page>
-
 <page background="background4.png">
     
     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
@@ -263,8 +257,7 @@
     </agent>
     
         
-</page>
-    
+</page>   
 <page background="background4.png">
     
     <agent img="key_01d.png" x="400" y="400" width="48" height="48" draggable="true" on-drop="isOpen" on-zone="outscreen" on-trigger="outscreen">
@@ -382,7 +375,6 @@
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
 </page>
-
 <page background="sky.png">
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
     <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
@@ -412,8 +404,7 @@
     <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
-</page>
-    
+</page> 
 <page background="sky.png">
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
     <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
@@ -442,7 +433,6 @@
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
 </page>
-
 <page background="sky.png">
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
     <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
@@ -471,7 +461,6 @@
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
 </page>
-
 <page background="sky.png">
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
     <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
@@ -500,7 +489,6 @@
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
 </page>
-
 <page background="sky.png">
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
     <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
@@ -529,7 +517,6 @@
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
 </page>
-
 <page background="sky.png">
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
     <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
@@ -558,7 +545,6 @@
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
 </page>
-
 <page background="sky.png">
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
     <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
