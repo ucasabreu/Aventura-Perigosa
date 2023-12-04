@@ -163,7 +163,7 @@
     <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
     
 </page> 
-    <page background="256_Water Shallow 01.png">
+<page background="256_Water Shallow 01.png">
 
     <agent img="4.png" x="0" y="80" 
         width="500" height="420"/>
@@ -212,7 +212,6 @@
     <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
     
 </page>  
-
 <page background="256_Water Shallow 01.png">
 
     <agent img="4.png" x="0" y="80" 
@@ -269,8 +268,7 @@
    
     <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
     
-</page>  
-    
+</page>   
 <page background="256_Water Shallow 01.png">
 
     <agent img="4.png" x="0" y="80" 
@@ -334,8 +332,6 @@
     
 </page>     
    
-   
- 
 
 <page background="256_Water Shallow 01.png">
 
