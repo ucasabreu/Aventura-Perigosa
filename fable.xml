@@ -33,14 +33,14 @@
         <story x="-420"/>
     </agent>
 
-    <agent text="Rrrraaaahhhhh!!!!" font-size="16" color="red" x="110" y="430" width="340" height="20" on-trigger="story">
+    <agent text="Droga! Esse ataque não parece nada bom. Tenho que me defender de alguma " font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
         <story y="-500"/>
     </agent>
     <agent text="Droga! Esse ataque não parece nada bom. Tenho que me defender de alguma forma!" font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
         <story y="430"/>
     </agent>
     
-    <agent img="CerberusDamage1.png" x="10" y="0" width="130" height="210">
+    <agent img="Cerberus.png" x="10" y="0" width="130" height="210">
     </agent>
     
     <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:4"/>
