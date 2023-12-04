@@ -27,8 +27,8 @@
     <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="">
     </agent>
 
-     <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
-        <story on-touch="_NEXT_PAGE"/>
+     <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-trigger="useSkill">
+        <useSkill on-touch="_NEXT_PAGE"/>
     </agent>
 
     <agent text="...................." font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
@@ -36,7 +36,7 @@
     </agent>
         
  <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" on-touch="useSkill">
-     <
+     <useSkill y="500"/>
  </agent>
     
     <agent text="SKILLs:" x="40" y="460" color="white"/>
