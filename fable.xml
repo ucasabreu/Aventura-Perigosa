@@ -38,8 +38,7 @@
 
     
     <agent img="telagameover.png" x="0" y="0" width="500" height="500"/>
-    <agent text="GAME OVER" font-size="7" x="130" y="325" color="red" width="-10" height="50">
-    </agent>
+    <agent text="GAME OVER" font-size="60" x="70" y="225" color="red" width="0" height="50"/>
     
     
 </page>
