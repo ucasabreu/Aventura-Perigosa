@@ -1,7 +1,190 @@
 <fable>
 
 
+<page background="hills&trees.png">
+
+    <agent img="hills&trees 2.png" x="0" y="100" width="1920" height="400"/>
     
+    <agent img="256_Path Dirt Vertical 02.png" x="135" y="0" width="256" height="256"/>
+    <agent img="256_Path Dirt Junction 01.png" x="125" y="256" width="256" height="256"/>   
+    <agent img="256_Path Dirt Horizontal 01.png" x="380" y="240" width="256" height="256"/>
+    <agent img="256_Path Dirt Horizontal 01.png" x="-130" y="240" width="256" height="256"/>
+
+     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120" on-trigger="isOpen">
+         <isOpen height="170"/>
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
+        <story on-touch="_NEXT_PAGE"/>
+    </agent>
+
+    <agent text="Torres bloqueando a passagem e um pergaminho." font-size="12" x="100" y="40" width="340" height="20" on-trigger="isOpen">
+    <isOpen text="Na sala dos quatro destinos, as afinidades são a chave da passagem. Que a *Paixão* abrace a Fluidez, que a *Fluidez* nutra a Solidez, que a *Solidez* respire com o Sopro. Siga a harmonia das afinidades, e a porta oculta se abrirá para os que entenderem a sinfonia das palavras." y="85"/>
+    </agent>
+
+     <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="isOpen">
+         <isOpen img="basicscroll.png" y="50"/>
+     </agent>        
+
+    <agent img="256_Tile Pattern 02 Grass.png" x="70" y="340" width="80" height="80"/>
+    <agent img="256_Tile Pattern 02 Grass.png" x="170" y="340" width="80" height="80"/>
+    <agent img="256_Tile Pattern 02 Grass.png" x="270" y="340" width="80" height="80"/>
+    <agent img="256_Tile Pattern 02 Grass.png" x="370" y="340" width="80" height="80"/>
+
+    <agent img="towerred.png" x="78" y="345" width="63" height="122"/>
+    <agent img="towerblue.png" x="178" y="345" width="63" height="122"/>
+    <agent img="towerpink.png" x="278" y="345" width="63" height="122"/>
+    <agent img="towershield.png" x="378" y="345" width="63" height="122"/>
+    
+
+    <agent img="Actor4.png" x="230" y="200" width="44" height="72"/>
+    
+    <agent img="scroll_01a.png" x="230" y="300" width="34" height="28" on-touch="isOpen">
+        <isOpen img="scrollOpen.png"/>
+    </agent>    
+</page>  
+<page background="hills&trees.png">
+
+    <agent img="hills&trees 2.png" x="0" y="100" width="1920" height="400"/>
+    
+    <agent img="256_Path Dirt Vertical 02.png" x="135" y="0" width="256" height="256"/>
+    <agent img="256_Path Dirt Junction 01.png" x="125" y="256" width="256" height="256"/>   
+    <agent img="256_Path Dirt Horizontal 01.png" x="380" y="240" width="256" height="256"/>
+    <agent img="256_Path Dirt Horizontal 01.png" x="-130" y="240" width="256" height="256"/>
+
+     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120" on-trigger="isOpen">
+         <isOpen height="170"/>
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="-200" width="40" height="40" on-trigger="liberado">
+        <liberado y="20" on-touch="_NEXT_PAGE"/>
+    </agent>
+
+    <agent text="(analize) Então o segredo está nas torres..." font-size="12" x="100" y="40" width="340" height="20" on-trigger="isOpen">
+    <isOpen text="Na sala dos quatro destinos, as afinidades são a chave da passagem. Que a *Paixão* abrace a Fluidez, que a *Fluidez* nutra a Solidez, que a *Solidez* respire com o Sopro. Siga a harmonia das afinidades, e a porta oculta se abrirá para os que entenderem a sinfonia das palavras." y="85"/>
+    </agent>
+
+     <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="isOpen">
+         <isOpen img="basicscroll.png" y="50"/>
+     </agent>        
+
+    <agent img="256_Tile Pattern 02 Grass.png" x="70" y="340" width="80"
+    height="80" drop-zone="localRed">
+        <localRed img="256_Tiles Pattern 06 Red.png" on-touch="liberado"/>
+    </agent>
+    
+    <agent img="256_Tile Pattern 02 Grass.png" x="170" y="340" width="80" height="80" drop-zone="localBlue">
+        <localBlue img="256_Tiles Pattern 06 Red.png" on-touch="liberado"/>
+    </agent>
+    
+    <agent img="256_Tile Pattern 02 Grass.png" x="270" y="340" width="80" height="80" drop-zone="localShield">
+        <localShield img="256_Tiles Pattern 06 Red.png" on-touch="liberado"/>
+    </agent>
+    
+    <agent img="256_Tile Pattern 02 Grass.png" x="370" y="340" width="80" height="80" drop-zone="localPink">
+        <localPink img="256_Tiles Pattern 06 Red.png" on-touch="liberado"/>
+    </agent>
+
+    <agent img="towershield.png" x="78" y="345" width="63" height="122" draggable="true" on-drop="localShield" on-zone="replaceShield" on-trigger="replaceShield" >
+        <replaceShield img="skill_icons22.png" x="92" y="370" width="35" height="35"/>
+    </agent>
+    
+    <agent img="towerpink.png" x="178" y="345" width="63" height="122" draggable="true" on-drop="localPink" on-zone="replacePink" on-trigger="replacePink">
+        <replacePink img="skill_icons16.png" x="190" y="370" width="35" height="35"/>
+    </agent>
+    
+    <agent img="towerblue.png" x="278" y="345" width="63" height="122" draggable="true" on-drop="localBlue" on-zone="replaceBlue" on-trigger="replaceBlue">
+        <replaceBlue img="skill_icons47.png" x="292" y="370" width="35" height="35"/>
+    </agent>
+    
+    <agent img="towerred.png" x="378" y="345" width="63" height="122" draggable="true" on-drop="localRed" on-zone="replaceRed" on-trigger="replaceRed">
+        <replaceRed img="skill_icons3.png" x="392" y="370" width="35" height="35"/>
+       
+    </agent>
+    
+
+    <agent img="Actor4.png" x="230" y="200" width="44" height="72"/>
+    
+    <agent img="scrollOpen.png" x="230" y="300" width="34" height="28" on-touch="isOpen">
+    </agent>    
+</page> 
+<page background="hills&trees.png">
+
+    <agent img="hills&trees 2.png" x="0" y="100" width="1920" height="400"/>
+    
+    <agent img="256_Path Dirt Vertical 02.png" x="135" y="0" width="256" height="256"/>
+    <agent img="256_Path Dirt Junction 01.png" x="125" y="256" width="256" height="256"/>   
+    <agent img="256_Path Dirt Horizontal 01.png" x="380" y="240" width="256" height="256"/>
+    <agent img="256_Path Dirt Horizontal 01.png" x="-130" y="240" width="256" height="256"/>
+
+     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120" on-trigger="isOpen">
+        
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="next">
+        
+    </agent>
+
+    <agent text="Poderes misteriosos surgiram ao mover as torres corretamente. Devo pega-los." font-size="12" x="100" y="40" width="340" height="20" on-trigger="next">
+       <next text="Agora posso seguir por um dos caminhos disponiveis."/>
+    </agent>
+
+     <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="isOpen">
+         <isOpen img="basicscroll.png" y="50"/>
+     </agent>        
+
+    <agent img="256_Tiles Pattern 06 Red.png" x="70" y="340" width="80"
+    height="80">
+    </agent>
+    
+    <agent img="256_Tiles Pattern 06 Red.png" x="170" y="340" width="80" 
+    height="80">
+    </agent>
+    
+    <agent img="256_Tiles Pattern 06 Red.png" x="270" y="340" width="80" 
+    height="80">
+    </agent>
+    
+    <agent img="256_Tiles Pattern 06 Red.png" x="370" y="340" width="80" 
+    height="80">
+    </agent>
+
+    <agent img="skill_icons3.png" x="92" y="370" width="35" height="35"
+        on-touch="addSkill">
+        <addSkill x="90" y="80" width="30" height="30"/>    
+    </agent>
+    
+    <agent img="skill_icons47.png" x="190" y="370" width="35" height="35" 
+        on-touch="addSkill">
+        <addSkill x="122" y="80" width="30" height="30"/></agent>
+    
+    <agent img="skill_icons22.png" x="292" y="370" width="35" height="35"
+        on-touch="addSkill">
+        <addSkill x="154" y="80" width="30" height="30"/>
+    </agent>
+    
+    <agent img="skill_icons16.png" x="392" y="370" width="35" height="35"
+        on-touch="addSkill">
+        <addSkill x="186" y="80" width="30" height="30"/>       
+    </agent>
+
+    <agent text="SKILLs:" x="40" y="-80" color="white" on-trigger="addSkill">
+        <addSkill y="80"/>
+    </agent>
+
+    <agent img="arrow right.png" x="-460" y="360" width="27" height="27" on-trigger="next">
+        <next x="460" on-touch="_NEXT_PAGE"/>
+    </agent>
+
+    <agent img="arrow - left.png" x="-100" y="360" width="27" height="27" on-trigger="next">
+        <next x="10" on-touch="_NEXT_PAGE"/>
+        
+    </agent>
+    
+    <agent img="Actor4.png" x="230" y="200" width="44" height="72"/>
+    
+        
+</page> 
 
     
 <page background="256_Water Shallow 01.png">
@@ -641,190 +824,7 @@
 
 
     
-<page background="hills&trees.png">
 
-    <agent img="hills&trees 2.png" x="0" y="100" width="1920" height="400"/>
-    
-    <agent img="256_Path Dirt Vertical 02.png" x="135" y="0" width="256" height="256"/>
-    <agent img="256_Path Dirt Junction 01.png" x="125" y="256" width="256" height="256"/>   
-    <agent img="256_Path Dirt Horizontal 01.png" x="380" y="240" width="256" height="256"/>
-    <agent img="256_Path Dirt Horizontal 01.png" x="-130" y="240" width="256" height="256"/>
-
-     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120" on-trigger="isOpen">
-         <isOpen height="170"/>
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
-        <story on-touch="_NEXT_PAGE"/>
-    </agent>
-
-    <agent text="Torres bloqueando a passagem e um pergaminho." font-size="12" x="100" y="40" width="340" height="20" on-trigger="isOpen">
-    <isOpen text="Na sala dos quatro destinos, as afinidades são a chave da passagem. Que a *Paixão* abrace a Fluidez, que a *Fluidez* nutra a Solidez, que a *Solidez* respire com o Sopro. Siga a harmonia das afinidades, e a porta oculta se abrirá para os que entenderem a sinfonia das palavras." y="85"/>
-    </agent>
-
-     <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="isOpen">
-         <isOpen img="basicscroll.png" y="50"/>
-     </agent>        
-
-    <agent img="256_Tile Pattern 02 Grass.png" x="70" y="340" width="80" height="80"/>
-    <agent img="256_Tile Pattern 02 Grass.png" x="170" y="340" width="80" height="80"/>
-    <agent img="256_Tile Pattern 02 Grass.png" x="270" y="340" width="80" height="80"/>
-    <agent img="256_Tile Pattern 02 Grass.png" x="370" y="340" width="80" height="80"/>
-
-    <agent img="towerred.png" x="78" y="345" width="63" height="122"/>
-    <agent img="towerblue.png" x="178" y="345" width="63" height="122"/>
-    <agent img="towerpink.png" x="278" y="345" width="63" height="122"/>
-    <agent img="towershield.png" x="378" y="345" width="63" height="122"/>
-    
-
-    <agent img="Actor4.png" x="230" y="200" width="44" height="72"/>
-    
-    <agent img="scroll_01a.png" x="230" y="300" width="34" height="28" on-touch="isOpen">
-        <isOpen img="scrollOpen.png"/>
-    </agent>    
-</page>  
-<page background="hills&trees.png">
-
-    <agent img="hills&trees 2.png" x="0" y="100" width="1920" height="400"/>
-    
-    <agent img="256_Path Dirt Vertical 02.png" x="135" y="0" width="256" height="256"/>
-    <agent img="256_Path Dirt Junction 01.png" x="125" y="256" width="256" height="256"/>   
-    <agent img="256_Path Dirt Horizontal 01.png" x="380" y="240" width="256" height="256"/>
-    <agent img="256_Path Dirt Horizontal 01.png" x="-130" y="240" width="256" height="256"/>
-
-     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120" on-trigger="isOpen">
-         <isOpen height="170"/>
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="-200" width="40" height="40" on-trigger="liberado">
-        <liberado y="20" on-touch="_NEXT_PAGE"/>
-    </agent>
-
-    <agent text="(analize) Então o segredo está nas torres..." font-size="12" x="100" y="40" width="340" height="20" on-trigger="isOpen">
-    <isOpen text="Na sala dos quatro destinos, as afinidades são a chave da passagem. Que a *Paixão* abrace a Fluidez, que a *Fluidez* nutra a Solidez, que a *Solidez* respire com o Sopro. Siga a harmonia das afinidades, e a porta oculta se abrirá para os que entenderem a sinfonia das palavras." y="85"/>
-    </agent>
-
-     <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="isOpen">
-         <isOpen img="basicscroll.png" y="50"/>
-     </agent>        
-
-    <agent img="256_Tile Pattern 02 Grass.png" x="70" y="340" width="80"
-    height="80" drop-zone="localRed">
-        <localRed img="256_Tiles Pattern 06 Red.png" on-touch="liberado"/>
-    </agent>
-    
-    <agent img="256_Tile Pattern 02 Grass.png" x="170" y="340" width="80" height="80" drop-zone="localBlue">
-        <localBlue img="256_Tiles Pattern 06 Red.png" on-touch="liberado"/>
-    </agent>
-    
-    <agent img="256_Tile Pattern 02 Grass.png" x="270" y="340" width="80" height="80" drop-zone="localShield">
-        <localShield img="256_Tiles Pattern 06 Red.png" on-touch="liberado"/>
-    </agent>
-    
-    <agent img="256_Tile Pattern 02 Grass.png" x="370" y="340" width="80" height="80" drop-zone="localPink">
-        <localPink img="256_Tiles Pattern 06 Red.png" on-touch="liberado"/>
-    </agent>
-
-    <agent img="towershield.png" x="78" y="345" width="63" height="122" draggable="true" on-drop="localShield" on-zone="replaceShield" on-trigger="replaceShield" >
-        <replaceShield img="skill_icons22.png" x="92" y="370" width="35" height="35"/>
-    </agent>
-    
-    <agent img="towerpink.png" x="178" y="345" width="63" height="122" draggable="true" on-drop="localPink" on-zone="replacePink" on-trigger="replacePink">
-        <replacePink img="skill_icons16.png" x="190" y="370" width="35" height="35"/>
-    </agent>
-    
-    <agent img="towerblue.png" x="278" y="345" width="63" height="122" draggable="true" on-drop="localBlue" on-zone="replaceBlue" on-trigger="replaceBlue">
-        <replaceBlue img="skill_icons47.png" x="292" y="370" width="35" height="35"/>
-    </agent>
-    
-    <agent img="towerred.png" x="378" y="345" width="63" height="122" draggable="true" on-drop="localRed" on-zone="replaceRed" on-trigger="replaceRed">
-        <replaceRed img="skill_icons3.png" x="392" y="370" width="35" height="35"/>
-       
-    </agent>
-    
-
-    <agent img="Actor4.png" x="230" y="200" width="44" height="72"/>
-    
-    <agent img="scrollOpen.png" x="230" y="300" width="34" height="28" on-touch="isOpen">
-    </agent>    
-</page> 
-<page background="hills&trees.png">
-
-    <agent img="hills&trees 2.png" x="0" y="100" width="1920" height="400"/>
-    
-    <agent img="256_Path Dirt Vertical 02.png" x="135" y="0" width="256" height="256"/>
-    <agent img="256_Path Dirt Junction 01.png" x="125" y="256" width="256" height="256"/>   
-    <agent img="256_Path Dirt Horizontal 01.png" x="380" y="240" width="256" height="256"/>
-    <agent img="256_Path Dirt Horizontal 01.png" x="-130" y="240" width="256" height="256"/>
-
-     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120" on-trigger="isOpen">
-        
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="next">
-        
-    </agent>
-
-    <agent text="Poderes misteriosos surgiram ao mover as torres corretamente. Devo pega-los." font-size="12" x="100" y="40" width="340" height="20" on-trigger="next">
-       <next text="Agora posso seguir por um dos caminhos disponiveis."/>
-    </agent>
-
-     <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="isOpen">
-         <isOpen img="basicscroll.png" y="50"/>
-     </agent>        
-
-    <agent img="256_Tiles Pattern 06 Red.png" x="70" y="340" width="80"
-    height="80">
-    </agent>
-    
-    <agent img="256_Tiles Pattern 06 Red.png" x="170" y="340" width="80" 
-    height="80">
-    </agent>
-    
-    <agent img="256_Tiles Pattern 06 Red.png" x="270" y="340" width="80" 
-    height="80">
-    </agent>
-    
-    <agent img="256_Tiles Pattern 06 Red.png" x="370" y="340" width="80" 
-    height="80">
-    </agent>
-
-    <agent img="skill_icons3.png" x="92" y="370" width="35" height="35"
-        on-touch="addSkill">
-        <addSkill x="90" y="80" width="30" height="30"/>    
-    </agent>
-    
-    <agent img="skill_icons47.png" x="190" y="370" width="35" height="35" 
-        on-touch="addSkill">
-        <addSkill x="122" y="80" width="30" height="30"/></agent>
-    
-    <agent img="skill_icons22.png" x="292" y="370" width="35" height="35"
-        on-touch="addSkill">
-        <addSkill x="154" y="80" width="30" height="30"/>
-    </agent>
-    
-    <agent img="skill_icons16.png" x="392" y="370" width="35" height="35"
-        on-touch="addSkill">
-        <addSkill x="186" y="80" width="30" height="30"/>       
-    </agent>
-
-    <agent text="SKILLs:" x="40" y="-80" color="white" on-trigger="addSkill">
-        <addSkill y="80"/>
-    </agent>
-
-    <agent img="arrow right.png" x="-460" y="360" width="27" height="27" on-trigger="next">
-        <next x="460" on-touch="_NEXT_PAGE"/>
-    </agent>
-
-    <agent img="arrow - left.png" x="-100" y="360" width="27" height="27" on-trigger="next">
-        <next x="10" on-touch="_NEXT_PAGE"/>
-        
-    </agent>
-    
-    <agent img="Actor4.png" x="230" y="200" width="44" height="72"/>
-    
-        
-</page>
 
         
 <page background="sky.png">
