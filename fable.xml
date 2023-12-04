@@ -89,7 +89,7 @@
     </agent>
 
     <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
-        <story on-touch="_NEXT_PAGE"/>
+        <story soundtrack="song4.wav" on-touch="_NEXT_PAGE"/>
     </agent>
   
     <agent text="(analisa a charada com atenção) Hmm, interessante. Parece ser algo formidável. Dê-me um momento para refletir." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
