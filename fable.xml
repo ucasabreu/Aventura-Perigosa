@@ -33,7 +33,7 @@
     <agent text="Ataque na ordem correta..." font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
         <story y="-500"/>
     </agent>
-    <agent text="Droga! Se eu soubece que era hora do jantar tinha trago algo alem de deliciosos biscoitos. Você não tem cara de quem gosta de biscoitos." font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
+    <agent text="" font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
         <story y="430"/>
     </agent>
 
@@ -42,7 +42,7 @@
     <agent img="skill_icons22.png" x="158" y="460" width="35" height="35"/>
     <agent img="skill_icons16.png" x="194" y="460" width="35" height="35"/>
     <agent text="SKILLs:" x="40" y="460" color="white"/>
-    <agent img="basic.png" x="50" y="405" width="50" height="50" on-trigger="story">
+    <agent img="basicscroll.png" x="50" y="405" width="40" height="40" on-trigger="story">
         <story img="ActorFace.png" width="40" height="40"/>
     </agent> 
    
