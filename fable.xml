@@ -35,7 +35,9 @@
         <story text="Vamos ver quais novos mistérios aguardam do outro lado. "/>
     </agent>
         
-    <agent text="SKILLs:" x="40" y="460" color="white" on-trigger="save">
+    <agent text="SKILLs:" x="40" y="460" color="white" on-trigger="savekey">
+        <savekey text="ITEMs:"/>
+    </agent>
     <agent img="ActorFace.png" x="50" y="405" width="40" height="40" on-trigger="useSkill">
         <useSkill />
     </agent> 
