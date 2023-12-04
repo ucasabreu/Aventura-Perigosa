@@ -3,7 +3,7 @@
 
     
 <page background="dungeon background 12.png">
-    <agent text=""/>
+    <agent text="AVENTURA CONCLUIDA!" font-size="80" x="225" y="225"/>
 </page>
     
 <page background="256_Water Shallow 01.png">
