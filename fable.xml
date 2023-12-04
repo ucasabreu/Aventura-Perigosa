@@ -47,7 +47,7 @@
     <agent img="Smoke3.png" x="10" y="30" width="130" height="210"/>
     <agent img="ActorDamage1.png" x="430" y="30" width="52" height="30" 
     on-trigger="useSkill">
-        <useSkill img="Actor"/>        
+        <useSkill img="Actor3.png"/>        
     </agent>
 
     
