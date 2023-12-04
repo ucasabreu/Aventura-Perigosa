@@ -1,1473 +1,989 @@
 <fable>
-
-<page background="sky.png" soundtrack="song4.wav">
-
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
-        <story img="arrow right.png" x="450" y="85" on-touch="_NEXT_PAGE"/>
-    </agent>
-  
-    <agent text="Bem, dungeon, espero que tenha tomado um bom café da manhã, porque estou prestes a invadir seu espaço sem pedir licença." font-size="12" x="95" y="48" width="340" height="20" on-trigger="story">
-        <story text="Prepare-se para receber uma dose de charme, um toque de ousadia e, é claro, alguns roubos... de tesouros, claro! Se houver armadilhas, que pelo menos tenham o bom gosto de serem originais."/>
-    </agent>
-        
-    <agent img="ActorFace.png" x="50" y="20" width="40" height="40"/>
-        
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-   
-    </page> 
-
-<page background="sky.png" soundtrack="song4.wav">
-
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    
-   
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow right.png" x="450" y="85" width="40" height="40" on-touch="_NEXT_PAGE"></agent>
-  
-    <agent text="Aqui vou eu, pronto para deixar minha marca... e ver se você me reserva algo melhor do que um encontro desagradável com um troll mal-humorado!" font-size="12" x="95" y="48" width="340" height="20" on-trigger="story">
-    </agent>
-        
-    <agent img="ActorFace.png" x="50" y="20" width="40" height="40"/>
-        
-    <agent img="Actor2.png" x="350" y="85" width="44" height="72"/>
-   
-        
+    <page background="sky.png" soundtrack="song4.wav">
+        <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+        <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+        <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+        </agent>
+        <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
+            <story img="arrow right.png" x="450" y="85" on-touch="_NEXT_PAGE"/>
+        </agent>
+        <agent text="Bem, dungeon, espero que tenha tomado um bom café da manhã, porque estou prestes a invadir seu espaço sem pedir licença." font-size="12" x="95" y="48" width="340" height="20" on-trigger="story">
+            <story text="Prepare-se para receber uma dose de charme, um toque de ousadia e, é claro, alguns roubos... de tesouros, claro! Se houver armadilhas, que pelo menos tenham o bom gosto de serem originais."/>
+        </agent>
+        <agent img="ActorFace.png" x="50" y="20" width="40" height="40"/>
+        <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
     </page>
-<page background="sky.png" soundtrack="song4.wav">
-
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
-        <story on-touch="_NEXT_PAGE"/>
-    </agent>
-  
-    <agent text="Olá, destemido aventureiro! Antes de permitir sua passagem,
+    <page background="sky.png" soundtrack="song4.wav">
+        <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+        <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+        <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+        </agent>
+        <agent img="arrow right.png" x="450" y="85" width="40" height="40" on-touch="_NEXT_PAGE"></agent>
+        <agent text="Aqui vou eu, pronto para deixar minha marca... e ver se você me reserva algo melhor do que um encontro desagradável com um troll mal-humorado!" font-size="12" x="95" y="48" width="340" height="20" on-trigger="story">
+        </agent>
+        <agent img="ActorFace.png" x="50" y="20" width="40" height="40"/>
+        <agent img="Actor2.png" x="350" y="85" width="44" height="72"/>
+    </page>
+    <page background="sky.png" soundtrack="song4.wav">
+        <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+        <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+        <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+        <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+        <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+        </agent>
+        <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
+            <story on-touch="_NEXT_PAGE"/>
+        </agent>
+        <agent text="Olá, destemido aventureiro! Antes de permitir sua passagem,
     devo testar sua sagacidade." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story">
-        <story text="Lance seu desafio!"/>
-    </agent>
-        
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
-        <story img="ActorFace.png"/>
-    </agent>
-        
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
+            <story text="Lance seu desafio!"/>
+        </agent>
+        <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
+            <story img="ActorFace.png"/>
+        </agent>
+        <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+        <agent img="master2.png" x="300" y="85" width="44" height="72"/>
     </page>
-<page background="sky.png" soundtrack="song4.wav">
-
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="basicscroll.png" x="90" y="90" width="40" height="40" on-touch="_NEXT_PAGE">
-    </agent>
-    
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE">
-    </agent>
-  
-    <agent text="Resolva esta charada para adentrar os portões sombrios desta dungeon." font-size="12" x="100" y="40" width="340" height="20" on-trigger="pergaminho">
-      
-    </agent>
-        
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page>
-<page background="sky.png" soundtrack="song4.wav">
-
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-     <agent img="panel_Example3.png" x="120" y="60" width="250" height="400">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE"">
-    </agent>
-  
-    <agent text="Sempre quando chego trago a tristeza Mas sempre chego na hora certa As vezes venho depois de uma doença E outras, depois de um ato de violência"  font-size="12" x="200" y="350" width="100" height="1">  
-      
-    </agent>
-        
-    <agent img="basicscroll.png" x="150" y="320" width="40" height="40" on-trigger="story">
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page>
-<page background="sky.png" soundtrack="song4.wav">
-
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
-        <story on-touch="_NEXT_PAGE"/>
-    </agent>
-  
-    <agent text="(analisa a charada com atenção) Hmm, interessante. Parece ser algo formidável. Dê-me um momento para refletir." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
-        <story text="Claro, nobre aventureiro. Enquanto pondera, aqui estão três baús diante de você, cada um guardando um desafio para desvendar a charada."/>
-      
-    </agent>
-        
-    <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
-        <story img="masterFace.png"/>
-    </agent>
-    
-    <agent img="Chests.png" x="-200" y="80" width="34" height="28" on-trigger="story"> 
-        <story x="200" on-touch="_GOTO_PAGE:35"/>
-    </agent>
-    
-    <agent img="Chests2.png" x="-200" y="110" width="34" height="28" on-trigger="story" > 
-        <story x="200"  on-touch="_GOTO_PAGE:9"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="-200" y="140" width="34" height="28" on-trigger="story"> 
-        <story x="200" on-touch="_GOTO_PAGE:10"/>
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page>
-
-<page background="background4.png" soundtrack="song4.wav">
-   
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE"/>
-
-    <agent img="scroll_01a.png" x="71" y="255" width="34" height="28" 
-        on-touch="_NEXT_PAGE"/>
-    <agent img="scroll_01a.png" x="215" y="255" width="34" height="28" 
-        on-touch="_NEXT_PAGE"/>
-    <agent img="scroll_01a.png" x="285" y="255" width="34" height="28" 
-        on-touch="_NEXT_PAGE"/>
-    <agent img="scroll_01a.png" x="145" y="255" width="34" height="28" 
-        on-touch="_NEXT_PAGE"/>
-    <agent img="scroll_01a.png" x="359" y="255" width="34" height="28" 
-        on-touch="_NEXT_PAGE"/>
-  
-    <agent text="Abra e escolha um dos pergaminhos acima e veja qual opcão é a resposta para o enigma. Que a Deusa da sorte abençoe sua escolha." font-size="12" x="100" y="40" width="340" height="20"/>
-
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story"></agent>
-    
-   
-        
-</page>   
-<page background="background4.png" soundtrack="song4.wav">
-   
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch=on-touch="_NEXT_PAGE"/>
-
-    <agent img="scroll_01a.png" x="71" y="255" width="34" height="28" 
-        on-touch="opcao_1">
-        <opcao_1 img="scrollOpen.png" on-touch="_GOTO_PAGE:14"/>
-    </agent>
-    <agent img="scroll_01a.png" x="215" y="255" width="34" height="28"
-        on-touch="opcao_3">
-        <opcao_3 img="scrollOpen.png" on-touch="_GOTO_PAGE:12"/>
-    </agent>
-    <agent img="scroll_01a.png" x="285" y="255" width="34" height="28"
-        on-touch="opcao_4">
-        <opcao_4 img="scrollOpen.png" on-touch="_GOTO_PAGE:16"/>
-    </agent>
-    <agent img="scroll_01a.png" x="145" y="255" width="34" height="28"
-        on-touch="opcao_2">
-        <opcao_2 img="scrollOpen.png" on-touch="_GOTO_PAGE:15"/>
-    </agent>
-    <agent img="scroll_01a.png" x="359" y="255" width="34" height="28"
-        on-touch="opcao_5">
-        <opcao_5 img="scrollOpen.png" on-touch="_GOTO_PAGE:17"/>
-    </agent>
-  
-
-    <agent text="1. esta ecrito: SORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_1">
-        <opcao_1 x="100"/>
-    </agent>
-
-     <agent text="2. esta ecrito: MARTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_2">
-        <opcao_2 y="25" x="100"/>
-    </agent>
-
-    <agent text="3. esta ecrito: MORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_3">
-        <opcao_3 y="10" x="100"/>
-    </agent>
-
-    <agent text="4. esta ecrito: FORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_4">
-        <opcao_4 x="240"/>
-    </agent>
-
-    <agent text="5. esta ecrito: CORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_5">
-            <opcao_5 y="25" x="240"/>
-    </agent>
-    
-    <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
-        <story img="masterFace.png"/>
-    </agent>
-    
-   
-        
-</page>
-<page background="sky.png" soundtrack="song4.wav">
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
-        <story on-touch="_GOTO_PAGE:7"/>
-    </agent>
-  
-    <agent text="Esse escolha te da uma dica sobre o que busca." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
-        <story text="A palavra que busca possui M _ _ _ _"/>
-      
-    </agent>
-        
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
-    
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page>
-<page background="background4.png" soundtrack="song4.wav">
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="Chests3.png" x="215" y="255" width="34" height="28"/>
-    <agent img="Chests3.png" x="215" y="298" width="34" height="28"/>
-    <agent img="Chests3.png" x="215" y="212" width="34" height="28"/>
-    <agent img="Chests3.png" x="215" y="341" width="34" height="28"/>
-    <agent img="Chests3.png" x="215" y="169" width="34" height="28"/>
-    <agent img="Chests3.png" x="285" y="255" width="34" height="28"/>
-    <agent img="Chests3.png" x="285" y="298" width="34" height="28"/>
-    <agent img="Chests3.png" x="285" y="212" width="34" height="28"/>
-    <agent img="Chests3.png" x="285" y="341" width="34" height="28"/>
-    <agent img="Chests3.png" x="285" y="169" width="34" height="28"/>
-    <agent img="Chests3.png" x="145" y="255" width="34" height="28"/>
-    <agent img="Chests3.png" x="145" y="298" width="34" height="28"/>
-    <agent img="Chests3.png" x="145" y="212" width="34" height="28"/>
-    <agent img="Chests3.png" x="145" y="341" width="34" height="28"/>
-    <agent img="Chests3.png" x="145" y="169" width="34" height="28"/>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE">
-    </agent>
-  
-    <agent text="Essa opcão te permite encontrar a resposta abrindo um dos baus acima mas escolha com sabedoria pois alguns escondem consequncias perigosas." font-size="12" x="100" y="50" width="340" height="20">
-    </agent>
-
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
-        
-    </agent>
-    
-        
-</page>   
-<page background="background4.png" soundtrack="song4.wav">
-    
-    <agent img="key_01d.png" x="400" y="400" width="48" height="48" draggable="true" on-drop="isOpen" on-zone="outscreen" on-trigger="outscreen">
-      <outscreen y="-200" />
-    </agent>
-    
-    <agent img="Chests3.png" x="215" y="255" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="215" y="298" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="215" y="212" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="scroll_01a.png" on-touch="_GOTO_PAGE:12"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="215" y="341" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="215" y="169" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="285" y="255" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="scroll_01a.png" on-touch="_GOTO_PAGE:12"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="285" y="298" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="285" y="212" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="285" y="341" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="285" y="169" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="scroll_01a.png" on-touch="_GOTO_PAGE:12"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="145" y="255" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="145" y="298" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="145" y="212" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="145" y="341" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="145" y="169" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="scroll_01a.png" on-touch="_GOTO_PAGE:12"/>
-    </agent>
-
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-    <agent text="Toque no item para saber se ele ajudara na resposta do teste." font-size="12" x="100" y="50" width="340" height="20">
-    </agent>
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story"></agent>
-    
-</page>
-
-<page background="sky.png" soundtrack="song4.wav">
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:19">
-    </agent>
-  
-    <agent text="Veja a resposta no pergaminho aventureiro.Veremos se a Deusa da sorte axiliou na sua escolha."font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
-        <openScroll text="A resposta é MORTE!"/>
-    </agent>
-
-    <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
-        <openScroll x="-500"/>
-    </agent>
-    
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
-        <openScroll img="ActorFace.png"/>
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page>
-<page background="sky.png" soundtrack="song4.wav">
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:7">
-    </agent>
-  
-    <agent text="Esse item não ira te ajudar em nada, pelo visto nem todos são abençoados pela deusa da sorte.Vamos voltar para a escolha da resposta." font-size="12" x="100" y="50" width="340" height="20" on-trigger="cookie">
-        <cookie text="(mastiga) Pelo menos é um ótimo biscoito :)"/>
-    </agent>
-
-    <agent img="Chests3Open.png" x="-200" y="140" width="34" height="28"></agent>
-
-    <agent img="cookie_01a.png" x="100" y="140" width="34" height="28" on-touch="cookie">
-        <cookie x="-500"/>
-    </agent>
-    
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="cookie">
-        <cookie img="ActorFace.png"/>
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page> 
-<page background="sky.png" soundtrack="song4.wav">
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:18">
-    </agent>
-  
-    <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
-        <openScroll text="A resposta é SORTE!"/>
-    </agent>
-
-    <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
-        <openScroll x="-500"/>
-    </agent>
-    
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
-        <openScroll img="ActorFace.png"/>
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page>
-<page background="sky.png" soundtrack="song4.wav">
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:18">
-    </agent>
-  
-    <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
-        <openScroll text="A resposta é MARTE!"/>
-    </agent>
-
-    <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
-        <openScroll x="-500"/>
-    </agent>
-    
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
-        <openScroll img="ActorFace.png"/>
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page>
-<page background="sky.png" soundtrack="song4.wav">
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:18">
-    </agent>
-  
-    <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
-        <openScroll text="A resposta é FORTE!"/>
-    </agent>
-
-    <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
-        <openScroll x="-500"/>
-    </agent>
-    
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
-        <openScroll img="ActorFace.png"/>
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page>
-<page background="sky.png" soundtrack="song4.wav">
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:18">
-    </agent>
-  
-    <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
-        <openScroll text="A resposta é CORTE!"/>
-    </agent>
-
-    <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
-        <openScroll x="-500"/>
-    </agent>
-    
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
-        <openScroll img="ActorFace.png"/>
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page>
-<page background="sky.png" soundtrack="song4.wav">
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="nextChance">
-        <nextChance on-touch="_GOTO_PAGE:5"/>
-    </agent>
-  
-    <agent text="Infelizmente essa não é a resposta correta." font-size="12" x="100" y="50" width="340" height="20" on-trigger="nextChance">
-        <nextChance text="Deixe-me tentar novamente, pode repetir novamente o poema?"/>
-    </agent>
-
-    <agent img="scrollOpen.png" x="100" y="140" width="34" height="28"/>
-        
-    
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="nextChance">
-        <nextChance img="ActorFace.png"/>
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page>
-<page background="sky.png" soundtrack="song4.wav">
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    <agent img="fireflys.png" x="-1920" y="0" width="1920" height="400" on-trigger="proxLVL">
-         <proxLVL x="0"/>
-    </agent>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="proxLVL">
-        <proxLVL img="on-touch="_GOTO_PAGE:20"/>
-    </agent>
-  
-    <agent text="Ah, corajoso aventureiro, tu demonstraste uma habilidade notável ao desvendar o intricado enigma diante de ti.Tua mente aguçada brilha como as estrelas na escuridão, revelando os segredos ocultos." font-size="11" x="100" y="50" width="340" height="20" on-trigger="proxLVL">
-        <proxLVL text="Como recompensa por tua astúcia, as portas se abrem, permitindo-te avançar para a próxima área da tua jornada.Prossegue com confiança, pois novos mistérios aguardam, e tua sagacidade será tua guia constante."/>
-    </agent>
-
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40"/>
-       
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72" on-trigger="proxLVL">
-        <proxLVL img="master1.png" y="120"/>
-    </agent>
-    
-        
-</page> 
-   
-<page background="hills&trees.png" soundtrack="song2.wav">
-
-    <agent img="hills&trees 2.png" x="0" y="100" width="1920" height="400"/>
-    
-    <agent img="256_Path Dirt Vertical 02.png" x="135" y="0" width="256" height="256"/>
-    <agent img="256_Path Dirt Junction 01.png" x="125" y="256" width="256" height="256"/>   
-    <agent img="256_Path Dirt Horizontal 01.png" x="380" y="240" width="256" height="256"/>
-    <agent img="256_Path Dirt Horizontal 01.png" x="-130" y="240" width="256" height="256"/>
-
-     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120" on-trigger="isOpen">
-         <isOpen height="170"/>
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
-        <story on-touch="_NEXT_PAGE"/>
-    </agent>
-
-    <agent text="Torres bloqueando a passagem e um pergaminho." font-size="12" x="100" y="40" width="340" height="20" on-trigger="isOpen">
-    <isOpen text="Na sala dos quatro destinos, as afinidades são a chave da passagem. Que a PAIXÃO abrace a FLUIDEZ, que a FLUIDEZ nutra a SOLIDEZ, que a SOLIDEZ respire com o SOPRO. Siga a harmonia das afinidades, e a porta oculta se abrirá para os que PISAREM no tapete VERMELHO." y="85"/>
-    </agent>
-
-     <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="isOpen">
-         <isOpen img="basicscroll.png" y="50"/>
-     </agent>        
-
-    <agent img="256_Tile Pattern 02 Grass.png" x="70" y="340" width="80" height="80"/>
-    <agent img="256_Tile Pattern 02 Grass.png" x="170" y="340" width="80" height="80"/>
-    <agent img="256_Tile Pattern 02 Grass.png" x="270" y="340" width="80" height="80"/>
-    <agent img="256_Tile Pattern 02 Grass.png" x="370" y="340" width="80" height="80"/>
-
-    <agent img="towershield.png" x="78" y="345" width="63" height="122"/>
-    <agent img="towerpink.png" x="178" y="345" width="63" height="122"/>
-    <agent img="towerblue.png" x="278" y="345" width="63" height="122"/>
-    <agent img="towerred.png" x="378" y="345" width="63" height="122"/>
-    
-
-    <agent img="Actor4.png" x="230" y="200" width="44" height="72"/>
-    
-    <agent img="scroll_01a.png" x="230" y="300" width="34" height="28" on-touch="isOpen">
-        <isOpen img="scrollOpen.png"/>
-    </agent>    
-</page>  
-<page background="hills&trees.png" soundtrack="song2.wav">
-
-    <agent img="hills&trees 2.png" x="0" y="100" width="1920" height="400"/>
-    
-    <agent img="256_Path Dirt Vertical 02.png" x="135" y="0" width="256" height="256"/>
-    <agent img="256_Path Dirt Junction 01.png" x="125" y="256" width="256" height="256"/>   
-    <agent img="256_Path Dirt Horizontal 01.png" x="380" y="240" width="256" height="256"/>
-    <agent img="256_Path Dirt Horizontal 01.png" x="-130" y="240" width="256" height="256"/>
-
-     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120" on-trigger="isOpen">
-         <isOpen height="170"/>
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="-200" width="40" height="40" on-trigger="liberado">
-        <liberado y="20" on-touch="_NEXT_PAGE"/>
-    </agent>
-
-    <agent text="(analize) Então o segredo está nas torres...E logo apos pisar no tapete vermelho, de fato um enigma desafiador." font-size="12" x="100" y="40" width="340" height="20" on-trigger="isOpen">
-    <isOpen text="Na sala dos quatro destinos, as afinidades são a chave da passagem. Que a PAIXÃO abrace a FLUIDEZ, que a FLUIDEZ nutra a SOLIDEZ, que a SOLIDEZ respire com o SOPRO. Siga a harmonia das afinidades, e a porta oculta se abrirá para os que PISAREM no tapete VERMELHO." y="85"/>
-    </agent>
-
-     <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="isOpen">
-         <isOpen img="basicscroll.png" y="50"/>
-     </agent>        
-
-    <agent img="256_Tile Pattern 02 Grass.png" x="70" y="340" width="80"
-    height="80" drop-zone="localRed">
-        <localRed img="256_Tiles Pattern 06 Red.png" on-touch="liberado"/>
-    </agent>
-    
-    <agent img="256_Tile Pattern 02 Grass.png" x="170" y="340" width="80" height="80" drop-zone="localBlue">
-        <localBlue img="256_Tiles Pattern 06 Red.png" on-touch="liberado"/>
-    </agent>
-    
-    <agent img="256_Tile Pattern 02 Grass.png" x="270" y="340" width="80" height="80" drop-zone="localShield">
-        <localShield img="256_Tiles Pattern 06 Red.png" on-touch="liberado"/>
-    </agent>
-    
-    <agent img="256_Tile Pattern 02 Grass.png" x="370" y="340" width="80" height="80" drop-zone="localPink">
-        <localPink img="256_Tiles Pattern 06 Red.png" on-touch="liberado"/>
-    </agent>
-
-    <agent img="towershield.png" x="78" y="345" width="63" height="122" draggable="true" on-drop="localShield" on-zone="replaceShield" on-trigger="replaceShield" >
-        <replaceShield img="skill_icons22.png" x="92" y="370" width="35" height="35"/>
-    </agent>
-    
-    <agent img="towerpink.png" x="178" y="345" width="63" height="122" draggable="true" on-drop="localPink" on-zone="replacePink" on-trigger="replacePink">
-        <replacePink img="skill_icons16.png" x="190" y="370" width="35" height="35"/>
-    </agent>
-    
-    <agent img="towerblue.png" x="278" y="345" width="63" height="122" draggable="true" on-drop="localBlue" on-zone="replaceBlue" on-trigger="replaceBlue">
-        <replaceBlue img="skill_icons47.png" x="292" y="370" width="35" height="35"/>
-    </agent>
-    
-    <agent img="towerred.png" x="378" y="345" width="63" height="122" draggable="true" on-drop="localRed" on-zone="replaceRed" on-trigger="replaceRed">
-        <replaceRed img="skill_icons3.png" x="392" y="370" width="35" height="35"/>
-       
-    </agent>
-    
-
-    <agent img="Actor4.png" x="230" y="200" width="44" height="72"/>
-    
-    <agent img="scrollOpen.png" x="230" y="300" width="34" height="28" on-touch="isOpen">
-    </agent>    
-</page> 
-<page background="hills&trees.png" soundtrack="song2.wav">
-
-    <agent img="hills&trees 2.png" x="0" y="100" width="1920" height="400"/>
-    
-    <agent img="256_Path Dirt Vertical 02.png" x="135" y="0" width="256" height="256"/>
-    <agent img="256_Path Dirt Junction 01.png" x="125" y="256" width="256" height="256"/>   
-    <agent img="256_Path Dirt Horizontal 01.png" x="380" y="240" width="256" height="256"/>
-    <agent img="256_Path Dirt Horizontal 01.png" x="-130" y="240" width="256" height="256"/>
-
-     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120" on-trigger="isOpen">
-        
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="next">
-        
-    </agent>
-
-    <agent text="Poderes misteriosos surgiram ao mover as torres corretamente. Devo pega-los." font-size="12" x="100" y="40" width="340" height="20" on-trigger="next">
-       <next text="Agora posso seguir por um dos caminhos disponiveis."/>
-    </agent>
-
-     <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="isOpen">
-         <isOpen img="basicscroll.png" y="50"/>
-     </agent>        
-
-    <agent img="256_Tiles Pattern 06 Red.png" x="70" y="340" width="80"
-    height="80">
-    </agent>
-    
-    <agent img="256_Tiles Pattern 06 Red.png" x="170" y="340" width="80" 
-    height="80">
-    </agent>
-    
-    <agent img="256_Tiles Pattern 06 Red.png" x="270" y="340" width="80" 
-    height="80">
-    </agent>
-    
-    <agent img="256_Tiles Pattern 06 Red.png" x="370" y="340" width="80" 
-    height="80">
-    </agent>
-
-    <agent img="skill_icons3.png" x="92" y="370" width="35" height="35"
-        on-touch="addSkill">
-        <addSkill x="122" y="80" width="30" height="30"/>    
-    </agent>
-    
-    <agent img="skill_icons47.png" x="190" y="370" width="35" height="35" 
-        on-touch="addSkill">
-        <addSkill  x="90" y="80" width="30" height="30"/></agent>
-    
-    <agent img="skill_icons22.png" x="292" y="370" width="35" height="35"
-        on-touch="addSkill">
-        <addSkill x="186" y="80" width="30" height="30"/>
-    </agent>
-    
-    <agent img="skill_icons16.png" x="392" y="370" width="35" height="35"
-        on-touch="addSkill">
-        <addSkill x="154" y="80"  width="30" height="30"/>       
-    </agent>
-
-    <agent text="SKILLs:" x="40" y="-80" color="white" on-trigger="addSkill">
-        <addSkill y="80"/>
-    </agent>
-
-    <agent img="arrow right.png" x="-460" y="360" width="27" height="27" on-trigger="next">
-        <next x="460" on-touch="_NEXT_PAGE"/>
-    </agent>
-
-    <agent img="arrow - left.png" x="-100" y="360" width="27" height="27" on-trigger="next">
-        <next x="10" on-touch="_NEXT_PAGE"/>
-        
-    </agent>
-    
-    <agent img="Actor4.png" x="230" y="200" width="44" height="72"/>
-    
-        
-</page> 
-    
-<page background="256_Water Shallow 01.png" soundtrack="song.wav">
-
-    <agent img="4.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="3.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="1.png" x="0" y="80" 
-        width="500" height="420"/>
-    
-    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" 
-        width="100" height="80"/>
-     <agent img="bones.png" x="80" y="-20" 
-        width="350" height="220"/>
-    
-    <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
-        <story x="-420"/>
-    </agent>
-
-    <agent text="Rrrraaaahhhhh!!!!" font-size="16" color="red" x="110" y="430" width="340" height="20" on-trigger="story">
-        <story y="-500"/>
-    </agent>
-    <agent text="Droga! Se eu soubece que era hora do jantar tinha trago algo alem de deliciosos biscoitos. Você não tem cara de quem gosta de biscoitos." font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
-        <story y="430"/>
-    </agent>
-
-    <agent img="skill_icons47.png" x="86" y="460" width="35" height="35"/>
-    <agent img="skill_icons3.png" x="122" y="460" width="35" height="35"/>
-    <agent img="skill_icons16.png" x="158" y="460" width="35" height="35"/>
-    <agent img="skill_icons22.png" x="194" y="460" width="35" height="35"/>
-    <agent text="SKILLs:" x="40" y="460" color="white"/>
-    <agent img="CerberusFace.png" x="50" y="405" width="50" height="50" on-trigger="story">
-        <story img="ActorFace.png" width="40" height="40"/>
-    </agent> 
-   
-    <agent img="Cerberus.png" x="10" y="0" width="130" height="210"/>
-    <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
-    <agent img="scroll_01a.png" x="380" y="20" width="30" height="30" on-touch="_NEXT_PAGE"></agent>
-    
-</page>
-<page background="256_Water Shallow 01.png" soundtrack="song.wav">
-
-    <agent img="4.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="3.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="1.png" x="0" y="80" 
-        width="500" height="420"/>
-    
-    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" 
-        width="100" height="80"/>
-     <agent img="bones.png" x="80" y="-20" 
-        width="350" height="220"/>
-    
-    <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
-        <story x="-420"/>
-    </agent>
-
-    <agent text="Ataque na ordem correta..." font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
-        <story y="-500"/>
-    </agent>
-    <agent text="Qual será a ordem dos ataques?" font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
-        <story y="430"/>
-    </agent>
-
-    <agent img="Cerberus.png" x="10" y="0" width="130" height="210">
-    </agent>
-
-    <agent img="skill_icons47.png" x="86" y="460" width="35" height="35" on-touch="_GOTO_PAGE:34">
-    </agent>
-    <agent img="skill_icons3.png" x="122" y="460" width="35" height="35" draggable="true" on-touch="_NEXT_PAGE">
-    </agent>
-    <agent img="skill_icons22.png" x="158" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:34"/>
-    <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:34"/>
-    
-    <agent text="SKILLs:" x="40" y="460" color="white"/>
-    <agent img="basicscroll.png" x="50" y="405" width="40" height="40" on-trigger="story">
-        <story img="ActorFace.png" width="40" height="40"/>
-    </agent> 
-   
-    
-    <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
-    <agent img="scrollOpen.png" x="380" y="20" width="30" height="30"></agent>
-    
-</page>
-<page background="256_Water Shallow 01.png" soundtrack="song.wav">
-
-    <agent img="4.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="3.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="1.png" x="0" y="80" 
-        width="500" height="420"/>
-    
-    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" 
-        width="100" height="80"/>
-     <agent img="bones.png" x="80" y="-20" 
-        width="350" height="220"/>
-    
-    <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
-        <story x="-420"/>
-    </agent>
-
-    <agent text="Ataque de fogo!" font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
-        <story text="Parece que esse primeiro ataque esta surtindo efeito. Qual qual proxima magia devo usar agora?"/>
-    </agent>
-    
-    
-
-    <agent img="Cerberus.png" x="10" y="0" width="130" height="210">
-    </agent>
-    <agent img="Fire2.png" x="10" y="0" width="130" height="250"/>
-
-    <agent img="skill_icons47.png" x="86" y="460" width="35" height="35" draggable="true" on-touch="_NEXT_PAGE">
-    </agent>
-    <agent img="skill_icons22.png" x="158" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:34"/>
-    <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:34"/>
-    
-    <agent text="SKILLs:" x="40" y="460" color="white"/>
-    <agent img="ActorFace.png" x="50" y="405" width="40" height="40">
-    </agent> 
-   
-    <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
-    
-</page> 
-<page background="256_Water Shallow 01.png" soundtrack="song.wav">
-
-    <agent img="4.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="3.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="1.png" x="0" y="80" 
-        width="500" height="420"/>
-    
-    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" 
-        width="100" height="80"/>
-     <agent img="bones.png" x="80" y="-20" 
-        width="350" height="220"/>
-    
-    <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
-        <story on-touch="_NEXT_PAGE"/>
-    </agent>
-
-    <agent text="Vortex de água!" font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
-        <story text="Mais um ataque surtiu efeito, sera que ele cai dessa vez?"/>
-    </agent>
-    
-    <agent img="Cerberus.png" x="10" y="0" width="130" height="210">
-    </agent>
-    <agent img="Explosion_blue_oval6.png" x="-40" y="-120" width="250" height="350"/>
-    
-    <agent img="skill_icons16.png" x="158" y="460" width="35" height="35"/>
-    <agent img="skill_icons22.png" x="194" y="460" width="35" height="35"/>
-    
-    <agent text="SKILLs:" x="40" y="460" color="white"/>
-    <agent img="ActorFace.png" x="50" y="405" width="40" height="40">
-    </agent> 
-   
-    <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
-    
-</page>  
-<page background="256_Water Shallow 01.png" soundtrack="song.wav">
-
-    <agent img="4.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="3.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="1.png" x="0" y="80" 
-        width="500" height="420"/>
-    
-    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" 
-        width="100" height="80"/>
-     <agent img="bones.png" x="80" y="-20" 
-        width="350" height="220"/>
-
-    <agent img="Lightning_beginning4.png" x="200" y="10" width="64" height="493"/>
-    <agent img="Lightning_beginning4.png" x="300" y="30" width="64" height="493"/>
-    <agent img="Lightning_beginning4.png" x="350" y="30" width="64" height="493"/>
-    
-    <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
-        <story x="-420"/>
-    </agent>
-
-    <agent text="Rrrraaaahhhhh!!!!" font-size="16" color="red" x="110" y="430" width="340" height="20" on-trigger="story">
-        <story y="-500"/>
-    </agent>
-    <agent text="Droga! Esse ataque não parece nada bom. Tenho que me defender de alguma forma!" font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
-        <story y="430"/>
-    </agent>
-    
-    <agent img="Cerberus.png" x="10" y="0" width="130" height="210">
-    </agent>
-    <agent img="Explosion_two_colors7.png" x="-150" y="-120" width="450" height="450"/>
-    
-    <agent img="skill_icons16.png" x="158" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:34"/>
-    <agent img="skill_icons22.png" x="194" y="460" width="35" height="35" draggable="true" on-touch="_NEXT_PAGE"/>
-    
-    <agent text="SKILLs:" x="40" y="460" color="white"/>
-    <agent img="CerberusFace.png" x="50" y="405" width="50" height="50" on-trigger="story">
-        <story img="ActorFace.png" width="40" height="40"/>
-    </agent> 
-   
-    <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
-    
-</page>   
-<page background="256_Water Shallow 01.png" soundtrack="song.wav">
-
-    <agent img="4.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="3.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="1.png" x="0" y="80" 
-        width="500" height="420"/>
-    
-    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" 
-        width="100" height="80"/>
-     <agent img="bones.png" x="80" y="-20" 
-        width="350" height="220"/>
-
-    <agent img="Lightning_beginning4.png" x="410" y="90" width="64" height="493"
-        on-trigger="story">
-        <story x="-500"/>             
-    </agent>
-    
-    <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
-        <story on-touch="_NEXT_PAGE"/>
-    </agent>
-
-    <agent text="A barreira esta aguentando o ataque." font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
-        <story y="-500"/>
-    </agent>
-    <agent text="Um ultimo ataque mortal! Se esta for minha última batalha, que seja lembrada como uma luta digna. " font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
-        <story y="430"/>
-    </agent>
-    
-    <agent img="Cerberus.png" x="10" y="0" width="130" height="210" on-trigger="story">
-        <story img="CerberusDamage1.png" />
-    </agent>
-    
-    <agent img="skill_icons16.png" x="158" y="460" width="35" height="35"/>
-    
-    <agent text="SKILLs:" x="40" y="460" color="white"/>
-    <agent img="ActorFace.png" x="50" y="405" width="40" height="40" on-trigger="story">
-    </agent> 
-   
-    <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
-    <agent img="Explosion_blue_oval8.png" x="340" y="-70" width="200" height="250" on-trigger="story">
-        <story y="500"/>
-    </agent>
-     <agent img="Explosion_two_colors5.png" x="500" y="-100" width="300" height="350" on-trigger="story">
-        <story x="200"/>
-    </agent>
-    
-</page>
-<page background="256_Water Shallow 01.png" soundtrack="song4.wav">
-
-    <agent img="4.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="3.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="1.png" x="0" y="80" 
-        width="500" height="420"/>
-    
-    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" 
-        width="100" height="80"/>
-     <agent img="bones.png" x="80" y="-20" 
-        width="350" height="220"/>
-    
-    <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="useSkill">
-        <useSkill y="338" width="490" height="150"/>
-    </agent>
-
-     <agent img="arrow_example.png" x="420" y="-400" width="40" height="40" on-trigger="useSkill">
-        <useSkill y="400" on-touch="_NEXT_PAGE"/>
-    </agent>
-
-    <agent text="...................." font-size="12" x="110" y="430" width="340" height="20" on-trigger="useSkill">
-        <useSkill text="(respira aliviado) Uau, pensei que minha saga tinha chegado no capítulo final! Parece que os deuses decidiram que ainda tenho algumas páginas para virar nesta história. Um conselho para o destino: da próxima vez, capricha mais na pontaria!"/>
-    </agent>
-        
- <agent img="skill_icons16.png" x="158" y="460" width="35" height="35" on-touch="useSkill">
-     <useSkill y="500"/>
- </agent>
-    
-    <agent text="SKILLs:" x="40" y="460" color="white"/>
-    <agent img="ActorDamageFace.png" x="50" y="405" width="40" height="40" on-trigger="useSkill">
-        <useSkill img="ActorFace.png"/>
-    </agent> 
-   
-    <agent img="Smoke3.png" x="10" y="30" width="130" height="210">
-    </agent>   
-    <agent img="ActorDamage1.png" x="430" y="30" width="52" height="30" 
-    on-trigger="useSkill">
-        <useSkill img="Actor3.png" width="30" height="52"/>        
-    </agent>
-    
-</page>
-<page background="256_Water Shallow 01.png" soundtrack="song4.wav">
-
-    <agent img="4.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="3.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="1.png" x="0" y="80" 
-        width="500" height="420"/>
-    
-    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" 
-        width="100" height="80"/>
-     <agent img="bones.png" x="80" y="-20" 
-        width="350" height="220"/>
-    
-    <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" >
-    </agent>
-
-     <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
-        <story img="arrow - left.png"x="10" y="30" width="27" height="27"  on-touch="_NEXT_PAGE"/>
-    </agent>
-
-    <agent text="Chaves misteriosas, símbolos baus de tesouros ainda não abertas. Que segredos escondidos vocês guardam, queridas chaves?" font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
-        <story text="Vamos ver quais novos mistérios aguardam do outro lado. "/>
-    </agent>
-        
-    <agent text="SKILLs:" x="40" y="460" color="white" on-trigger="savekey">
-        <savekey text="ITEMs:"/>
-    </agent>
-    <agent img="ActorFace.png" x="50" y="405" width="40" height="40" on-trigger="useSkill">
-        <useSkill />
-    </agent> 
-   
-    <agent img="key_01d.png" x="10" y="30" width="35" height="35" on-touch="savekey">
-        <savekey x="122" y="460"/>
-    </agent> 
-    <agent img="key_01e.png" x="40" y="30" width="35" height="35" on-touch="savekey">
-        <savekey  x="86" y="460"/>
-    </agent> 
-    <agent img="Actor3.png" x="430" y="30" width="30" height="52">        
-    </agent>
-    
-</page>
-<page background="256_Water Shallow 01.png" soundtrack="song4.wav">
-
-    <agent img="4.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="3.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="1.png" x="0" y="80" 
-        width="500" height="420"/>
-    
-    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" 
-        width="100" height="80"/>
-     <agent img="bones.png" x="80" y="-20" 
-        width="350" height="220"/>
-    
-    <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" >
-    </agent>
-
-     <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
-        <story y="-460"/>
-    </agent>
-
-    <agent text="Ah, maravilhosos cofres da riqueza! Que segredos e fortunas ocultas aguardam dentro desses baús misteriosos?" font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
-        <story text="Chegou o momento de descobrir quais tesouros a sorte e a bravura reservaram para mim."/>
-    </agent>
-        
-    <agent text="ITEMs:" x="40" y="460" color="white" on-trigger="savekey">
-        <savekey />
-    </agent>
-    <agent img="ActorFace.png" x="50" y="405" width="40" height="40">
-    </agent> 
-   
-    <agent img="key_01d.png" x="122" y="460" width="35" height="35" on-touch="usekeyGold">
-        <usekeyGold y="-460"/>
-    </agent> 
-    <agent img="key_01e.png" x="86" y="460" width="35" height="35" 
-        on-touch="usekeySilver">
-        <usekeySilver y="-460" />
-    </agent> 
-    <agent img="Chests2 (1).png" x="150" y="60" width="48" height="40" 
-        on-trigger="usekeySilver">
-        <usekeySilver img="Chests2Open (1).png" on-touch="_NEXT_PAGE"/>
+    <page background="sky.png" soundtrack="song4.wav">
+        <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+        <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+        <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+        <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+        <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
         </agent>
-    <agent img="Chests3 (1).png" x="150" y="10" width="48" height="40"
-        on-trigger="usekeyGold">
-        <usekeyGold img="Chests3Open (1).png" on-touch="_NEXT_PAGE"/>
+        <agent img="basicscroll.png" x="90" y="90" width="40" height="40" on-touch="_NEXT_PAGE">
         </agent>
-    
-    <agent img="Actor3.png" x="430" y="30" width="30" height="52">        
-    </agent>
-    
-</page>
-<page background="256_Water Shallow 01.png" soundtrack="song4.wav">
-
-    <agent img="4.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="3.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="1.png" x="0" y="80" 
-        width="500" height="420"/>
-    
-    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" 
-        width="100" height="80"/>
-     <agent img="bones.png" x="80" y="-20" 
-        width="350" height="220"/>
-    
-    <agent img="panel_Example3.png" x="8" y="350" width="490" height="138" >
-    </agent>
-
-     <agent img="arrow_example.png" x="420" y="-400" width="40" height="40" on-trigger="dropWeapons">
-        <dropWeapons y="400" on-touch="story"/>
-        <story img="arrow - left.png" x="20" y="30" on-touch="_NEXT_PAGE"/>
-    </agent>
-
-    <agent text="Ah, maravilhosos cofres da riqueza! Que segredos e fortunas ocultas aguardam dentro desses baús misteriosos?" font-size="12" x="110" y="430" width="340" height="20" on-trigger="dropTreasure">
-        <dropTreasure text="Após explorar os recantos escuros desta dungeon e reunir os frutos da minha coragem, sinto que é o momento de voltar à luz do dia. As riquezas encontradas e as batalhas superadas são troféus que carregarei comigo."/>
-    </agent>
-        
-    <agent text="ITEMs:" x="40" y="460" color="white" on-trigger="savekey">
-        <savekey />
-    </agent>
-    <agent img="ActorFace.png" x="50" y="405" width="40" height="40">
-    </agent> 
-   
-    <agent img="gold.png" x="190" y="-500" width="35" height="35" on-trigger="dropTreasure">
-        <dropTreasure y="5" on-touch="saveItem"/>
-        <saveItem x="86" y="460"/>
-    </agent> 
-
-     <agent img="ring.png" x="150" y="-460" width="35" height="35" on-trigger="dropTreasure">
-        <dropTreasure y="5" on-touch="saveItem"/>
-        <saveItem x="120" y="460"/>
-    </agent> 
-
-      <agent img="coin.png" x="120" y="-460" width="35" height="35" on-trigger="dropTreasure">
-        <dropTreasure y="5" on-touch="saveItem"/>
-        <saveItem x="150" y="460"/>
-    </agent>
-
-     <agent img="moneypouch.png" x="80" y="-460" width="35" height="35" on-trigger="dropTreasure">
-        <dropTreasure y="5" on-touch="saveItem"/>
-        <saveItem x="190" y="460"/>
-    </agent>
-
-     <agent img="sword.png" x="150" y="-460" width="35" height="35" on-trigger="dropWeapons">
-        <dropWeapons y="60" on-touch="saveItem"/>
-        <saveItem x="230" y="460"/>
-    </agent>
-
-     <agent img="saber.png" x="200" y="-460" width="35" height="35" on-trigger="dropWeapons">
-        <dropWeapons y="60" on-touch="saveItem"/>
-        <saveItem x="260" y="460"/>
-    </agent>
-    
-    <agent img="Chests2Open (1).png" x="150" y="60" width="48" height="40" 
-       on-touch="dropWeapons">
-        <dropWeapons  y="500"/>
+        <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE">
         </agent>
-    <agent img="Chests3Open (1).png" x="150" y="10" width="48" height="40"
-        on-touch="dropTreasure">
-        <dropTreasure  y="500"/>
+        <agent text="Resolva esta charada para adentrar os portões sombrios desta dungeon." font-size="12" x="100" y="40" width="340" height="20" on-trigger="pergaminho">
         </agent>
-    
-    <agent img="Actor3.png" x="230" y="30" width="30" height="52">        
+        <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
+        </agent>
+        <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+        <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+    </page>
+    <page background="sky.png" soundtrack="song4.wav">
+        <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+        <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+        <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+        <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+        <agent img="panel_Example3.png" x="120" y="60" width="250" height="400">
+        </agent>
+        <agent img="arrow_example.png" x="200" y="350" width="100" height="1" on-touch="_NEXT_PAGE" ">
     </agent>
-    
-</page>
-<page background="dungeon background 12.png"  soundtrack="song.wav">
-    <agent text="AVENTURA CONCLUIDA!" font-size="42" x="2.7" y="218" color=""/>
-    <agent text="AVENTURA CONCLUIDA!" font-size="40"  x="10" y="225" color="yellow"/>
-    <agent text="RESTART" font-size="20"  x="200" y="200" color="white" on-touch="_GOTO_PAGE:1"/>
-</page>
-<page background="256_Water Shallow 01.png"  soundtrack="song.wav">
-
-    <agent img="4.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="3.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="1.png" x="0" y="80" 
-        width="500" height="420"/>
-    
-    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" 
-        width="100" height="80"/>
-     <agent img="bones.png" x="80" y="-20" 
-        width="350" height="220"/>
-    
-    <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="">
-    </agent>
-
-
-    <agent text="Rrrraaaahhhhh!!!!" font-size="16" color="red" x="110" y="430" width="340" height="20" on-trigger="story">
-        <story y="-500"/>
-    </agent>
-        
-    <agent img="CerberusFace.png" x="50" y="405" width="50" height="50" on-trigger="story"></agent>
-   
-    <agent img="Cerberus.png" x="10" y="0" width="130" height="210"/>
-    <agent img="ActorDamage1.png" x="430" y="30" width="52" height="30"/>
-
-    
-    <agent img="telagameover.png" x="0" y="0" width="500" height="500"/>
-    <agent text="GAME OVER" font-size="60" x="70" y="225" color="red" width="0" height="50"/>
-    <agent text="RESTART" font-size="18" x="200" y="150" color="white" width="0" height="50" on-touch="_GOTO_PAGE:24"/>
-    
-    
-</page>
-     
-
-<page background="background4.png" soundtrack="song4.wav">
-
-
-<agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-</agent>
-
-<agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
-        <story on-touch="_GOTO_PAGE:7"/>
-</agent>
-
-<agent text="Caro aventureiro, diante de você está um quebra-cabeça intrigante, uma composição de peças que, quando unidas, revelarão uma imagem crucial para desvendar o poema. " font-size="12" x="100" y="50" width="340" height="20">     
-</agent>
-<agent img="masterFace.png" x="50" y="20" width="40" height="40"/>
-    
-    
- <agent  img="foice1.png" x="63" y="50" width="63" height="27" draggable="true"/>
- <agent  img="foice2.png" x="83" y="100" width="62" height="52" draggable="true"/>
- <agent  img="foice3.png" x="30" y="200" width="87" height="50" draggable="true"/>
- <agent  img="foice4.png" x="350" y="450" width="71" height="44" draggable="true"/>
- <agent  img="foice5.png" x="350" y="350" width="30" height="43" draggable="true"/>
- <agent  img="foice6.png" x="470" y="230" width="72" height="67" draggable="true"/>
- <agent  img="foice7.png" x="470" y="50" width="34" height="66" draggable="true"/>
- <agent  img="foice8.png" x="280" y="280" width="154" height="147" draggable="true"/>
- <agent  img="foice9.png" x="380" y="420" width="70" height="72" draggable="true"/>
- <agent  img="foice10.png" x="310" y="5" width="71" height="67" draggable="true"/>
- <agent  img="foice11.png" x="5" y="310" width="69" height="158" draggable="true"/>
- <agent  img="foice12.png" x="400" y="400" width="50" height="91" draggable="true"/>
- <agent  img="foice13.png" x="40" y="100" width="71" height="57" draggable="true"/>
-
-
-
-
- </agent>
-      
-</page>
+  
+    <agent text="Sempre quando chego trago a tristeza Mas sempre chego na hora certa As vezes venho depois de uma doença E outras, depois de um ato de violência" font-size="12">
+        </agent>
+        <agent img="basicscroll.png" x="150" y="320" width="40" height="40" on-trigger="story">
+        </agent>
+        <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+        <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+    </page>
+    <page background="sky.png" soundtrack="song4.wav">
+        <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+        <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+        <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+        <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+        <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+        </agent>
+        <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
+            <story on-touch="_NEXT_PAGE"/>
+        </agent>
+        <agent text="(analisa a charada com atenção) Hmm, interessante. Parece ser algo formidável. Dê-me um momento para refletir." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story">
+            <story text="Claro, nobre aventureiro. Enquanto pondera, aqui estão três baús diante de você, cada um guardando um desafio para desvendar a charada."/>
+        </agent>
+        <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
+            <story img="masterFace.png"/>
+        </agent>
+        <agent img="Chests.png" x="-200" y="80" width="34" height="28" on-trigger="story">
+            <story x="200" on-touch="_GOTO_PAGE:35"/>
+        </agent>
+        <agent img="Chests2.png" x="-200" y="110" width="34" height="28" on-trigger="story">
+            <story x="200" on-touch="_GOTO_PAGE:9"/>
+        </agent>
+        <agent img="Chests3.png" x="-200" y="140" width="34" height="28" on-trigger="story">
+            <story x="200" on-touch="_GOTO_PAGE:10"/>
+        </agent>
+        <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+        <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+    </page>
+    <page background="background4.png" soundtrack="song4.wav">
+        <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+        </agent>
+        <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE"/>
+        <agent img="scroll_01a.png" x="71" y="255" width="34" height="28" on-touch="_NEXT_PAGE"/>
+        <agent img="scroll_01a.png" x="215" y="255" width="34" height="28" on-touch="_NEXT_PAGE"/>
+        <agent img="scroll_01a.png" x="285" y="255" width="34" height="28" on-touch="_NEXT_PAGE"/>
+        <agent img="scroll_01a.png" x="145" y="255" width="34" height="28" on-touch="_NEXT_PAGE"/>
+        <agent img="scroll_01a.png" x="359" y="255" width="34" height="28" on-touch="_NEXT_PAGE"/>
+        <agent text="Abra e escolha um dos pergaminhos acima e veja qual opcão é a resposta para o enigma. Que a Deusa da sorte abençoe sua escolha." font-size="12" x="100" y="40" width="340" height="20"/>
+        <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story"></agent>
+    </page>
+    <page background="background4.png" soundtrack="song4.wav">
+        <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+        </agent>
+        <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="on-touch=&quot;_NEXT_PAGE&quot;/">
+            <agent img="scroll_01a.png" x="71" y="255" width="34" height="28" on-touch="opcao_1">
+                <opcao_1 img="scrollOpen.png" on-touch="_GOTO_PAGE:14"/>
+            </agent>
+            <agent img="scroll_01a.png" x="215" y="255" width="34" height="28" on-touch="opcao_3">
+                <opcao_3 img="scrollOpen.png" on-touch="_GOTO_PAGE:12"/>
+            </agent>
+            <agent img="scroll_01a.png" x="285" y="255" width="34" height="28" on-touch="opcao_4">
+                <opcao_4 img="scrollOpen.png" on-touch="_GOTO_PAGE:16"/>
+            </agent>
+            <agent img="scroll_01a.png" x="145" y="255" width="34" height="28" on-touch="opcao_2">
+                <opcao_2 img="scrollOpen.png" on-touch="_GOTO_PAGE:15"/>
+            </agent>
+            <agent img="scroll_01a.png" x="359" y="255" width="34" height="28" on-touch="opcao_5">
+                <opcao_5 img="scrollOpen.png" on-touch="_GOTO_PAGE:17"/>
+            </agent>
+            <agent text="1. esta ecrito: SORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_1">
+                <opcao_1 x="100"/>
+            </agent>
+            <agent text="2. esta ecrito: MARTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_2">
+                <opcao_2 y="25" x="100"/>
+            </agent>
+            <agent text="3. esta ecrito: MORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_3">
+                <opcao_3 y="10" x="100"/>
+            </agent>
+            <agent text="4. esta ecrito: FORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_4">
+                <opcao_4 x="240"/>
+            </agent>
+            <agent text="5. esta ecrito: CORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_5">
+                <opcao_5 y="25" x="240"/>
+            </agent>
+            <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
+                <story img="masterFace.png"/>
+            </agent>
+        </agent>
+        <page background="sky.png" soundtrack="song4.wav">
+            <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+            <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+            <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+            <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+            <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+            </agent>
+            <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
+                <story on-touch="_GOTO_PAGE:7"/>
+            </agent>
+            <agent text="Esse escolha te da uma dica sobre o que busca." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story">
+                <story text="A palavra que busca possui M _ _ _ _"/>
+            </agent>
+            <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
+            </agent>
+            <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+            <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        </page>
+        <page background="background4.png" soundtrack="song4.wav">
+            <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+            </agent>
+            <agent img="Chests3.png" x="215" y="255" width="34" height="28"/>
+            <agent img="Chests3.png" x="215" y="298" width="34" height="28"/>
+            <agent img="Chests3.png" x="215" y="212" width="34" height="28"/>
+            <agent img="Chests3.png" x="215" y="341" width="34" height="28"/>
+            <agent img="Chests3.png" x="215" y="169" width="34" height="28"/>
+            <agent img="Chests3.png" x="285" y="255" width="34" height="28"/>
+            <agent img="Chests3.png" x="285" y="298" width="34" height="28"/>
+            <agent img="Chests3.png" x="285" y="212" width="34" height="28"/>
+            <agent img="Chests3.png" x="285" y="341" width="34" height="28"/>
+            <agent img="Chests3.png" x="285" y="169" width="34" height="28"/>
+            <agent img="Chests3.png" x="145" y="255" width="34" height="28"/>
+            <agent img="Chests3.png" x="145" y="298" width="34" height="28"/>
+            <agent img="Chests3.png" x="145" y="212" width="34" height="28"/>
+            <agent img="Chests3.png" x="145" y="341" width="34" height="28"/>
+            <agent img="Chests3.png" x="145" y="169" width="34" height="28"/>
+            <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE">
+            </agent>
+            <agent text="Essa opcão te permite encontrar a resposta abrindo um dos baus acima mas escolha com sabedoria pois alguns escondem consequncias perigosas." font-size="12" x="100" y="50" width="340" height="20">
+            </agent>
+            <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
+            </agent>
+        </page>
+        <page background="background4.png" soundtrack="song4.wav">
+            <agent img="key_01d.png" x="400" y="400" width="48" height="48" draggable="true" on-drop="isOpen" on-zone="outscreen" on-trigger="outscreen">
+                <outscreen y="-200"/>
+            </agent>
+            <agent img="Chests3.png" x="215" y="255" width="34" height="28" drop-zone="isOpen">
+                <isOpen img="Chests3Open.png" on-touch="item"/>
+                <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
+            </agent>
+            <agent img="Chests3.png" x="215" y="298" width="34" height="28" drop-zone="isOpen">
+                <isOpen img="Chests3Open.png" on-touch="item"/>
+                <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
+            </agent>
+            <agent img="Chests3.png" x="215" y="212" width="34" height="28" drop-zone="isOpen">
+                <isOpen img="Chests3Open.png" on-touch="item"/>
+                <item img="scroll_01a.png" on-touch="_GOTO_PAGE:12"/>
+            </agent>
+            <agent img="Chests3.png" x="215" y="341" width="34" height="28" drop-zone="isOpen">
+                <isOpen img="Chests3Open.png" on-touch="item"/>
+                <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
+            </agent>
+            <agent img="Chests3.png" x="215" y="169" width="34" height="28" drop-zone="isOpen">
+                <isOpen img="Chests3Open.png" on-touch="item"/>
+                <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
+            </agent>
+            <agent img="Chests3.png" x="285" y="255" width="34" height="28" drop-zone="isOpen">
+                <isOpen img="Chests3Open.png" on-touch="item"/>
+                <item img="scroll_01a.png" on-touch="_GOTO_PAGE:12"/>
+            </agent>
+            <agent img="Chests3.png" x="285" y="298" width="34" height="28" drop-zone="isOpen">
+                <isOpen img="Chests3Open.png" on-touch="item"/>
+                <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
+            </agent>
+            <agent img="Chests3.png" x="285" y="212" width="34" height="28" drop-zone="isOpen">
+                <isOpen img="Chests3Open.png" on-touch="item"/>
+                <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
+            </agent>
+            <agent img="Chests3.png" x="285" y="341" width="34" height="28" drop-zone="isOpen">
+                <isOpen img="Chests3Open.png" on-touch="item"/>
+                <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
+            </agent>
+            <agent img="Chests3.png" x="285" y="169" width="34" height="28" drop-zone="isOpen">
+                <isOpen img="Chests3Open.png" on-touch="item"/>
+                <item img="scroll_01a.png" on-touch="_GOTO_PAGE:12"/>
+            </agent>
+            <agent img="Chests3.png" x="145" y="255" width="34" height="28" drop-zone="isOpen">
+                <isOpen img="Chests3Open.png" on-touch="item"/>
+                <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
+            </agent>
+            <agent img="Chests3.png" x="145" y="298" width="34" height="28" drop-zone="isOpen">
+                <isOpen img="Chests3Open.png" on-touch="item"/>
+                <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
+            </agent>
+            <agent img="Chests3.png" x="145" y="212" width="34" height="28" drop-zone="isOpen">
+                <isOpen img="Chests3Open.png" on-touch="item"/>
+                <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
+            </agent>
+            <agent img="Chests3.png" x="145" y="341" width="34" height="28" drop-zone="isOpen">
+                <isOpen img="Chests3Open.png" on-touch="item"/>
+                <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
+            </agent>
+            <agent img="Chests3.png" x="145" y="169" width="34" height="28" drop-zone="isOpen">
+                <isOpen img="Chests3Open.png" on-touch="item"/>
+                <item img="scroll_01a.png" on-touch="_GOTO_PAGE:12"/>
+            </agent>
+            <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+            </agent>
+            <agent text="Toque no item para saber se ele ajudara na resposta do teste." font-size="12" x="100" y="50" width="340" height="20">
+            </agent>
+            <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story"></agent>
+        </page>
+        <page background="sky.png" soundtrack="song4.wav">
+            <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+            <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+            <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+            <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+            <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+            </agent>
+            <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:19">
+            </agent>
+            <agent text="Veja a resposta no pergaminho aventureiro.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
+                <openScroll text="A resposta é MORTE!"/>
+            </agent>
+            <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
+                <openScroll x="-500"/>
+            </agent>
+            <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
+                <openScroll img="ActorFace.png"/>
+            </agent>
+            <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+            <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        </page>
+        <page background="sky.png" soundtrack="song4.wav">
+            <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+            <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+            <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+            <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+            <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+            </agent>
+            <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:7">
+            </agent>
+            <agent text="Esse item não ira te ajudar em nada, pelo visto nem todos são abençoados pela deusa da sorte.Vamos voltar para a escolha da resposta." font-size="12" x="100" y="50" width="340" height="20" on-trigger="cookie">
+                <cookie text="(mastiga) Pelo menos é um ótimo biscoito :)"/>
+            </agent>
+            <agent img="Chests3Open.png" x="-200" y="140" width="34" height="28"></agent>
+            <agent img="cookie_01a.png" x="100" y="140" width="34" height="28" on-touch="cookie">
+                <cookie x="-500"/>
+            </agent>
+            <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="cookie">
+                <cookie img="ActorFace.png"/>
+            </agent>
+            <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+            <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        </page>
+        <page background="sky.png" soundtrack="song4.wav">
+            <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+            <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+            <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+            <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+            <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+            </agent>
+            <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:18">
+            </agent>
+            <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
+                <openScroll text="A resposta é SORTE!"/>
+            </agent>
+            <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
+                <openScroll x="-500"/>
+            </agent>
+            <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
+                <openScroll img="ActorFace.png"/>
+            </agent>
+            <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+            <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        </page>
+        <page background="sky.png" soundtrack="song4.wav">
+            <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+            <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+            <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+            <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+            <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+            </agent>
+            <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:18">
+            </agent>
+            <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
+                <openScroll text="A resposta é MARTE!"/>
+            </agent>
+            <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
+                <openScroll x="-500"/>
+            </agent>
+            <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
+                <openScroll img="ActorFace.png"/>
+            </agent>
+            <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+            <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        </page>
+        <page background="sky.png" soundtrack="song4.wav">
+            <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+            <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+            <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+            <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+            <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+            </agent>
+            <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:18">
+            </agent>
+            <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
+                <openScroll text="A resposta é FORTE!"/>
+            </agent>
+            <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
+                <openScroll x="-500"/>
+            </agent>
+            <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
+                <openScroll img="ActorFace.png"/>
+            </agent>
+            <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+            <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        </page>
+        <page background="sky.png" soundtrack="song4.wav">
+            <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+            <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+            <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+            <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+            <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+            </agent>
+            <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:18">
+            </agent>
+            <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
+                <openScroll text="A resposta é CORTE!"/>
+            </agent>
+            <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
+                <openScroll x="-500"/>
+            </agent>
+            <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
+                <openScroll img="ActorFace.png"/>
+            </agent>
+            <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+            <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        </page>
+        <page background="sky.png" soundtrack="song4.wav">
+            <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+            <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+            <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+            <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+            <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+            </agent>
+            <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="nextChance">
+                <nextChance on-touch="_GOTO_PAGE:5"/>
+            </agent>
+            <agent text="Infelizmente essa não é a resposta correta." font-size="12" x="100" y="50" width="340" height="20" on-trigger="nextChance">
+                <nextChance text="Deixe-me tentar novamente, pode repetir novamente o poema?"/>
+            </agent>
+            <agent img="scrollOpen.png" x="100" y="140" width="34" height="28"/>
+            <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="nextChance">
+                <nextChance img="ActorFace.png"/>
+            </agent>
+            <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+            <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        </page>
+        <page background="sky.png" soundtrack="song4.wav">
+            <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+            <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+            <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+            <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+            <agent img="fireflys.png" x="-1920" y="0" width="1920" height="400" on-trigger="proxLVL">
+                <proxLVL x="0"/>
+            </agent>
+            <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+            </agent>
+            <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="proxLVL">
+                <proxLVL img="arrow right.png" x="450" y="85" on-touch="_GOTO_PAGE:20"/>
+            </agent>
+            <agent text="Ah, corajoso aventureiro, tu demonstraste uma habilidade notável ao desvendar o intricado enigma diante de ti.Tua mente aguçada brilha como as estrelas na escuridão, revelando os segredos ocultos." font-size="11" x="100" y="50" width="340" height="20" on-trigger="proxLVL">
+                <proxLVL text="Como recompensa por tua astúcia, as portas se abrem, permitindo-te avançar para a próxima área da tua jornada.Prossegue com confiança, pois novos mistérios aguardam, e tua sagacidade será tua guia constante."/>
+            </agent>
+            <agent img="masterFace.png" x="50" y="20" width="40" height="40"/>
+            <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+            <agent img="master2.png" x="300" y="85" width="44" height="72" on-trigger="proxLVL">
+                <proxLVL img="master1.png" y="120"/>
+            </agent>
+        </page>
+        <page background="hills&trees.png" soundtrack="song2.wav">
+            <agent img="hills&trees 2.png" x="0" y="100" width="1920" height="400"/>
+            <agent img="256_Path Dirt Vertical 02.png" x="135" y="0" width="256" height="256"/>
+            <agent img="256_Path Dirt Junction 01.png" x="125" y="256" width="256" height="256"/>
+            <agent img="256_Path Dirt Horizontal 01.png" x="380" y="240" width="256" height="256"/>
+            <agent img="256_Path Dirt Horizontal 01.png" x="-130" y="240" width="256" height="256"/>
+            <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120" on-trigger="isOpen">
+                <isOpen height="170"/>
+            </agent>
+            <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
+                <story on-touch="_NEXT_PAGE"/>
+            </agent>
+            <agent text="Torres bloqueando a passagem e um pergaminho." font-size="12" x="100" y="40" width="340" height="20" on-trigger="isOpen">
+                <isOpen text="Na sala dos quatro destinos, as afinidades são a chave da passagem. Que a PAIXÃO abrace a FLUIDEZ, que a FLUIDEZ nutra a SOLIDEZ, que a SOLIDEZ respire com o SOPRO. Siga a harmonia das afinidades, e a porta oculta se abrirá para os que PISAREM no tapete VERMELHO." y="85"/>
+            </agent>
+            <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="isOpen">
+                <isOpen img="basicscroll.png" y="50"/>
+            </agent>
+            <agent img="256_Tile Pattern 02 Grass.png" x="70" y="340" width="80" height="80"/>
+            <agent img="256_Tile Pattern 02 Grass.png" x="170" y="340" width="80" height="80"/>
+            <agent img="256_Tile Pattern 02 Grass.png" x="270" y="340" width="80" height="80"/>
+            <agent img="256_Tile Pattern 02 Grass.png" x="370" y="340" width="80" height="80"/>
+            <agent img="towershield.png" x="78" y="345" width="63" height="122"/>
+            <agent img="towerpink.png" x="178" y="345" width="63" height="122"/>
+            <agent img="towerblue.png" x="278" y="345" width="63" height="122"/>
+            <agent img="towerred.png" x="378" y="345" width="63" height="122"/>
+            <agent img="Actor4.png" x="230" y="200" width="44" height="72"/>
+            <agent img="scroll_01a.png" x="230" y="300" width="34" height="28" on-touch="isOpen">
+                <isOpen img="scrollOpen.png"/>
+            </agent>
+        </page>
+        <page background="hills&trees.png" soundtrack="song2.wav">
+            <agent img="hills&trees 2.png" x="0" y="100" width="1920" height="400"/>
+            <agent img="256_Path Dirt Vertical 02.png" x="135" y="0" width="256" height="256"/>
+            <agent img="256_Path Dirt Junction 01.png" x="125" y="256" width="256" height="256"/>
+            <agent img="256_Path Dirt Horizontal 01.png" x="380" y="240" width="256" height="256"/>
+            <agent img="256_Path Dirt Horizontal 01.png" x="-130" y="240" width="256" height="256"/>
+            <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120" on-trigger="isOpen">
+                <isOpen height="170"/>
+            </agent>
+            <agent img="arrow_example.png" x="420" y="-200" width="40" height="40" on-trigger="liberado">
+                <liberado y="20" on-touch="_NEXT_PAGE"/>
+            </agent>
+            <agent text="(analize) Então o segredo está nas torres...E logo apos pisar no tapete vermelho, de fato um enigma desafiador." font-size="12" x="100" y="40" width="340" height="20" on-trigger="isOpen">
+                <isOpen text="Na sala dos quatro destinos, as afinidades são a chave da passagem. Que a PAIXÃO abrace a FLUIDEZ, que a FLUIDEZ nutra a SOLIDEZ, que a SOLIDEZ respire com o SOPRO. Siga a harmonia das afinidades, e a porta oculta se abrirá para os que PISAREM no tapete VERMELHO." y="85"/>
+            </agent>
+            <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="isOpen">
+                <isOpen img="basicscroll.png" y="50"/>
+            </agent>
+            <agent img="256_Tile Pattern 02 Grass.png" x="70" y="340" width="80" height="80" drop-zone="localRed">
+                <localRed img="256_Tiles Pattern 06 Red.png" on-touch="liberado"/>
+            </agent>
+            <agent img="256_Tile Pattern 02 Grass.png" x="170" y="340" width="80" height="80" drop-zone="localBlue">
+                <localBlue img="256_Tiles Pattern 06 Red.png" on-touch="liberado"/>
+            </agent>
+            <agent img="256_Tile Pattern 02 Grass.png" x="270" y="340" width="80" height="80" drop-zone="localShield">
+                <localShield img="256_Tiles Pattern 06 Red.png" on-touch="liberado"/>
+            </agent>
+            <agent img="256_Tile Pattern 02 Grass.png" x="370" y="340" width="80" height="80" drop-zone="localPink">
+                <localPink img="256_Tiles Pattern 06 Red.png" on-touch="liberado"/>
+            </agent>
+            <agent img="towershield.png" x="78" y="345" width="63" height="122" draggable="true" on-drop="localShield" on-zone="replaceShield" on-trigger="replaceShield">
+                <replaceShield img="skill_icons22.png" x="92" y="370" width="35" height="35"/>
+            </agent>
+            <agent img="towerpink.png" x="178" y="345" width="63" height="122" draggable="true" on-drop="localPink" on-zone="replacePink" on-trigger="replacePink">
+                <replacePink img="skill_icons16.png" x="190" y="370" width="35" height="35"/>
+            </agent>
+            <agent img="towerblue.png" x="278" y="345" width="63" height="122" draggable="true" on-drop="localBlue" on-zone="replaceBlue" on-trigger="replaceBlue">
+                <replaceBlue img="skill_icons47.png" x="292" y="370" width="35" height="35"/>
+            </agent>
+            <agent img="towerred.png" x="378" y="345" width="63" height="122" draggable="true" on-drop="localRed" on-zone="replaceRed" on-trigger="replaceRed">
+                <replaceRed img="skill_icons3.png" x="392" y="370" width="35" height="35"/>
+            </agent>
+            <agent img="Actor4.png" x="230" y="200" width="44" height="72"/>
+            <agent img="scrollOpen.png" x="230" y="300" width="34" height="28" on-touch="isOpen">
+            </agent>
+        </page>
+        <page background="hills&trees.png" soundtrack="song2.wav">
+            <agent img="hills&trees 2.png" x="0" y="100" width="1920" height="400"/>
+            <agent img="256_Path Dirt Vertical 02.png" x="135" y="0" width="256" height="256"/>
+            <agent img="256_Path Dirt Junction 01.png" x="125" y="256" width="256" height="256"/>
+            <agent img="256_Path Dirt Horizontal 01.png" x="380" y="240" width="256" height="256"/>
+            <agent img="256_Path Dirt Horizontal 01.png" x="-130" y="240" width="256" height="256"/>
+            <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120" on-trigger="isOpen">
+            </agent>
+            <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="next">
+            </agent>
+            <agent text="Poderes misteriosos surgiram ao mover as torres corretamente. Devo pega-los." font-size="12" x="100" y="40" width="340" height="20" on-trigger="next">
+                <next text="Agora posso seguir por um dos caminhos disponiveis."/>
+            </agent>
+            <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="isOpen">
+                <isOpen img="basicscroll.png" y="50"/>
+            </agent>
+            <agent img="256_Tiles Pattern 06 Red.png" x="70" y="340" width="80" height="80">
+            </agent>
+            <agent img="256_Tiles Pattern 06 Red.png" x="170" y="340" width="80" height="80">
+            </agent>
+            <agent img="256_Tiles Pattern 06 Red.png" x="270" y="340" width="80" height="80">
+            </agent>
+            <agent img="256_Tiles Pattern 06 Red.png" x="370" y="340" width="80" height="80">
+            </agent>
+            <agent img="skill_icons3.png" x="92" y="370" width="35" height="35" on-touch="addSkill">
+                <addSkill x="122" y="80" width="30" height="30"/>
+            </agent>
+            <agent img="skill_icons47.png" x="190" y="370" width="35" height="35" on-touch="addSkill">
+                <addSkill x="90" y="80" width="30" height="30"/>
+            </agent>
+            <agent img="skill_icons22.png" x="292" y="370" width="35" height="35" on-touch="addSkill">
+                <addSkill x="186" y="80" width="30" height="30"/>
+            </agent>
+            <agent img="skill_icons16.png" x="392" y="370" width="35" height="35" on-touch="addSkill">
+                <addSkill x="154" y="80" width="30" height="30"/>
+            </agent>
+            <agent text="SKILLs:" x="40" y="-80" color="white" on-trigger="addSkill">
+                <addSkill y="80"/>
+            </agent>
+            <agent img="arrow right.png" x="-460" y="360" width="27" height="27" on-trigger="next">
+                <next x="460" on-touch="_NEXT_PAGE"/>
+            </agent>
+            <agent img="arrow - left.png" x="-100" y="360" width="27" height="27" on-trigger="next">
+                <next x="10" on-touch="_NEXT_PAGE"/>
+            </agent>
+            <agent img="Actor4.png" x="230" y="200" width="44" height="72"/>
+        </page>
+        <page background="256_Water Shallow 01.png" soundtrack="song.wav">
+            <agent img="4.png" x="0" y="80" width="500" height="420"/>
+            <agent img="3.png" x="0" y="80" width="500" height="420"/>
+            <agent img="1.png" x="0" y="80" width="500" height="420"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" width="100" height="80"/>
+            <agent img="bones.png" x="80" y="-20" width="350" height="220"/>
+            <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="">
+            </agent>
+            <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
+                <story x="-420"/>
+            </agent>
+            <agent text="Rrrraaaahhhhh!!!!" font-size="16" color="red" x="110" y="430" width="340" height="20" on-trigger="story">
+                <story y="-500"/>
+            </agent>
+            <agent text="Droga! Se eu soubece que era hora do jantar tinha trago algo alem de deliciosos biscoitos. Você não tem cara de quem gosta de biscoitos." font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
+                <story y="430"/>
+            </agent>
+            <agent img="skill_icons47.png" x="86" y="460" width="35" height="35"/>
+            <agent img="skill_icons3.png" x="122" y="460" width="35" height="35"/>
+            <agent img="skill_icons16.png" x="158" y="460" width="35" height="35"/>
+            <agent img="skill_icons22.png" x="194" y="460" width="35" height="35"/>
+            <agent text="SKILLs:" x="40" y="460" color="white"/>
+            <agent img="CerberusFace.png" x="50" y="405" width="50" height="50" on-trigger="story">
+                <story img="ActorFace.png" width="40" height="40"/>
+            </agent>
+            <agent img="Cerberus.png" x="10" y="0" width="130" height="210"/>
+            <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
+            <agent img="scroll_01a.png" x="380" y="20" width="30" height="30" on-touch="_NEXT_PAGE"></agent>
+        </page>
+        <page background="256_Water Shallow 01.png" soundtrack="song.wav">
+            <agent img="4.png" x="0" y="80" width="500" height="420"/>
+            <agent img="3.png" x="0" y="80" width="500" height="420"/>
+            <agent img="1.png" x="0" y="80" width="500" height="420"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" width="100" height="80"/>
+            <agent img="bones.png" x="80" y="-20" width="350" height="220"/>
+            <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="">
+            </agent>
+            <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
+                <story x="-420"/>
+            </agent>
+            <agent text="Ataque na ordem correta..." font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
+                <story y="-500"/>
+            </agent>
+            <agent text="Qual será a ordem dos ataques?" font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
+                <story y="430"/>
+            </agent>
+            <agent img="Cerberus.png" x="10" y="0" width="130" height="210">
+            </agent>
+            <agent img="skill_icons47.png" x="86" y="460" width="35" height="35" on-touch="_GOTO_PAGE:34">
+            </agent>
+            <agent img="skill_icons3.png" x="122" y="460" width="35" height="35" draggable="true" on-touch="_NEXT_PAGE">
+            </agent>
+            <agent img="skill_icons22.png" x="158" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:34"/>
+            <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:34"/>
+            <agent text="SKILLs:" x="40" y="460" color="white"/>
+            <agent img="basicscroll.png" x="50" y="405" width="40" height="40" on-trigger="story">
+                <story img="ActorFace.png" width="40" height="40"/>
+            </agent>
+            <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
+            <agent img="scrollOpen.png" x="380" y="20" width="30" height="30"></agent>
+        </page>
+        <page background="256_Water Shallow 01.png" soundtrack="song.wav">
+            <agent img="4.png" x="0" y="80" width="500" height="420"/>
+            <agent img="3.png" x="0" y="80" width="500" height="420"/>
+            <agent img="1.png" x="0" y="80" width="500" height="420"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" width="100" height="80"/>
+            <agent img="bones.png" x="80" y="-20" width="350" height="220"/>
+            <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="">
+            </agent>
+            <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
+                <story x="-420"/>
+            </agent>
+            <agent text="Ataque de fogo!" font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
+                <story text="Parece que esse primeiro ataque esta surtindo efeito. Qual qual proxima magia devo usar agora?"/>
+            </agent>
+            <agent img="Cerberus.png" x="10" y="0" width="130" height="210">
+            </agent>
+            <agent img="Fire2.png" x="10" y="0" width="130" height="250"/>
+            <agent img="skill_icons47.png" x="86" y="460" width="35" height="35" draggable="true" on-touch="_NEXT_PAGE">
+            </agent>
+            <agent img="skill_icons22.png" x="158" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:34"/>
+            <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:34"/>
+            <agent text="SKILLs:" x="40" y="460" color="white"/>
+            <agent img="ActorFace.png" x="50" y="405" width="40" height="40">
+            </agent>
+            <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
+        </page>
+        <page background="256_Water Shallow 01.png" soundtrack="song.wav">
+            <agent img="4.png" x="0" y="80" width="500" height="420"/>
+            <agent img="3.png" x="0" y="80" width="500" height="420"/>
+            <agent img="1.png" x="0" y="80" width="500" height="420"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" width="100" height="80"/>
+            <agent img="bones.png" x="80" y="-20" width="350" height="220"/>
+            <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="">
+            </agent>
+            <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
+                <story on-touch="_NEXT_PAGE"/>
+            </agent>
+            <agent text="Vortex de água!" font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
+                <story text="Mais um ataque surtiu efeito, sera que ele cai dessa vez?"/>
+            </agent>
+            <agent img="Cerberus.png" x="10" y="0" width="130" height="210">
+            </agent>
+            <agent img="Explosion_blue_oval6.png" x="-40" y="-120" width="250" height="350"/>
+            <agent img="skill_icons16.png" x="158" y="460" width="35" height="35"/>
+            <agent img="skill_icons22.png" x="194" y="460" width="35" height="35"/>
+            <agent text="SKILLs:" x="40" y="460" color="white"/>
+            <agent img="ActorFace.png" x="50" y="405" width="40" height="40">
+            </agent>
+            <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
+        </page>
+        <page background="256_Water Shallow 01.png" soundtrack="song.wav">
+            <agent img="4.png" x="0" y="80" width="500" height="420"/>
+            <agent img="3.png" x="0" y="80" width="500" height="420"/>
+            <agent img="1.png" x="0" y="80" width="500" height="420"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" width="100" height="80"/>
+            <agent img="bones.png" x="80" y="-20" width="350" height="220"/>
+            <agent img="Lightning_beginning4.png" x="200" y="10" width="64" height="493"/>
+            <agent img="Lightning_beginning4.png" x="300" y="30" width="64" height="493"/>
+            <agent img="Lightning_beginning4.png" x="350" y="30" width="64" height="493"/>
+            <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="">
+            </agent>
+            <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
+                <story x="-420"/>
+            </agent>
+            <agent text="Rrrraaaahhhhh!!!!" font-size="16" color="red" x="110" y="430" width="340" height="20" on-trigger="story">
+                <story y="-500"/>
+            </agent>
+            <agent text="Droga! Esse ataque não parece nada bom. Tenho que me defender de alguma forma!" font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
+                <story y="430"/>
+            </agent>
+            <agent img="Cerberus.png" x="10" y="0" width="130" height="210">
+            </agent>
+            <agent img="Explosion_two_colors7.png" x="-150" y="-120" width="450" height="450"/>
+            <agent img="skill_icons16.png" x="158" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:34"/>
+            <agent img="skill_icons22.png" x="194" y="460" width="35" height="35" draggable="true" on-touch="_NEXT_PAGE"/>
+            <agent text="SKILLs:" x="40" y="460" color="white"/>
+            <agent img="CerberusFace.png" x="50" y="405" width="50" height="50" on-trigger="story">
+                <story img="ActorFace.png" width="40" height="40"/>
+            </agent>
+            <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
+        </page>
+        <page background="256_Water Shallow 01.png" soundtrack="song.wav">
+            <agent img="4.png" x="0" y="80" width="500" height="420"/>
+            <agent img="3.png" x="0" y="80" width="500" height="420"/>
+            <agent img="1.png" x="0" y="80" width="500" height="420"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" width="100" height="80"/>
+            <agent img="bones.png" x="80" y="-20" width="350" height="220"/>
+            <agent img="Lightning_beginning4.png" x="410" y="90" width="64" height="493" on-trigger="story">
+                <story x="-500"/>
+            </agent>
+            <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="">
+            </agent>
+            <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
+                <story on-touch="_NEXT_PAGE"/>
+            </agent>
+            <agent text="A barreira esta aguentando o ataque." font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
+                <story y="-500"/>
+            </agent>
+            <agent text="Um ultimo ataque mortal! Se esta for minha última batalha, que seja lembrada como uma luta digna. " font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
+                <story y="430"/>
+            </agent>
+            <agent img="Cerberus.png" x="10" y="0" width="130" height="210" on-trigger="story">
+                <story img="CerberusDamage1.png"/>
+            </agent>
+            <agent img="skill_icons16.png" x="158" y="460" width="35" height="35"/>
+            <agent text="SKILLs:" x="40" y="460" color="white"/>
+            <agent img="ActorFace.png" x="50" y="405" width="40" height="40" on-trigger="story">
+            </agent>
+            <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
+            <agent img="Explosion_blue_oval8.png" x="340" y="-70" width="200" height="250" on-trigger="story">
+                <story y="500"/>
+            </agent>
+            <agent img="Explosion_two_colors5.png" x="500" y="-100" width="300" height="350" on-trigger="story">
+                <story x="200"/>
+            </agent>
+        </page>
+        <page background="256_Water Shallow 01.png" soundtrack="song4.wav">
+            <agent img="4.png" x="0" y="80" width="500" height="420"/>
+            <agent img="3.png" x="0" y="80" width="500" height="420"/>
+            <agent img="1.png" x="0" y="80" width="500" height="420"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" width="100" height="80"/>
+            <agent img="bones.png" x="80" y="-20" width="350" height="220"/>
+            <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="useSkill">
+                <useSkill y="338" width="490" height="150"/>
+            </agent>
+            <agent img="arrow_example.png" x="420" y="-400" width="40" height="40" on-trigger="useSkill">
+                <useSkill y="400" on-touch="_NEXT_PAGE"/>
+            </agent>
+            <agent text="...................." font-size="12" x="110" y="430" width="340" height="20" on-trigger="useSkill">
+                <useSkill text="(respira aliviado) Uau, pensei que minha saga tinha chegado no capítulo final! Parece que os deuses decidiram que ainda tenho algumas páginas para virar nesta história. Um conselho para o destino: da próxima vez, capricha mais na pontaria!"/>
+            </agent>
+            <agent img="skill_icons16.png" x="158" y="460" width="35" height="35" on-touch="useSkill">
+                <useSkill y="500"/>
+            </agent>
+            <agent text="SKILLs:" x="40" y="460" color="white"/>
+            <agent img="ActorDamageFace.png" x="50" y="405" width="40" height="40" on-trigger="useSkill">
+                <useSkill img="ActorFace.png"/>
+            </agent>
+            <agent img="Smoke3.png" x="10" y="30" width="130" height="210">
+            </agent>
+            <agent img="ActorDamage1.png" x="430" y="30" width="52" height="30" on-trigger="useSkill">
+                <useSkill img="Actor3.png" width="30" height="52"/>
+            </agent>
+        </page>
+        <page background="256_Water Shallow 01.png" soundtrack="song4.wav">
+            <agent img="4.png" x="0" y="80" width="500" height="420"/>
+            <agent img="3.png" x="0" y="80" width="500" height="420"/>
+            <agent img="1.png" x="0" y="80" width="500" height="420"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" width="100" height="80"/>
+            <agent img="bones.png" x="80" y="-20" width="350" height="220"/>
+            <agent img="panel_Example3.png" x="8" y="360" width="490" height="120">
+            </agent>
+            <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
+                <story img="arrow - left.png" x="10" y="30" width="27" height="27" on-touch="_NEXT_PAGE"/>
+            </agent>
+            <agent text="Chaves misteriosas, símbolos baus de tesouros ainda não abertas. Que segredos escondidos vocês guardam, queridas chaves?" font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
+                <story text="Vamos ver quais novos mistérios aguardam do outro lado. "/>
+            </agent>
+            <agent text="SKILLs:" x="40" y="460" color="white" on-trigger="savekey">
+                <savekey text="ITEMs:"/>
+            </agent>
+            <agent img="ActorFace.png" x="50" y="405" width="40" height="40" on-trigger="useSkill">
+                <useSkill/>
+            </agent>
+            <agent img="key_01d.png" x="10" y="30" width="35" height="35" on-touch="savekey">
+                <savekey x="122" y="460"/>
+            </agent>
+            <agent img="key_01e.png" x="40" y="30" width="35" height="35" on-touch="savekey">
+                <savekey x="86" y="460"/>
+            </agent>
+            <agent img="Actor3.png" x="430" y="30" width="30" height="52">
+            </agent>
+        </page>
+        <page background="256_Water Shallow 01.png" soundtrack="song4.wav">
+            <agent img="4.png" x="0" y="80" width="500" height="420"/>
+            <agent img="3.png" x="0" y="80" width="500" height="420"/>
+            <agent img="1.png" x="0" y="80" width="500" height="420"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" width="100" height="80"/>
+            <agent img="bones.png" x="80" y="-20" width="350" height="220"/>
+            <agent img="panel_Example3.png" x="8" y="360" width="490" height="120">
+            </agent>
+            <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
+                <story y="-460"/>
+            </agent>
+            <agent text="Ah, maravilhosos cofres da riqueza! Que segredos e fortunas ocultas aguardam dentro desses baús misteriosos?" font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
+                <story text="Chegou o momento de descobrir quais tesouros a sorte e a bravura reservaram para mim."/>
+            </agent>
+            <agent text="ITEMs:" x="40" y="460" color="white" on-trigger="savekey">
+                <savekey/>
+            </agent>
+            <agent img="ActorFace.png" x="50" y="405" width="40" height="40">
+            </agent>
+            <agent img="key_01d.png" x="122" y="460" width="35" height="35" on-touch="usekeyGold">
+                <usekeyGold y="-460"/>
+            </agent>
+            <agent img="key_01e.png" x="86" y="460" width="35" height="35" on-touch="usekeySilver">
+                <usekeySilver y="-460"/>
+            </agent>
+            <agent img="Chests2 (1).png" x="150" y="60" width="48" height="40" on-trigger="usekeySilver">
+                <usekeySilver img="Chests2Open (1).png" on-touch="_NEXT_PAGE"/>
+            </agent>
+            <agent img="Chests3 (1).png" x="150" y="10" width="48" height="40" on-trigger="usekeyGold">
+                <usekeyGold img="Chests3Open (1).png" on-touch="_NEXT_PAGE"/>
+            </agent>
+            <agent img="Actor3.png" x="430" y="30" width="30" height="52">
+            </agent>
+        </page>
+        <page background="256_Water Shallow 01.png" soundtrack="song4.wav">
+            <agent img="4.png" x="0" y="80" width="500" height="420"/>
+            <agent img="3.png" x="0" y="80" width="500" height="420"/>
+            <agent img="1.png" x="0" y="80" width="500" height="420"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" width="100" height="80"/>
+            <agent img="bones.png" x="80" y="-20" width="350" height="220"/>
+            <agent img="panel_Example3.png" x="8" y="350" width="490" height="138">
+            </agent>
+            <agent img="arrow_example.png" x="420" y="-400" width="40" height="40" on-trigger="dropWeapons">
+                <dropWeapons y="400" on-touch="story"/>
+                <story img="arrow - left.png" x="20" y="30" on-touch="_NEXT_PAGE"/>
+            </agent>
+            <agent text="Ah, maravilhosos cofres da riqueza! Que segredos e fortunas ocultas aguardam dentro desses baús misteriosos?" font-size="12" x="110" y="430" width="340" height="20" on-trigger="dropTreasure">
+                <dropTreasure text="Após explorar os recantos escuros desta dungeon e reunir os frutos da minha coragem, sinto que é o momento de voltar à luz do dia. As riquezas encontradas e as batalhas superadas são troféus que carregarei comigo."/>
+            </agent>
+            <agent text="ITEMs:" x="40" y="460" color="white" on-trigger="savekey">
+                <savekey/>
+            </agent>
+            <agent img="ActorFace.png" x="50" y="405" width="40" height="40">
+            </agent>
+            <agent img="gold.png" x="190" y="-500" width="35" height="35" on-trigger="dropTreasure">
+                <dropTreasure y="5" on-touch="saveItem"/>
+                <saveItem x="86" y="460"/>
+            </agent>
+            <agent img="ring.png" x="150" y="-460" width="35" height="35" on-trigger="dropTreasure">
+                <dropTreasure y="5" on-touch="saveItem"/>
+                <saveItem x="120" y="460"/>
+            </agent>
+            <agent img="coin.png" x="120" y="-460" width="35" height="35" on-trigger="dropTreasure">
+                <dropTreasure y="5" on-touch="saveItem"/>
+                <saveItem x="150" y="460"/>
+            </agent>
+            <agent img="moneypouch.png" x="80" y="-460" width="35" height="35" on-trigger="dropTreasure">
+                <dropTreasure y="5" on-touch="saveItem"/>
+                <saveItem x="190" y="460"/>
+            </agent>
+            <agent img="sword.png" x="150" y="-460" width="35" height="35" on-trigger="dropWeapons">
+                <dropWeapons y="60" on-touch="saveItem"/>
+                <saveItem x="230" y="460"/>
+            </agent>
+            <agent img="saber.png" x="200" y="-460" width="35" height="35" on-trigger="dropWeapons">
+                <dropWeapons y="60" on-touch="saveItem"/>
+                <saveItem x="260" y="460"/>
+            </agent>
+            <agent img="Chests2Open (1).png" x="150" y="60" width="48" height="40" on-touch="dropWeapons">
+                <dropWeapons y="500"/>
+            </agent>
+            <agent img="Chests3Open (1).png" x="150" y="10" width="48" height="40" on-touch="dropTreasure">
+                <dropTreasure y="500"/>
+            </agent>
+            <agent img="Actor3.png" x="230" y="30" width="30" height="52">
+            </agent>
+        </page>
+        <page background="dungeon background 12.png" soundtrack="song.wav">
+            <agent text="AVENTURA CONCLUIDA!" font-size="42" x="2.7" y="218" color=""/>
+            <agent text="AVENTURA CONCLUIDA!" font-size="40" x="10" y="225" color="yellow"/>
+            <agent text="RESTART" font-size="20" x="200" y="200" color="white" on-touch="_GOTO_PAGE:1"/>
+        </page>
+        <page background="256_Water Shallow 01.png" soundtrack="song.wav">
+            <agent img="4.png" x="0" y="80" width="500" height="420"/>
+            <agent img="3.png" x="0" y="80" width="500" height="420"/>
+            <agent img="1.png" x="0" y="80" width="500" height="420"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" width="80" height="80"/>
+            <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" width="100" height="80"/>
+            <agent img="bones.png" x="80" y="-20" width="350" height="220"/>
+            <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="">
+            </agent>
+            <agent text="Rrrraaaahhhhh!!!!" font-size="16" color="red" x="110" y="430" width="340" height="20" on-trigger="story">
+                <story y="-500"/>
+            </agent>
+            <agent img="CerberusFace.png" x="50" y="405" width="50" height="50" on-trigger="story"></agent>
+            <agent img="Cerberus.png" x="10" y="0" width="130" height="210"/>
+            <agent img="ActorDamage1.png" x="430" y="30" width="52" height="30"/>
+            <agent img="telagameover.png" x="0" y="0" width="500" height="500"/>
+            <agent text="GAME OVER" font-size="60" x="70" y="225" color="red" width="0" height="50"/>
+            <agent text="RESTART" font-size="18" x="200" y="150" color="white" width="0" height="50" on-touch="_GOTO_PAGE:24"/>
+        </page>
+        <page background="background4.png" soundtrack="song4.wav">
+            <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+            </agent>
+            <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
+                <story on-touch="_GOTO_PAGE:7"/>
+            </agent>
+            <agent text="Caro aventureiro, diante de você está um quebra-cabeça intrigante, uma composição de peças que, quando unidas, revelarão uma imagem crucial para desvendar o poema. " font-size="12" x="100" y="50" width="340" height="20">
+            </agent>
+            <agent img="masterFace.png" x="50" y="20" width="40" height="40"/>
+            <agent img="foice1.png" x="63" y="50" width="63" height="27" draggable="true"/>
+            <agent img="foice2.png" x="83" y="100" width="62" height="52" draggable="true"/>
+            <agent img="foice3.png" x="30" y="200" width="87" height="50" draggable="true"/>
+            <agent img="foice4.png" x="350" y="450" width="71" height="44" draggable="true"/>
+            <agent img="foice5.png" x="350" y="350" width="30" height="43" draggable="true"/>
+            <agent img="foice6.png" x="470" y="230" width="72" height="67" draggable="true"/>
+            <agent img="foice7.png" x="470" y="50" width="34" height="66" draggable="true"/>
+            <agent img="foice8.png" x="280" y="280" width="154" height="147" draggable="true"/>
+            <agent img="foice9.png" x="380" y="420" width="70" height="72" draggable="true"/>
+            <agent img="foice10.png" x="310" y="5" width="71" height="67" draggable="true"/>
+            <agent img="foice11.png" x="5" y="310" width="69" height="158" draggable="true"/>
+            <agent img="foice12.png" x="400" y="400" width="50" height="91" draggable="true"/>
+            <agent img="foice13.png" x="40" y="100" width="71" height="57" draggable="true"/>
+        </page>
+    </page>
 </fable>
