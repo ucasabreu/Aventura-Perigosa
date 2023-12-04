@@ -24,6 +24,61 @@
      <agent img="bones.png" x="80" y="-20" 
         width="350" height="220"/>
 
+     <agent img="Lightning_beginning4.png" x="400" y="30" width="64" height="493"/>
+    
+    <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="">
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
+        <story x="-420"/>
+    </agent>
+
+    <agent text="Rrrraaaahhhhh!!!!" font-size="16" color="red" x="110" y="430" width="340" height="20" on-trigger="story">
+        <story y="-500"/>
+    </agent>
+    <agent text="Droga! Esse ataque não parece nada bom. Tenho que me defender de alguma forma!" font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
+        <story y="430"/>
+    </agent>
+    
+    <agent img="Cerberus.png" x="10" y="0" width="130" height="210">
+    </agent>
+    <agent img="Explosion_two_colors7.png" x="-150" y="-120" width="450" height="450"/>
+    
+    <agent img="skill_icons22.png" x="158" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:1"/>
+    <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:4"/>
+    
+    <agent text="SKILLs:" x="40" y="460" color="white"/>
+    <agent img="CerberusFace.png" x="50" y="405" width="50" height="50" on-trigger="story">
+        <story img="ActorFace.png" width="40" height="40"/>
+    </agent> 
+   
+    <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
+    
+</page>     
+<page background="256_Water Shallow 01.png">
+
+    <agent img="4.png" x="0" y="80" 
+        width="500" height="420"/>
+    <agent img="3.png" x="0" y="80" 
+        width="500" height="420"/>
+    <agent img="1.png" x="0" y="80" 
+        width="500" height="420"/>
+    
+    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" 
+        width="100" height="80"/>
+     <agent img="bones.png" x="80" y="-20" 
+        width="350" height="220"/>
+
       <agent img="Lightning_beginning4.png" x="200" y="10" width="64" height="493"/>
      <agent img="Lightning_beginning4.png" x="300" y="30" width="64" height="493"/>
      <agent img="Lightning_beginning4.png" x="350" y="30" width="64" height="493"/>
