@@ -32,7 +32,7 @@
         <useSkill y="400" on-touch="_NEXT_PAGE"/>
     </agent>
 
-    <agent text="...................." font-size="12" x="110" y="430" width="340" height="20" on-trigger="useSkill">
+    <agent text="Chaves misteriosas, símbolos baus de tesouros ainda não abertas. Que segredos escondidos vocês guardam, queridas chaves?" font-size="12" x="110" y="430" width="340" height="20" on-trigger="useSkill">
         <useSkill text="(respira aliviado) Uau, pensei que minha saga tinha chegado no capítulo final! Parece que os deuses decidiram que ainda tenho algumas páginas para virar nesta história. Um conselho para o destino: da próxima vez, capricha mais na pontaria!"/>
     </agent>
         
