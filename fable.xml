@@ -32,7 +32,7 @@
     </agent>
 
     <agent text="Rrrraaaahhhhh!!!!" font-size="16" color="red" x="110" y="430" width="340" height="20" on-trigger="story">
-        <story text="Droga! Se eu soubece que era hora do jantar tinha trago algo alem de deliciosos biscoitos. Você não tem cara que com"/>
+        <story text="Droga! Se eu soubece que era hora do jantar tinha trago algo alem de deliciosos biscoitos. Você não tem cara de quem gosta de biscoitos." font-size="12" colot="black"/>
     </agent>
 
     <agent img="skill_icons3.png" x="86" y="460" width="35" height="35"/>
