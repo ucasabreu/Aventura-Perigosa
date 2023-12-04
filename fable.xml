@@ -44,7 +44,7 @@
     </agent>
 
     <agent img="skill_icons3.png" x="86" y="460" width="35" height="35" draggable="true" on-drop="attackRed" on-trigger="attackBlue">
-        <attackBlue drgon-touch="_NEXT_PAGE"/>
+        <attackBlue draggable="false" />
     </agent>
     <agent img="skill_icons47.png" x="122" y="460" width="35" height="35" draggable="true" on-drop="attackBlue" on-zone="error" on-trigger="error">
         <error y="-460"/>
