@@ -2,6 +2,9 @@
     
 <page background="256_Water Shallow 01.png">
 
+    
+    <agent img="bones.png" x="0" y="0" 
+        width="500" height="320"/>
     <agent img="bones.png" x="0" y="0" 
         width="500" height="320"/>
     <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" 
