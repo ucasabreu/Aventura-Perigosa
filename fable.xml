@@ -45,17 +45,66 @@
         <useSkill img="ActorFace.png"/>
     </agent> 
    
-    <agent img="Smoke3.png" x="10" y="30" width="130" height="210" on-trigger="useSkills">
-        <useSkills
+    <agent img="Smoke3.png" x="10" y="30" width="130" height="210">
     </agent>   
     <agent img="ActorDamage1.png" x="430" y="30" width="52" height="30" 
     on-trigger="useSkill">
         <useSkill img="Actor3.png" width="30" height="52"/>        
     </agent>
+    
+</page>
+    
+<page background="256_Water Shallow 01.png">
 
+    <agent img="4.png" x="0" y="80" 
+        width="500" height="420"/>
+    <agent img="3.png" x="0" y="80" 
+        width="500" height="420"/>
+    <agent img="1.png" x="0" y="80" 
+        width="500" height="420"/>
     
+    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" 
+        width="100" height="80"/>
+     <agent img="bones.png" x="80" y="-20" 
+        width="350" height="220"/>
+    
+    <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="useSkill">
+        <useSkill y="338" width="490" height="150"/>
+    </agent>
+
+     <agent img="arrow_example.png" x="420" y="-400" width="40" height="40" on-trigger="useSkill">
+        <useSkill y="400" on-touch="_NEXT_PAGE"/>
+    </agent>
+
+    <agent text="...................." font-size="12" x="110" y="430" width="340" height="20" on-trigger="useSkill">
+        <useSkill text="(respira aliviado) Uau, pensei que minha saga tinha chegado no capítulo final! Parece que os deuses decidiram que ainda tenho algumas páginas para virar nesta história. Um conselho para o destino: da próxima vez, capricha mais na pontaria!"/>
+    </agent>
+        
+ <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" on-touch="useSkill">
+     <useSkill y="500"/>
+ </agent>
+    
+    <agent text="SKILLs:" x="40" y="460" color="white"/>
+    <agent img="ActorDamageFace.png" x="50" y="405" width="40" height="40" on-trigger="useSkill">
+        <useSkill img="ActorFace.png"/>
+    </agent> 
    
-    
+    <agent img="Smoke3.png" x="10" y="30" width="130" height="210">
+    </agent>   
+    <agent img="ActorDamage1.png" x="430" y="30" width="52" height="30" 
+    on-trigger="useSkill">
+        <useSkill img="Actor3.png" width="30" height="52"/>        
+    </agent>
     
 </page>
     
