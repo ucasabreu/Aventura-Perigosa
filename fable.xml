@@ -39,7 +39,7 @@
     <agent text="A barreira esta aguentando o ataque." font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
         <story y="-500"/>
     </agent>
-    <agent text="Um ultimo ataque com " font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
+    <agent text="Um ultimo ataque mortal! Se esta for minha última batalha, que seja lembrada como uma luta digna. " font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
         <story y="430"/>
     </agent>
     
