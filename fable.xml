@@ -28,7 +28,7 @@
     </agent>
 
      <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
-        <useSkill img="arrow - left.png" y="400"  on-touch="_NEXT_PAGE"/>
+        <story img="arrow - left.png"x="10" y="30" width="27" height="27"  on-touch="_NEXT_PAGE"/>
     </agent>
 
     <agent text="Chaves misteriosas, símbolos baus de tesouros ainda não abertas. Que segredos escondidos vocês guardam, queridas chaves?" font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
