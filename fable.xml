@@ -39,12 +39,12 @@
     <agent text="A barreira esta aguentando o ataque." font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
         <story y="-500"/>
     </agent>
-    <agent text="Preciso ficar atento, parace que ele vai tentar algo perigoso!" font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
+    <agent text="Tenho que me pr, parace que ele vai tentar algo perigoso!" font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
         <story y="430"/>
     </agent>
     
     <agent img="Cerberus.png" x="10" y="0" width="130" height="210" on-trigger="story">
-        <story img="CerberusDamage1.png" x="200" />
+        <story img="CerberusDamage1.png" x="250" />
     </agent>
     
     <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:4"/>
