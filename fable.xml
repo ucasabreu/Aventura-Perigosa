@@ -27,8 +27,8 @@
     
    
    
-     <agent img="Cerberus.png" x="10" y="50" width="100" height="100"/>
-     <agent img="Actor3.png" x="430" y="50" width="44" height="72"/>
+     <agent img="Cerberus.png" x="10" y="0" width="214" height="225"/>
+     <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
 </page>
 
     
