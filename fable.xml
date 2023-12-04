@@ -37,9 +37,9 @@
         <story y="430"/>
     </agent>
 
-    <agent img="skill_icons3.png" x="86" y="460" width="35" height="35"/>
-    <agent img="skill_icons47.png" x="122" y="460" width="35" height="35"/>
-    <agent img="skill_icons22.png" x="158" y="460" width="35" height="35"/>
+    <agent img="skill_icons3.png" x="86" y="460" width="35" height="35" draggable="true"/>
+    <agent img="skill_icons47.png" x="122" y="460" width="35" height="35" draggable="true"/>
+    <agent img="skill_icons22.png" x="158" y="460" width="35" height="35" draggable="true"/>
     <agent img="skill_icons16.png" x="194" y="460" width="35" height="35"/>
     <agent text="SKILLs:" x="40" y="460" color="white"/>
     <agent img="basicscroll.png" x="50" y="405" width="40" height="40" on-trigger="story">
@@ -48,7 +48,7 @@
    
     <agent img="Cerberus.png" x="10" y="0" width="130" height="210"/>
     <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
-    <agent img="scrollOpen.png" x="380" y="20" width="30" height="30" ></agent>
+    <agent img="scrollOpen.png" x="380" y="20" width="30" height="30"></agent>
     
 </page> 
 <page background="256_Water Shallow 01.png">
