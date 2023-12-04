@@ -45,9 +45,9 @@
         <useSkill />
     </agent> 
    
-    <agent img="key_01d.png" x="10" y="30" width="35" height="35" on-touch="keyGold">
+    <agent img="key_01d.png" x="10" y="30" width="35" height="35" on-touch="savekey">
     </agent> 
-    <agent img="key_01e.png" x="40" y="30" width="35" height="35" on-touch>
+    <agent img="key_01e.png" x="40" y="30" width="35" height="35" on-touch="key">
     </agent> 
     <agent img="Actor3.png" x="430" y="30" width="30" height="52">        
     </agent>
