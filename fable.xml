@@ -41,8 +41,8 @@
     <agent img="ActorFace.png" x="50" y="405" width="40" height="40">
     </agent> 
    
-    <agent img="gold.png" x="122" y="-460" width="35" height="35" on-trigger="usekeyGold">
-        <usekeyGold y="-460"/>
+    <agent img="gold.png" x="122" y="-460" width="35" height="35" on-trigger="dropTreasure">
+        <dropTreasure x="150" y="5"/>
     </agent> 
     <agent img="key_01e.png" x="86" y="460" width="35" height="35" 
         on-touch="usekeySilver">
