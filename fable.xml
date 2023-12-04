@@ -38,14 +38,14 @@
     <agent text="ITEMs:" x="40" y="460" color="white" on-trigger="savekey">
         <savekey />
     </agent>
-    <agent img="ActorFace.png" x="50" y="405" width="40" height="40" on-trigger="useSkill">
+    <agent img="ActorFace.png" x="50" y="405" width="40" height="40">
     </agent> 
    
-    <agent img="key_01d.png" x="10" y="30" width="35" height="35" on-touch="savekey">
-        <savekey x="122" y="460"/>
+    <agent img="key_01d.png" x="122" y="460" width="35" height="35" on-touch="savekey">
+        <savekey />
     </agent> 
-    <agent img="key_01e.png" x="40" y="30" width="35" height="35" on-touch="savekey">
-        <savekey  x="86" y="460"/>
+    <agent img="key_01e.png" x="86" y="460" width="35" height="35" on-touch="savekey">
+        <savekey />
     </agent> 
     <agent img="Actor3.png" x="430" y="30" width="30" height="52">        
     </agent>
