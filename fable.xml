@@ -32,9 +32,7 @@
     <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
     </agent>
 
-    <agent img="arrow right.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE">
-        <story img="arrow right.png" x="450" y="85" on-touch="_NEXT_PAGE"/>
-    </agent>
+    <agent img="arrow right.png" x="450" y="85" width="40" height="40" on-touch="_NEXT_PAGE"></agent>
   
     <agent text="Aqui vou eu, pronto para deixar minha marca... e ver se você me reserva algo melhor do que um encontro desagradável com um troll mal-humorado!" font-size="12" x="95" y="48" width="340" height="20" on-trigger="story">
     </agent>
