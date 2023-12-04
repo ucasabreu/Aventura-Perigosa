@@ -254,7 +254,7 @@
     </agent>
 
     <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
-        <story on-touch="_GOTO_PAGE:5"/>
+        <story on-touch="_GOTO_PAGE:7"/>
     </agent>
   
     <agent text="Esse escolha te da uma dica sobre o que busca." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
@@ -311,27 +311,27 @@
     
     <agent img="Chests3.png" x="215" y="255" width="34" height="28" drop-zone="isOpen">
         <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
+        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
     </agent>
     
     <agent img="Chests3.png" x="215" y="298" width="34" height="28" drop-zone="isOpen">
         <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
+        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
     </agent>
     
     <agent img="Chests3.png" x="215" y="212" width="34" height="28" drop-zone="isOpen">
         <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="scroll_01a.png" on-touch="_GOTO_PAGE:10"/>
+        <item img="scroll_01a.png" on-touch="_GOTO_PAGE:12"/>
     </agent>
     
     <agent img="Chests3.png" x="215" y="341" width="34" height="28" drop-zone="isOpen">
         <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
+        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
     </agent>
     
     <agent img="Chests3.png" x="215" y="169" width="34" height="28" drop-zone="isOpen">
         <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
+        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
     </agent>
     
     <agent img="Chests3.png" x="285" y="255" width="34" height="28" drop-zone="isOpen">
