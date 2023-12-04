@@ -35,8 +35,11 @@
         <story x="-420"/>
     </agent>
 
-    <agent text="Rrrrrhhhhhaaaaaa!!" font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
-        <story text="Mais um ataque surtiu efeito, devo continuar usando magia."/>
+    <agent text="Rrrraaaahhhhh!!!!" font-size="16" color="red" x="110" y="430" width="340" height="20" on-trigger="story">
+        <story y="-500"/>
+    </agent>
+    <agent text="Droga! Se eu soubece que era hora do jantar tinha trago algo alem de deliciosos biscoitos. Você não tem cara de quem gosta de biscoitos." font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
+        <story y="430"/>
     </agent>
     
     <agent img="Cerberus.png" x="10" y="0" width="130" height="210">
@@ -48,7 +51,7 @@
     <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:4"/>
     
     <agent text="SKILLs:" x="40" y="460" color="white"/>
-    <agent img="ActorFace.png" x="50" y="405" width="40" height="40">
+    <agent img="CerberusFace.png" x="50" y="405" width="40" height="40">
     </agent> 
    
     <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
