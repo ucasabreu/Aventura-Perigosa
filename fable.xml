@@ -61,8 +61,8 @@
         <saveItem x="190" y="460"/>
     </agent>
 
-     <agent img="sword.png" x="80" y="-460" width="35" height="35" on-trigger="dropTreasure">
-        <dropTreasure y="60" on-touch="saveItem"/>
+     <agent img="sword.png" x="80" y="-460" width="35" height="35" on-trigger="dropWeapons">
+        <dropWeapons y="60" on-touch="saveItem"/>
         <saveItem x="220" y="460"/>
     </agent>
     
