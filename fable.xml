@@ -57,6 +57,9 @@
     <agent img="Explosion_blue_oval8.png" x="340" y="-70" width="200" height="250" on-trigger="story">
         <story y="500"/>
     </agent>
+     <agent img="Explosion_two_colors5.png" x="200" y="-70" width="200" height="250" on-trigger="story">
+        <story y="500"/>
+    </agent>
     
 </page>     
 <page background="256_Water Shallow 01.png">
