@@ -31,7 +31,8 @@
         <story on-touch="_NEXT_PAGE"/>
     </agent>
 
-    <agent text="Rrrraaaahhhhh!!!!" font-size="20" co x="110" y="430" width="340" height="20" on-trigger="isOpen">
+    <agent text="Rrrraaaahhhhh!!!!" font-size="16" color="red" x="110" y="430" width="340" height="20" on-trigger="story">
+        a<
     </agent>
 
     <agent img="skill_icons3.png" x="86" y="460" width="35" height="35"/>
