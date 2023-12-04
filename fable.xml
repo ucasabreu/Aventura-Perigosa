@@ -1432,7 +1432,7 @@
     
     <agent img="telagameover.png" x="0" y="0" width="500" height="500"/>
     <agent text="GAME OVER" font-size="60" x="70" y="225" color="red" width="0" height="50"/>
-    <agent text="RESTART" font-size="18" x="200" y="150" color="white" width="0" height="50" on-touch="_GOTO_PAGE:22"/>
+    <agent text="RESTART" font-size="18" x="200" y="150" color="white" width="0" height="50" on-touch="_GOTO_PAGE:24"/>
     
     
 </page>
