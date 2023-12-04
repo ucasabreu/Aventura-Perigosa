@@ -37,9 +37,9 @@
     <agent img="ActorDamage1.png" x="430" y="30" width="52" height="30"/>
 
     
-    </agent>
     <agent img="telagameover.png" x="0" y="0" width="500" height="500"/>
-    
+    <agent text="GAME OVER" font-size="90" x="130" y="325" color="red" width="10" height="20">
+    </agent>
     
     
 </page>
