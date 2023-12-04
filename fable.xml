@@ -39,7 +39,7 @@
 
     <agent img="Cerberus.png" x="10" y="0" width="130" height="210" drop-zone="attackRed" on-trigger-draggable="errorAttack">
         <attackRed img="CerberusDamage1" drop-zone="attackBlue"/>
-        <errorAttack on-t/>
+        <errorAttack on-trigger="_NEXT_PAGE"/>
         
     </agent>
 
