@@ -89,9 +89,6 @@
     <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="">
     </agent>
 
-    <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
-        <story x="-420"/>
-    </agent>
 
     <agent text="Rrrraaaahhhhh!!!!" font-size="16" color="red" x="110" y="430" width="340" height="20" on-trigger="story">
         <story y="-500"/>
@@ -106,7 +103,7 @@
     </agent> 
    
     <agent img="Cerberus.png" x="10" y="0" width="130" height="210"/>
-    <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
+    <agent img="ActorDamage1.png" x="430" y="30" width="52" height="30"/>
     
     
 </page>
