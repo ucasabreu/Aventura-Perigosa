@@ -2,152 +2,7 @@
 
 
     
-<page background="256_Water Shallow 01.png">
-
-    <agent img="4.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="3.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="1.png" x="0" y="80" 
-        width="500" height="420"/>
-    
-    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" 
-        width="100" height="80"/>
-     <agent img="bones.png" x="80" y="-20" 
-        width="350" height="220"/>
-    
-    <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" >
-    </agent>
-
-     <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
-        <story y="-460"/>
-    </agent>
-
-    <agent text="Ah, maravilhosos cofres da riqueza! Que segredos e fortunas ocultas aguardam dentro desses baús misteriosos?" font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
-        <story text="Chegou o momento de descobrir quais tesouros a sorte e a bravura reservaram para mim."/>
-    </agent>
-        
-    <agent text="ITEMs:" x="40" y="460" color="white" on-trigger="savekey">
-        <savekey />
-    </agent>
-    <agent img="ActorFace.png" x="50" y="405" width="40" height="40">
-    </agent> 
-   
-    <agent img="key_01d.png" x="122" y="460" width="35" height="35" on-touch="usekeyGold">
-        <usekeyGold y="-460"/>
-    </agent> 
-    <agent img="key_01e.png" x="86" y="460" width="35" height="35" 
-        on-touch="usekeySilver">
-        <usekeySilver y="-460" />
-    </agent> 
-    <agent img="Chests2 (1).png" x="150" y="60" width="48" height="40" 
-        on-trigger="usekeySilver">
-        <usekeySilver img="Chests2Open (1).png" on-touch="_NEXT_PAGE"/>
-        </agent>
-    <agent img="Chests3 (1).png" x="150" y="10" width="48" height="40"
-        on-trigger="usekeyGold">
-        <usekeyGold img="Chests3Open (1).png" on-touch="_NEXT_PAGE"/>
-        </agent>
-    
-    <agent img="Actor3.png" x="430" y="30" width="30" height="52">        
-    </agent>
-    
-</page>
-<page background="256_Water Shallow 01.png">
-
-    <agent img="4.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="3.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="1.png" x="0" y="80" 
-        width="500" height="420"/>
-    
-    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" 
-        width="80" height="80"/>
-    <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" 
-        width="100" height="80"/>
-     <agent img="bones.png" x="80" y="-20" 
-        width="350" height="220"/>
-    
-    <agent img="panel_Example3.png" x="8" y="350" width="490" height="138" >
-    </agent>
-
-     <agent img="arrow_example.png" x="420" y="-400" width="40" height="40" on-trigger="dropWeapons">
-        <dropWeapons y="400" on-touch="story"/>
-        <story img="arrow - left.png" x="20" y="30" on-touch="_NEXT_PAGE"/>
-    </agent>
-
-    <agent text="Ah, maravilhosos cofres da riqueza! Que segredos e fortunas ocultas aguardam dentro desses baús misteriosos?" font-size="12" x="110" y="430" width="340" height="20" on-trigger="dropTreasure">
-        <dropTreasure text="Após explorar os recantos escuros desta dungeon e reunir os frutos da minha coragem, sinto que é o momento de voltar à luz do dia. As riquezas encontradas e as batalhas superadas são troféus que carregarei comigo."/>
-    </agent>
-        
-    <agent text="ITEMs:" x="40" y="460" color="white" on-trigger="savekey">
-        <savekey />
-    </agent>
-    <agent img="ActorFace.png" x="50" y="405" width="40" height="40">
-    </agent> 
-   
-    <agent img="gold.png" x="190" y="-500" width="35" height="35" on-trigger="dropTreasure">
-        <dropTreasure y="5" on-touch="saveItem"/>
-        <saveItem x="86" y="460"/>
-    </agent> 
-
-     <agent img="ring.png" x="150" y="-460" width="35" height="35" on-trigger="dropTreasure">
-        <dropTreasure y="5" on-touch="saveItem"/>
-        <saveItem x="120" y="460"/>
-    </agent> 
-
-      <agent img="coin.png" x="120" y="-460" width="35" height="35" on-trigger="dropTreasure">
-        <dropTreasure y="5" on-touch="saveItem"/>
-        <saveItem x="150" y="460"/>
-    </agent>
-
-     <agent img="moneypouch.png" x="80" y="-460" width="35" height="35" on-trigger="dropTreasure">
-        <dropTreasure y="5" on-touch="saveItem"/>
-        <saveItem x="190" y="460"/>
-    </agent>
-
-     <agent img="sword.png" x="150" y="-460" width="35" height="35" on-trigger="dropWeapons">
-        <dropWeapons y="60" on-touch="saveItem"/>
-        <saveItem x="230" y="460"/>
-    </agent>
-
-     <agent img="saber.png" x="200" y="-460" width="35" height="35" on-trigger="dropWeapons">
-        <dropWeapons y="60" on-touch="saveItem"/>
-        <saveItem x="260" y="460"/>
-    </agent>
-    
-    <agent img="Chests2Open (1).png" x="150" y="60" width="48" height="40" 
-       on-touch="dropWeapons">
-        <dropWeapons  y="500"/>
-        </agent>
-    <agent img="Chests3Open (1).png" x="150" y="10" width="48" height="40"
-        on-touch="dropTreasure">
-        <dropTreasure  y="500"/>
-        </agent>
-    
-    <agent img="Actor3.png" x="230" y="30" width="30" height="52">        
-    </agent>
-    
-</page> 
+<page>
     
 <page background="256_Water Shallow 01.png">
 
@@ -584,7 +439,153 @@
     <agent img="Actor3.png" x="430" y="30" width="30" height="52">        
     </agent>
     
-</page> 
+</page>
+<page background="256_Water Shallow 01.png">
+
+    <agent img="4.png" x="0" y="80" 
+        width="500" height="420"/>
+    <agent img="3.png" x="0" y="80" 
+        width="500" height="420"/>
+    <agent img="1.png" x="0" y="80" 
+        width="500" height="420"/>
+    
+    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" 
+        width="100" height="80"/>
+     <agent img="bones.png" x="80" y="-20" 
+        width="350" height="220"/>
+    
+    <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" >
+    </agent>
+
+     <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
+        <story y="-460"/>
+    </agent>
+
+    <agent text="Ah, maravilhosos cofres da riqueza! Que segredos e fortunas ocultas aguardam dentro desses baús misteriosos?" font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
+        <story text="Chegou o momento de descobrir quais tesouros a sorte e a bravura reservaram para mim."/>
+    </agent>
+        
+    <agent text="ITEMs:" x="40" y="460" color="white" on-trigger="savekey">
+        <savekey />
+    </agent>
+    <agent img="ActorFace.png" x="50" y="405" width="40" height="40">
+    </agent> 
+   
+    <agent img="key_01d.png" x="122" y="460" width="35" height="35" on-touch="usekeyGold">
+        <usekeyGold y="-460"/>
+    </agent> 
+    <agent img="key_01e.png" x="86" y="460" width="35" height="35" 
+        on-touch="usekeySilver">
+        <usekeySilver y="-460" />
+    </agent> 
+    <agent img="Chests2 (1).png" x="150" y="60" width="48" height="40" 
+        on-trigger="usekeySilver">
+        <usekeySilver img="Chests2Open (1).png" on-touch="_NEXT_PAGE"/>
+        </agent>
+    <agent img="Chests3 (1).png" x="150" y="10" width="48" height="40"
+        on-trigger="usekeyGold">
+        <usekeyGold img="Chests3Open (1).png" on-touch="_NEXT_PAGE"/>
+        </agent>
+    
+    <agent img="Actor3.png" x="430" y="30" width="30" height="52">        
+    </agent>
+    
+</page>
+<page background="256_Water Shallow 01.png">
+
+    <agent img="4.png" x="0" y="80" 
+        width="500" height="420"/>
+    <agent img="3.png" x="0" y="80" 
+        width="500" height="420"/>
+    <agent img="1.png" x="0" y="80" 
+        width="500" height="420"/>
+    
+    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" 
+        width="100" height="80"/>
+     <agent img="bones.png" x="80" y="-20" 
+        width="350" height="220"/>
+    
+    <agent img="panel_Example3.png" x="8" y="350" width="490" height="138" >
+    </agent>
+
+     <agent img="arrow_example.png" x="420" y="-400" width="40" height="40" on-trigger="dropWeapons">
+        <dropWeapons y="400" on-touch="story"/>
+        <story img="arrow - left.png" x="20" y="30" on-touch="_NEXT_PAGE"/>
+    </agent>
+
+    <agent text="Ah, maravilhosos cofres da riqueza! Que segredos e fortunas ocultas aguardam dentro desses baús misteriosos?" font-size="12" x="110" y="430" width="340" height="20" on-trigger="dropTreasure">
+        <dropTreasure text="Após explorar os recantos escuros desta dungeon e reunir os frutos da minha coragem, sinto que é o momento de voltar à luz do dia. As riquezas encontradas e as batalhas superadas são troféus que carregarei comigo."/>
+    </agent>
+        
+    <agent text="ITEMs:" x="40" y="460" color="white" on-trigger="savekey">
+        <savekey />
+    </agent>
+    <agent img="ActorFace.png" x="50" y="405" width="40" height="40">
+    </agent> 
+   
+    <agent img="gold.png" x="190" y="-500" width="35" height="35" on-trigger="dropTreasure">
+        <dropTreasure y="5" on-touch="saveItem"/>
+        <saveItem x="86" y="460"/>
+    </agent> 
+
+     <agent img="ring.png" x="150" y="-460" width="35" height="35" on-trigger="dropTreasure">
+        <dropTreasure y="5" on-touch="saveItem"/>
+        <saveItem x="120" y="460"/>
+    </agent> 
+
+      <agent img="coin.png" x="120" y="-460" width="35" height="35" on-trigger="dropTreasure">
+        <dropTreasure y="5" on-touch="saveItem"/>
+        <saveItem x="150" y="460"/>
+    </agent>
+
+     <agent img="moneypouch.png" x="80" y="-460" width="35" height="35" on-trigger="dropTreasure">
+        <dropTreasure y="5" on-touch="saveItem"/>
+        <saveItem x="190" y="460"/>
+    </agent>
+
+     <agent img="sword.png" x="150" y="-460" width="35" height="35" on-trigger="dropWeapons">
+        <dropWeapons y="60" on-touch="saveItem"/>
+        <saveItem x="230" y="460"/>
+    </agent>
+
+     <agent img="saber.png" x="200" y="-460" width="35" height="35" on-trigger="dropWeapons">
+        <dropWeapons y="60" on-touch="saveItem"/>
+        <saveItem x="260" y="460"/>
+    </agent>
+    
+    <agent img="Chests2Open (1).png" x="150" y="60" width="48" height="40" 
+       on-touch="dropWeapons">
+        <dropWeapons  y="500"/>
+        </agent>
+    <agent img="Chests3Open (1).png" x="150" y="10" width="48" height="40"
+        on-touch="dropTreasure">
+        <dropTreasure  y="500"/>
+        </agent>
+    
+    <agent img="Actor3.png" x="230" y="30" width="30" height="52">        
+    </agent>
+    
+</page>
    
 <page background="256_Water Shallow 01.png">
 
