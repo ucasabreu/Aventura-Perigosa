@@ -32,10 +32,10 @@
     </agent>
 
     <agent text="Chaves misteriosas, símbolos baus de tesouros ainda não abertas. Que segredos escondidos vocês guardam, queridas chaves?" font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
-        <story text="Hora de ir para "/>
+        <story text="Vamos ver quais novos mistérios aguardam do outro lado. "/>
     </agent>
         
-    <agent text="SKILLs:" x="40" y="460" color="white"/>
+    <agent text="SKILLs:" x="40" y="460" color="white" on-trigger="save">
     <agent img="ActorFace.png" x="50" y="405" width="40" height="40" on-trigger="useSkill">
         <useSkill />
     </agent> 
