@@ -49,7 +49,7 @@
    
     <agent img="Cerberus.png" x="10" y="0" width="130" height="210" drop-zone="attackRed">
         <attackRed img="CerberusDamage1.png" drop-zone="attackBlue"/>
-        <attackBlue
+        <attackBlue img="Cerberus.png"/>
         
     </agent>
     <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
