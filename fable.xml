@@ -41,7 +41,7 @@
     <agent img="ActorDamageFace.png"Face.png" x="50" y="405" width="40" height="40" on-trigger="story">
     </agent> 
    
-    <agent img="Cerberus.png" x="10" y="0" width="130" height="210"/>
+    <agent img="Cerber.png" x="10" y="0" width="130" height="210"/>
     <agent img="ActorDamage1.png" x="430" y="30" width="52" height="30"/>
 
     
