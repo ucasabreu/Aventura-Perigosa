@@ -46,12 +46,12 @@
         <addSkill x="154" y="80" width="30" height="30"/>
     </agent>
     
-    <agent img="skill_icons16.png" x="392" y="370" width="35" height="35"
+    <agent img="skill_icons16.png" x="186" y="460" width="35" height="35"
         on-touch="addSkill">
         <addSkill x="186" y="80" width="30" height="30"/>       
     </agent>
 
-    <agent text="SKILLs:" x="40" y="-80" color="white" on-trigger="addSkill">
+    <agent text="SKILLs:" x="40" y="460" color="white" on-trigger="addSkill">
         <addSkill y="80"/>
     </agent>
    
