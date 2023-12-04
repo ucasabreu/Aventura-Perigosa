@@ -36,9 +36,10 @@
     <agent img="Cerberus.png" x="10" y="0" width="130" height="210"/>
     <agent img="ActorDamage1.png" x="430" y="30" width="52" height="30"/>
 
-    <agent text="GAME OVER" font-size="90" x="130" y="325" color="red" width="10" height="20" on-trigger="story">
-        <story y="430"/>
+    
     </agent>
+    <agent img="telagameover.png" x="0" y="0" width="500" height="500"/>
+    
     
     
 </page>
