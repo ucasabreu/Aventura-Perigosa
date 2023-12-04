@@ -44,7 +44,7 @@
    
     <agent img="Cerberus.png" x="10" y="0" width="130" height="210"/>
     <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
-    <agent img="scroll_01a.png" x="30" y="20" width="30" height="30"/>
+    <agent img="scroll_01a.png" x="380" y="20" width="30" height="30"/>
     
 </page>
 
