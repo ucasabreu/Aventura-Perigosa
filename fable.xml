@@ -106,7 +106,6 @@
         
     </agent>
 
-    
     <agent text="SKILLs:" x="40" y="460" color="white"/>
     <agent img="basicscroll.png" x="50" y="405" width="40" height="40" on-trigger="story">
         <story img="ActorFace.png" width="40" height="40"/>
