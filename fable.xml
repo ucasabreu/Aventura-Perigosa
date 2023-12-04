@@ -31,7 +31,7 @@
         <story on-touch="_NEXT_PAGE"/>
     </agent>
 
-    <agent text="Rrrraaaahhhhh!!!!" font-size="16" color="red" x="110" y="430" width="340" height="20" on-trigger="story">
+    <agent text="...................." font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
         <story y="-500"/>
     </agent>
         
