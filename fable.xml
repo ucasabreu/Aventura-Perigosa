@@ -38,7 +38,7 @@
     </agent>
 
     <agent img="skill_icons3.png" x="86" y="460" width="35" height="35" draggable="true" on-drop="attackRed" on-zone=""></agent>
-    <agent img="skill_icons47.png" x="122" y="460" width="35" height="35" draggable="true"/>
+    <agent img="skill_icons47.png" x="122" y="460" width="35" height="35" draggable="true" on-drop="attackBlue" on-zone=""></agent>
     <agent img="skill_icons22.png" x="158" y="460" width="35" height="35" draggable="true"/>
     <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" draggable="true"/>
     
@@ -49,6 +49,7 @@
    
     <agent img="Cerberus.png" x="10" y="0" width="130" height="210" drop-zone="attackRed">
         <attackRed img="CerberusDamage1.png" drop-zone="attackBlue"/>
+        <attackBlue
         
     </agent>
     <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
