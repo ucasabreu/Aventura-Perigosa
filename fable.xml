@@ -32,14 +32,14 @@
     </agent>
 
     <agent text="Vortex de água!" font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
-        <story text="Mais um ataque surtiu "/>
+        <story text="Mais um ataque surtiu efeito, devo continuar usando magia."/>
     </agent>
     
     
 
     <agent img="Cerberus.png" x="10" y="0" width="130" height="210">
     </agent>
-    <agent img="Fire2.png" x="10" y="0" width="130" height="250"/>
+    <agent img="Explosion_blue_oval6.png" x="10" y="0" width="250" height="350"/>
     
     <agent img="skill_icons22.png" x="158" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:3"/>
     <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:3"/>
