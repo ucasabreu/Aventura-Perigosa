@@ -1347,7 +1347,7 @@
     <agent text="AVENTURA CONCLUIDA!" font-size="40"  x="10" y="225" color="yellow"/>
     <agent text="RESTART" font-size="20"  x="200" y="200" color="white" on-touch="_GOTO_PAGE:1"/>
 </page>
-<page background="256_Water Shallow 01.png">
+<page background="256_Water Shallow 01.png"  soundtrack="song.wav">
 
     <agent img="4.png" x="0" y="80" 
         width="500" height="420"/>
