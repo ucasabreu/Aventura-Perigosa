@@ -58,7 +58,12 @@
 
      <agent img="moneypouch.png" x="80" y="-460" width="35" height="35" on-trigger="dropTreasure">
         <dropTreasure y="5" on-touch="saveItem"/>
-        <saveItem x="170" y="460"/>
+        <saveItem x="190" y="460"/>
+    </agent>
+
+     <agent img="sword.png" x="80" y="-460" width="35" height="35" on-trigger="dropTreasure">
+        <dropTreasure y="60" on-touch="saveItem"/>
+        <saveItem x="220" y="460"/>
     </agent>
     
     <agent img="Chests2Open (1).png" x="150" y="60" width="48" height="40" 
