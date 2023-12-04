@@ -36,9 +36,7 @@
         <useSkill text="(respira aliviado) Uau, pensei que minha saga tinha chegado no capítulo final! Parece que os deuses decidiram que ainda tenho algumas páginas para virar nesta história. Um conselho para o destino: da próxima vez, capricha mais na pontaria!"/>
     </agent>
         
- <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" on-touch="useSkill">
-     <useSkill y="500"/>
- </agent>
+
     
     <agent text="SKILLs:" x="40" y="460" color="white"/>
     <agent img="ActorFace.png" x="50" y="405" width="40" height="40" on-trigger="useSkill">
@@ -47,7 +45,8 @@
    
     <agent img="key_01d.png" x="10" y="30" width="35" height="35" on-touch="savekey">
     </agent> 
-    <agent img="key_01e.png" x="40" y="30" width="35" height="35" on-touch="key">
+    <agent img="key_01e.png" x="40" y="30" width="35" height="35" on-touch="savekey">
+        <savekey  x="194" y="460"/>
     </agent> 
     <agent img="Actor3.png" x="430" y="30" width="30" height="52">        
     </agent>
