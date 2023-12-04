@@ -1,6 +1,603 @@
 <fable>
 
 
+
+
+    
+
+
+    
+
+
+        
+<page background="sky.png">
+
+    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+    
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
+        <story on-touch="_NEXT_PAGE"/>
+    </agent>
+  
+    <agent text="Olá, destemido aventureiro! Antes de permitir sua passagem,
+    devo testar sua sagacidade." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story">
+        <story text="Lance seu desafio!"/>
+    </agent>
+        
+    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
+        <story img="ActorFace.png"/>
+    </agent>
+        
+    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        
+    </page>
+
+<page background="sky.png">
+
+    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+    
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+    </agent>
+
+    <agent img="basicscroll.png" x="90" y="90" width="40" height="40" on-touch="_NEXT_PAGE">
+    </agent>
+    
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE">
+    </agent>
+  
+    <agent text="Resolva esta charada para adentrar os portões sombrios desta dungeon." font-size="12" x="100" y="40" width="340" height="20" on-trigger="pergaminho">
+      
+    </agent>
+        
+    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
+    </agent>
+    
+    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        
+</page>
+    
+<page background="sky.png">
+
+    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+    
+     <agent img="panel_Example3.png" x="120" y="60" width="250" height="400">
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE"">
+    </agent>
+  
+    <agent text="Sempre quando chego trago a tristeza Mas sempre chego na hora certa As vezes venho depois de uma doença E outras, depois de um ato de violência"  font-size="12" x="200" y="350" width="100" height="1">  
+      
+    </agent>
+        
+    <agent img="basicscroll.png" x="150" y="320" width="40" height="40" on-trigger="story">
+    </agent>
+    
+    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        
+</page>
+       
+<page background="sky.png">
+
+    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+    
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
+        <story on-touch="_NEXT_PAGE"/>
+    </agent>
+  
+    <agent text="(analisa a charada com atenção) Hmm, interessante. Parece ser algo formidável. Dê-me um momento para refletir." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
+        <story text="Claro, nobre aventureiro. Enquanto pondera, aqui estão três baús diante de você, cada um guardando um desafio para desvendar a charada."/>
+      
+    </agent>
+        
+    <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
+        <story img="masterFace.png"/>
+    </agent>
+    
+    <agent img="Chests.png" x="-200" y="80" width="34" height="28" on-trigger="story"> 
+        <story x="200" on-touch="_GOTO_PAGE:13"/>
+    </agent>
+    
+    <agent img="Chests2.png" x="-200" y="110" width="34" height="28" on-trigger="story" > 
+        <story x="200"  on-touch="_GOTO_PAGE:7"/>
+    </agent>
+    
+    <agent img="Chests3.png" x="-200" y="140" width="34" height="28" on-trigger="story"> 
+        <story x="200" on-touch="_GOTO_PAGE:8"/>
+    </agent>
+    
+    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        
+</page>
+
+<page background="background4.png">
+   
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE"/>
+
+    <agent img="scroll_01a.png" x="71" y="255" width="34" height="28" 
+        on-touch="_NEXT_PAGE"/>
+    <agent img="scroll_01a.png" x="215" y="255" width="34" height="28" 
+        on-touch="_NEXT_PAGE"/>
+    <agent img="scroll_01a.png" x="285" y="255" width="34" height="28" 
+        on-touch="_NEXT_PAGE"/>
+    <agent img="scroll_01a.png" x="145" y="255" width="34" height="28" 
+        on-touch="_NEXT_PAGE"/>
+    <agent img="scroll_01a.png" x="359" y="255" width="34" height="28" 
+        on-touch="_NEXT_PAGE"/>
+  
+    <agent text="Abra e escolha um dos pergaminhos acima e veja qual opcão é a resposta para o enigma. Que a Deusa da sorte abençoe sua escolha." font-size="12" x="100" y="40" width="340" height="20"/>
+
+    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story"></agent>
+    
+   
+        
+</page>
+    
+<page background="background4.png">
+   
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch=on-touch="_NEXT_PAGE"/>
+
+    <agent img="scroll_01a.png" x="71" y="255" width="34" height="28" 
+        on-touch="opcao_1">
+        <opcao_1 img="scrollOpen.png" on-touch="_GOTO_PAGE:12"/>
+    </agent>
+    <agent img="scroll_01a.png" x="215" y="255" width="34" height="28"
+        on-touch="opcao_3">
+        <opcao_3 img="scrollOpen.png" on-touch="_GOTO_PAGE:10"/>
+    </agent>
+    <agent img="scroll_01a.png" x="285" y="255" width="34" height="28"
+        on-touch="opcao_4">
+        <opcao_4 img="scrollOpen.png" on-touch="_GOTO_PAGE:14"/>
+    </agent>
+    <agent img="scroll_01a.png" x="145" y="255" width="34" height="28"
+        on-touch="opcao_2">
+        <opcao_2 img="scrollOpen.png" on-touch="_GOTO_PAGE:13"/>
+    </agent>
+    <agent img="scroll_01a.png" x="359" y="255" width="34" height="28"
+        on-touch="opcao_5">
+        <opcao_5 img="scrollOpen.png" on-touch="_GOTO_PAGE:15"/>
+    </agent>
+  
+
+    <agent text="1. esta ecrito: SORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_1">
+        <opcao_1 x="100"/>
+    </agent>
+
+     <agent text="2. esta ecrito: MARTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_2">
+        <opcao_2 y="25" x="100"/>
+    </agent>
+
+    <agent text="3. esta ecrito: MORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_3">
+        <opcao_3 y="10" x="100"/>
+    </agent>
+
+    <agent text="4. esta ecrito: FORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_4">
+        <opcao_4 x="240"/>
+    </agent>
+
+    <agent text="5. esta ecrito: CORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_5">
+            <opcao_5 y="25" x="240"/>
+    </agent>
+    
+    <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
+        <story img="masterFace.png"/>
+    </agent>
+    
+   
+        
+</page>
+
+<page background="sky.png">
+    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+    
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
+        <story on-touch="_GOTO_PAGE:5"/>
+    </agent>
+  
+    <agent text="Esse escolha te da uma dica sobre o que busca." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
+        <story text="A palavra que busca possui M _ _ _ _"/>
+      
+    </agent>
+        
+    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
+    
+    </agent>
+    
+    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        
+</page>
+
+<page background="background4.png">
+    
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+    </agent>
+
+    <agent img="Chests3.png" x="215" y="255" width="34" height="28"/>
+    <agent img="Chests3.png" x="215" y="298" width="34" height="28"/>
+    <agent img="Chests3.png" x="215" y="212" width="34" height="28"/>
+    <agent img="Chests3.png" x="215" y="341" width="34" height="28"/>
+    <agent img="Chests3.png" x="215" y="169" width="34" height="28"/>
+    <agent img="Chests3.png" x="285" y="255" width="34" height="28"/>
+    <agent img="Chests3.png" x="285" y="298" width="34" height="28"/>
+    <agent img="Chests3.png" x="285" y="212" width="34" height="28"/>
+    <agent img="Chests3.png" x="285" y="341" width="34" height="28"/>
+    <agent img="Chests3.png" x="285" y="169" width="34" height="28"/>
+    <agent img="Chests3.png" x="145" y="255" width="34" height="28"/>
+    <agent img="Chests3.png" x="145" y="298" width="34" height="28"/>
+    <agent img="Chests3.png" x="145" y="212" width="34" height="28"/>
+    <agent img="Chests3.png" x="145" y="341" width="34" height="28"/>
+    <agent img="Chests3.png" x="145" y="169" width="34" height="28"/>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE">
+    </agent>
+  
+    <agent text="Essa opcão te permite encontrar a resposta abrindo um dos baus acima mas escolha com sabedoria pois alguns escondem consequncias perigosas." font-size="12" x="100" y="50" width="340" height="20">
+    </agent>
+
+    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
+        
+    </agent>
+    
+        
+</page>
+    
+<page background="background4.png">
+    
+    <agent img="key_01d.png" x="400" y="400" width="48" height="48" draggable="true" on-drop="isOpen" on-zone="outscreen" on-trigger="outscreen">
+      <outscreen y="-200" />
+    </agent>
+    
+    <agent img="Chests3.png" x="215" y="255" width="34" height="28" drop-zone="isOpen">
+        <isOpen img="Chests3Open.png" on-touch="item"/>
+        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
+    </agent>
+    
+    <agent img="Chests3.png" x="215" y="298" width="34" height="28" drop-zone="isOpen">
+        <isOpen img="Chests3Open.png" on-touch="item"/>
+        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
+    </agent>
+    
+    <agent img="Chests3.png" x="215" y="212" width="34" height="28" drop-zone="isOpen">
+        <isOpen img="Chests3Open.png" on-touch="item"/>
+        <item img="scroll_01a.png" on-touch="_GOTO_PAGE:10"/>
+    </agent>
+    
+    <agent img="Chests3.png" x="215" y="341" width="34" height="28" drop-zone="isOpen">
+        <isOpen img="Chests3Open.png" on-touch="item"/>
+        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
+    </agent>
+    
+    <agent img="Chests3.png" x="215" y="169" width="34" height="28" drop-zone="isOpen">
+        <isOpen img="Chests3Open.png" on-touch="item"/>
+        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
+    </agent>
+    
+    <agent img="Chests3.png" x="285" y="255" width="34" height="28" drop-zone="isOpen">
+        <isOpen img="Chests3Open.png" on-touch="item"/>
+        <item img="scroll_01a.png" on-touch="_GOTO_PAGE:10"/>
+    </agent>
+    
+    <agent img="Chests3.png" x="285" y="298" width="34" height="28" drop-zone="isOpen">
+        <isOpen img="Chests3Open.png" on-touch="item"/>
+        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
+    </agent>
+    
+    <agent img="Chests3.png" x="285" y="212" width="34" height="28" drop-zone="isOpen">
+        <isOpen img="Chests3Open.png" on-touch="item"/>
+        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
+    </agent>
+    
+    <agent img="Chests3.png" x="285" y="341" width="34" height="28" drop-zone="isOpen">
+        <isOpen img="Chests3Open.png" on-touch="item"/>
+        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
+    </agent>
+    
+    <agent img="Chests3.png" x="285" y="169" width="34" height="28" drop-zone="isOpen">
+        <isOpen img="Chests3Open.png" on-touch="item"/>
+        <item img="scroll_01a.png" on-touch="_GOTO_PAGE:10"/>
+    </agent>
+    
+    <agent img="Chests3.png" x="145" y="255" width="34" height="28" drop-zone="isOpen">
+        <isOpen img="Chests3Open.png" on-touch="item"/>
+        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
+    </agent>
+    
+    <agent img="Chests3.png" x="145" y="298" width="34" height="28" drop-zone="isOpen">
+        <isOpen img="Chests3Open.png" on-touch="item"/>
+        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
+    </agent>
+    
+    <agent img="Chests3.png" x="145" y="212" width="34" height="28" drop-zone="isOpen">
+        <isOpen img="Chests3Open.png" on-touch="item"/>
+        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
+    </agent>
+    
+    <agent img="Chests3.png" x="145" y="341" width="34" height="28" drop-zone="isOpen">
+        <isOpen img="Chests3Open.png" on-touch="item"/>
+        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
+    </agent>
+    
+    <agent img="Chests3.png" x="145" y="169" width="34" height="28" drop-zone="isOpen">
+        <isOpen img="Chests3Open.png" on-touch="item"/>
+        <item img="scroll_01a.png" on-touch="_GOTO_PAGE:10"/>
+    </agent>
+
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+    </agent>
+    <agent text="Toque no item para saber se ele ajudara na resposta do teste." font-size="12" x="100" y="50" width="340" height="20">
+    </agent>
+    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story"></agent>
+    
+</page>
+
+<page background="sky.png">
+    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+    
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:17">
+    </agent>
+  
+    <agent text="Veja a resposta no pergaminho aventureiro.Veremos se a Deusa da sorte axiliou na sua escolha."font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
+        <openScroll text="A resposta é MORTE!"/>
+    </agent>
+
+    <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
+        <openScroll x="-500"/>
+    </agent>
+    
+    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
+        <openScroll img="ActorFace.png"/>
+    </agent>
+    
+    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        
+</page>
+
+<page background="sky.png">
+    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+    
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:5">
+    </agent>
+  
+    <agent text="Esse item não ira te ajudar em nada, pelo visto nem todos são abençoados pela deusa da sorte.Vamos voltar para a escolha da resposta." font-size="12" x="100" y="50" width="340" height="20" on-trigger="cookie">
+        <cookie text="(mastiga) Pelo menos é um ótimo biscoito :)"/>
+    </agent>
+
+    <agent img="Chests3Open.png" x="-200" y="140" width="34" height="28"></agent>
+
+    <agent img="cookie_01a.png" x="100" y="140" width="34" height="28" on-touch="cookie">
+        <cookie x="-500"/>
+    </agent>
+    
+    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="cookie">
+        <cookie img="ActorFace.png"/>
+    </agent>
+    
+    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        
+</page>
+    
+<page background="sky.png">
+    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+    
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:16">
+    </agent>
+  
+    <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
+        <openScroll text="A resposta é SORTE!"/>
+    </agent>
+
+    <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
+        <openScroll x="-500"/>
+    </agent>
+    
+    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
+        <openScroll img="ActorFace.png"/>
+    </agent>
+    
+    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        
+</page>
+
+<page background="sky.png">
+    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+    
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:16">
+    </agent>
+  
+    <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
+        <openScroll text="A resposta é MARTE!"/>
+    </agent>
+
+    <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
+        <openScroll x="-500"/>
+    </agent>
+    
+    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
+        <openScroll img="ActorFace.png"/>
+    </agent>
+    
+    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        
+</page>
+
+<page background="sky.png">
+    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+    
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:16">
+    </agent>
+  
+    <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
+        <openScroll text="A resposta é FORTE!"/>
+    </agent>
+
+    <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
+        <openScroll x="-500"/>
+    </agent>
+    
+    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
+        <openScroll img="ActorFace.png"/>
+    </agent>
+    
+    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        
+</page>
+
+<page background="sky.png">
+    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+    
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:16">
+    </agent>
+  
+    <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
+        <openScroll text="A resposta é CORTE!"/>
+    </agent>
+
+    <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
+        <openScroll x="-500"/>
+    </agent>
+    
+    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
+        <openScroll img="ActorFace.png"/>
+    </agent>
+    
+    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        
+</page>
+
+<page background="sky.png">
+    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+    
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="nextChance">
+        <nextChance on-touch="_GOTO_PAGE:3"/>
+    </agent>
+  
+    <agent text="Infelismente essa não é a resposta correta." font-size="12" x="100" y="50" width="340" height="20" on-trigger="nextChance">
+        <nextChance text="Deixe-me tentar novamente, pode repetir novamente o poema?."/>
+    </agent>
+
+    <agent img="scrollOpen.png" x="100" y="140" width="34" height="28"/>
+        
+    
+    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="nextChance">
+        <nextChance img="ActorFace.png"/>
+    </agent>
+    
+    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
+        
+</page>
+
+<page background="sky.png">
+    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
+    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
+    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
+    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
+    <agent img="fireflys.png" x="-1920" y="0" width="1920" height="400" on-trigger="proxLVL">
+         <proxLVL x="0"/>
+    </agent>
+    
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="proxLVL">
+        <proxLVL on-touch="_NEXT_PAGE"/>
+    </agent>
+  
+    <agent text="Ah, corajoso aventureiro, tu demonstraste uma habilidade notável ao desvendar o intricado enigma diante de ti.Tuas mentes aguçadas brilharam como as estrelas na escuridão, revelando os segredos ocultos." font-size="11" x="100" y="50" width="340" height="20" on-trigger="proxLVL">
+        <proxLVL text="Como recompensa por tua astúcia, as portas se abrem, permitindo-te avançar para a próxima área da tua jornada.Prossegue com confiança, pois novos mistérios aguardam, e tua sagacidade será tua guia constante."/>
+    </agent>
+
+    <agent img="masterFace.png" x="50" y="20" width="40" height="40"/>
+       
+    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
+    <agent img="master2.png" x="300" y="85" width="44" height="72" on-trigger="proxLVL">
+        <proxLVL img="master1.png" y="120"/>
+    </agent>
+    
+        
+</page> 
 <page background="hills&trees.png">
 
     <agent img="hills&trees 2.png" x="0" y="100" width="1920" height="400"/>
@@ -185,7 +782,6 @@
     
         
 </page> 
-
     
 <page background="256_Water Shallow 01.png">
 
@@ -819,603 +1415,6 @@
     
 </page>
      
-
-    
-
-
-    
-
-
-        
-<page background="sky.png">
-
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
-        <story on-touch="_NEXT_PAGE"/>
-    </agent>
-  
-    <agent text="Olá, destemido aventureiro! Antes de permitir sua passagem,
-    devo testar sua sagacidade." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story">
-        <story text="Lance seu desafio!"/>
-    </agent>
-        
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
-        <story img="ActorFace.png"/>
-    </agent>
-        
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-    </page>
-
-<page background="sky.png">
-
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="basicscroll.png" x="90" y="90" width="40" height="40" on-touch="_NEXT_PAGE">
-    </agent>
-    
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE">
-    </agent>
-  
-    <agent text="Resolva esta charada para adentrar os portões sombrios desta dungeon." font-size="12" x="100" y="40" width="340" height="20" on-trigger="pergaminho">
-      
-    </agent>
-        
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page>
-    
-<page background="sky.png">
-
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-     <agent img="panel_Example3.png" x="120" y="60" width="250" height="400">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE"">
-    </agent>
-  
-    <agent text="Sempre quando chego trago a tristeza Mas sempre chego na hora certa As vezes venho depois de uma doença E outras, depois de um ato de violência"  font-size="12" x="200" y="350" width="100" height="1">  
-      
-    </agent>
-        
-    <agent img="basicscroll.png" x="150" y="320" width="40" height="40" on-trigger="story">
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page>
-       
-<page background="sky.png">
-
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
-        <story on-touch="_NEXT_PAGE"/>
-    </agent>
-  
-    <agent text="(analisa a charada com atenção) Hmm, interessante. Parece ser algo formidável. Dê-me um momento para refletir." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
-        <story text="Claro, nobre aventureiro. Enquanto pondera, aqui estão três baús diante de você, cada um guardando um desafio para desvendar a charada."/>
-      
-    </agent>
-        
-    <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
-        <story img="masterFace.png"/>
-    </agent>
-    
-    <agent img="Chests.png" x="-200" y="80" width="34" height="28" on-trigger="story"> 
-        <story x="200" on-touch="_GOTO_PAGE:13"/>
-    </agent>
-    
-    <agent img="Chests2.png" x="-200" y="110" width="34" height="28" on-trigger="story" > 
-        <story x="200"  on-touch="_GOTO_PAGE:7"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="-200" y="140" width="34" height="28" on-trigger="story"> 
-        <story x="200" on-touch="_GOTO_PAGE:8"/>
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page>
-
-<page background="background4.png">
-   
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE"/>
-
-    <agent img="scroll_01a.png" x="71" y="255" width="34" height="28" 
-        on-touch="_NEXT_PAGE"/>
-    <agent img="scroll_01a.png" x="215" y="255" width="34" height="28" 
-        on-touch="_NEXT_PAGE"/>
-    <agent img="scroll_01a.png" x="285" y="255" width="34" height="28" 
-        on-touch="_NEXT_PAGE"/>
-    <agent img="scroll_01a.png" x="145" y="255" width="34" height="28" 
-        on-touch="_NEXT_PAGE"/>
-    <agent img="scroll_01a.png" x="359" y="255" width="34" height="28" 
-        on-touch="_NEXT_PAGE"/>
-  
-    <agent text="Abra e escolha um dos pergaminhos acima e veja qual opcão é a resposta para o enigma. Que a Deusa da sorte abençoe sua escolha." font-size="12" x="100" y="40" width="340" height="20"/>
-
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story"></agent>
-    
-   
-        
-</page>
-    
-<page background="background4.png">
-   
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch=on-touch="_NEXT_PAGE"/>
-
-    <agent img="scroll_01a.png" x="71" y="255" width="34" height="28" 
-        on-touch="opcao_1">
-        <opcao_1 img="scrollOpen.png" on-touch="_GOTO_PAGE:12"/>
-    </agent>
-    <agent img="scroll_01a.png" x="215" y="255" width="34" height="28"
-        on-touch="opcao_3">
-        <opcao_3 img="scrollOpen.png" on-touch="_GOTO_PAGE:10"/>
-    </agent>
-    <agent img="scroll_01a.png" x="285" y="255" width="34" height="28"
-        on-touch="opcao_4">
-        <opcao_4 img="scrollOpen.png" on-touch="_GOTO_PAGE:14"/>
-    </agent>
-    <agent img="scroll_01a.png" x="145" y="255" width="34" height="28"
-        on-touch="opcao_2">
-        <opcao_2 img="scrollOpen.png" on-touch="_GOTO_PAGE:13"/>
-    </agent>
-    <agent img="scroll_01a.png" x="359" y="255" width="34" height="28"
-        on-touch="opcao_5">
-        <opcao_5 img="scrollOpen.png" on-touch="_GOTO_PAGE:15"/>
-    </agent>
-  
-
-    <agent text="1. esta ecrito: SORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_1">
-        <opcao_1 x="100"/>
-    </agent>
-
-     <agent text="2. esta ecrito: MARTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_2">
-        <opcao_2 y="25" x="100"/>
-    </agent>
-
-    <agent text="3. esta ecrito: MORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_3">
-        <opcao_3 y="10" x="100"/>
-    </agent>
-
-    <agent text="4. esta ecrito: FORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_4">
-        <opcao_4 x="240"/>
-    </agent>
-
-    <agent text="5. esta ecrito: CORTE" font-size="12" x="-500" y="40" width="340" height="20" on-trigger="opcao_5">
-            <opcao_5 y="25" x="240"/>
-    </agent>
-    
-    <agent img="ActorFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
-        <story img="masterFace.png"/>
-    </agent>
-    
-   
-        
-</page>
-
-<page background="sky.png">
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
-        <story on-touch="_GOTO_PAGE:5"/>
-    </agent>
-  
-    <agent text="Esse escolha te da uma dica sobre o que busca." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story"> 
-        <story text="A palavra que busca possui M _ _ _ _"/>
-      
-    </agent>
-        
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
-    
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page>
-
-<page background="background4.png">
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="Chests3.png" x="215" y="255" width="34" height="28"/>
-    <agent img="Chests3.png" x="215" y="298" width="34" height="28"/>
-    <agent img="Chests3.png" x="215" y="212" width="34" height="28"/>
-    <agent img="Chests3.png" x="215" y="341" width="34" height="28"/>
-    <agent img="Chests3.png" x="215" y="169" width="34" height="28"/>
-    <agent img="Chests3.png" x="285" y="255" width="34" height="28"/>
-    <agent img="Chests3.png" x="285" y="298" width="34" height="28"/>
-    <agent img="Chests3.png" x="285" y="212" width="34" height="28"/>
-    <agent img="Chests3.png" x="285" y="341" width="34" height="28"/>
-    <agent img="Chests3.png" x="285" y="169" width="34" height="28"/>
-    <agent img="Chests3.png" x="145" y="255" width="34" height="28"/>
-    <agent img="Chests3.png" x="145" y="298" width="34" height="28"/>
-    <agent img="Chests3.png" x="145" y="212" width="34" height="28"/>
-    <agent img="Chests3.png" x="145" y="341" width="34" height="28"/>
-    <agent img="Chests3.png" x="145" y="169" width="34" height="28"/>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_NEXT_PAGE">
-    </agent>
-  
-    <agent text="Essa opcão te permite encontrar a resposta abrindo um dos baus acima mas escolha com sabedoria pois alguns escondem consequncias perigosas." font-size="12" x="100" y="50" width="340" height="20">
-    </agent>
-
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story">
-        
-    </agent>
-    
-        
-</page>
-    
-<page background="background4.png">
-    
-    <agent img="key_01d.png" x="400" y="400" width="48" height="48" draggable="true" on-drop="isOpen" on-zone="outscreen" on-trigger="outscreen">
-      <outscreen y="-200" />
-    </agent>
-    
-    <agent img="Chests3.png" x="215" y="255" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="215" y="298" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="215" y="212" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="scroll_01a.png" on-touch="_GOTO_PAGE:10"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="215" y="341" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="215" y="169" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="285" y="255" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="scroll_01a.png" on-touch="_GOTO_PAGE:10"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="285" y="298" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="285" y="212" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="285" y="341" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="285" y="169" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="scroll_01a.png" on-touch="_GOTO_PAGE:10"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="145" y="255" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="145" y="298" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="145" y="212" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="145" y="341" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:11"/>
-    </agent>
-    
-    <agent img="Chests3.png" x="145" y="169" width="34" height="28" drop-zone="isOpen">
-        <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="scroll_01a.png" on-touch="_GOTO_PAGE:10"/>
-    </agent>
-
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-    <agent text="Toque no item para saber se ele ajudara na resposta do teste." font-size="12" x="100" y="50" width="340" height="20">
-    </agent>
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="story"></agent>
-    
-</page>
-
-<page background="sky.png">
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:17">
-    </agent>
-  
-    <agent text="Veja a resposta no pergaminho aventureiro.Veremos se a Deusa da sorte axiliou na sua escolha."font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
-        <openScroll text="A resposta é MORTE!"/>
-    </agent>
-
-    <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
-        <openScroll x="-500"/>
-    </agent>
-    
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
-        <openScroll img="ActorFace.png"/>
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page>
-
-<page background="sky.png">
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:5">
-    </agent>
-  
-    <agent text="Esse item não ira te ajudar em nada, pelo visto nem todos são abençoados pela deusa da sorte.Vamos voltar para a escolha da resposta." font-size="12" x="100" y="50" width="340" height="20" on-trigger="cookie">
-        <cookie text="(mastiga) Pelo menos é um ótimo biscoito :)"/>
-    </agent>
-
-    <agent img="Chests3Open.png" x="-200" y="140" width="34" height="28"></agent>
-
-    <agent img="cookie_01a.png" x="100" y="140" width="34" height="28" on-touch="cookie">
-        <cookie x="-500"/>
-    </agent>
-    
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="cookie">
-        <cookie img="ActorFace.png"/>
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page>
-    
-<page background="sky.png">
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:16">
-    </agent>
-  
-    <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
-        <openScroll text="A resposta é SORTE!"/>
-    </agent>
-
-    <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
-        <openScroll x="-500"/>
-    </agent>
-    
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
-        <openScroll img="ActorFace.png"/>
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page>
-
-<page background="sky.png">
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:16">
-    </agent>
-  
-    <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
-        <openScroll text="A resposta é MARTE!"/>
-    </agent>
-
-    <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
-        <openScroll x="-500"/>
-    </agent>
-    
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
-        <openScroll img="ActorFace.png"/>
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page>
-
-<page background="sky.png">
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:16">
-    </agent>
-  
-    <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
-        <openScroll text="A resposta é FORTE!"/>
-    </agent>
-
-    <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
-        <openScroll x="-500"/>
-    </agent>
-    
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
-        <openScroll img="ActorFace.png"/>
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page>
-
-<page background="sky.png">
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="_GOTO_PAGE:16">
-    </agent>
-  
-    <agent text="Diga sua resposta.Veremos se a Deusa da sorte axiliou na sua escolha." font-size="12" x="100" y="50" width="340" height="20" on-trigger="openScroll">
-        <openScroll text="A resposta é CORTE!"/>
-    </agent>
-
-    <agent img="scroll_01a.png" x="100" y="140" width="34" height="28" on-touch="openScroll">
-        <openScroll x="-500"/>
-    </agent>
-    
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="openScroll">
-        <openScroll img="ActorFace.png"/>
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page>
-
-<page background="sky.png">
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="nextChance">
-        <nextChance on-touch="_GOTO_PAGE:3"/>
-    </agent>
-  
-    <agent text="Infelismente essa não é a resposta correta." font-size="12" x="100" y="50" width="340" height="20" on-trigger="nextChance">
-        <nextChance text="Deixe-me tentar novamente, pode repetir novamente o poema?."/>
-    </agent>
-
-    <agent img="scrollOpen.png" x="100" y="140" width="34" height="28"/>
-        
-    
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40" on-trigger="nextChance">
-        <nextChance img="ActorFace.png"/>
-    </agent>
-    
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72"/>
-        
-</page>
-
-<page background="sky.png">
-    <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
-    <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
-    <agent img="tree_face.png" x="100" y="-70" width="2200" height="600"/>
-    <agent img="lianas.png" x="100" y="-100" width="1920" height="600"/>
-    <agent img="fireflys.png" x="-1920" y="0" width="1920" height="400" on-trigger="proxLVL">
-         <proxLVL x="0"/>
-    </agent>
-    
-    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120">
-    </agent>
-
-    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="proxLVL">
-        <proxLVL on-touch="_NEXT_PAGE"/>
-    </agent>
-  
-    <agent text="Ah, corajoso aventureiro, tu demonstraste uma habilidade notável ao desvendar o intricado enigma diante de ti.Tuas mentes aguçadas brilharam como as estrelas na escuridão, revelando os segredos ocultos." font-size="11" x="100" y="50" width="340" height="20" on-trigger="proxLVL">
-        <proxLVL text="Como recompensa por tua astúcia, as portas se abrem, permitindo-te avançar para a próxima área da tua jornada.Prossegue com confiança, pois novos mistérios aguardam, e tua sagacidade será tua guia constante."/>
-    </agent>
-
-    <agent img="masterFace.png" x="50" y="20" width="40" height="40"/>
-       
-    <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
-    <agent img="master2.png" x="300" y="85" width="44" height="72" on-trigger="proxLVL">
-        <proxLVL img="master1.png" y="120"/>
-    </agent>
-    
-        
-</page> 
-    
 
 <page background="background4.png">
 
