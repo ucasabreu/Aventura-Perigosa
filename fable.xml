@@ -27,8 +27,9 @@
     <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="">
     </agent>
 
-    <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story" >
+    <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story" on-trigger="openScroll">
         <story x="-420"/>
+        <openScroll />
     </agent>
 
     <agent text="Rrrraaaahhhhh!!!!" font-size="16" color="red" x="110" y="430" width="340" height="20" on-trigger="story">
