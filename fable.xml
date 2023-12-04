@@ -143,8 +143,8 @@
     </agent>
 
     <agent img="Cerberus.png" x="10" y="0" width="130" height="210">
-        
     </agent>
+    <agent img="fire" x="10" y="0" width="130" height="210"/>
 
     <agent img="skill_icons47.png" x="122" y="460" width="35" height="35" draggable="true" on-touch="_NEXT_PAGE">
     </agent>
