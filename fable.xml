@@ -3,8 +3,8 @@
 
     
 <page background="dungeon background 12.png">
-    <agent text="AVENTURA CONCLUIDA!" font-size="40" x="10" y="225" color="yellow"/>
-    <agent text="AVENTURA CONCLUIDA!" font-size="40"  x="10" y="225" low"/>
+    <agent text="AVENTURA CONCLUIDA!" font-size="42" x="" y="225" color=""/>
+    <agent text="AVENTURA CONCLUIDA!" font-size="40"  x="10" y="225" color="yellow"/>
 </page>
     
 <page background="256_Water Shallow 01.png">
