@@ -39,12 +39,11 @@
     <agent img="skill_icons22.png" x="158" y="460" width="35" height="35"/>
     <agent img="skill_icons16.png" x="194" y="460" width="35" height="35"/>
     <agent text="SKILLs:" x="40" y="460" color="white"/>
-    <agent img="ActorFace.png" x="50" y="42" width="40" height="40" on-trigger="isOpen">
-         <isOpen img="basicscroll.png" y="50"/>
-     </agent> 
+    <agent img="ActorFace.png" x="50" y="405" width="40" height="40" on-trigger="">
+    </agent> 
    
-     <agent img="Cerberus.png" x="10" y="0" width="130" height="210"/>
-     <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
+    <agent img="Cerberus.png" x="10" y="0" width="130" height="210"/>
+    <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
 </page>
 
     
