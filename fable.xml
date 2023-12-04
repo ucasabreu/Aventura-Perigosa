@@ -760,7 +760,7 @@
         
 </page> 
     
-<page background="256_Water Shallow 01.png" soundtrack="song4.wav">
+<page background="256_Water Shallow 01.png" soundtrack="song.wav">
 
     <agent img="4.png" x="0" y="80" 
         width="500" height="420"/>
@@ -812,7 +812,7 @@
     <agent img="scroll_01a.png" x="380" y="20" width="30" height="30" on-touch="_NEXT_PAGE"></agent>
     
 </page>
-<page background="256_Water Shallow 01.png" soundtrack="song4.wav">
+<page background="256_Water Shallow 01.png" soundtrack="song.wav">
 
     <agent img="4.png" x="0" y="80" 
         width="500" height="420"/>
@@ -972,7 +972,7 @@
     <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
     
 </page>  
-<page background="256_Water Shallow 01.png" >
+<page background="256_Water Shallow 01.png" soundtrack="song4.wav">
 
     <agent img="4.png" x="0" y="80" 
         width="500" height="420"/>
@@ -1029,7 +1029,7 @@
     <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
     
 </page>   
-<page background="256_Water Shallow 01.png">
+<page background="256_Water Shallow 01.png" soundtrack="song4.wav">
 
     <agent img="4.png" x="0" y="80" 
         width="500" height="420"/>
@@ -1091,7 +1091,7 @@
     </agent>
     
 </page>
-<page background="256_Water Shallow 01.png">
+<page background="256_Water Shallow 01.png"  soundtrack="song.wav">
 
     <agent img="4.png" x="0" y="80" 
         width="500" height="420"/>
