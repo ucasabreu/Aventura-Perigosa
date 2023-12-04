@@ -197,11 +197,11 @@
 
     <agent img="scroll_01a.png" x="71" y="255" width="34" height="28" 
         on-touch="opcao_1">
-        <opcao_1 img="scrollOpen.png" on-touch="_GOTO_PAGE:12"/>
+        <opcao_1 img="scrollOpen.png" on-touch="_GOTO_PAGE:14"/>
     </agent>
     <agent img="scroll_01a.png" x="215" y="255" width="34" height="28"
         on-touch="opcao_3">
-        <opcao_3 img="scrollOpen.png" on-touch="_GOTO_PAGE:10"/>
+        <opcao_3 img="scrollOpen.png" on-touch="_GOTO_PAGE:12"/>
     </agent>
     <agent img="scroll_01a.png" x="285" y="255" width="34" height="28"
         on-touch="opcao_4">
