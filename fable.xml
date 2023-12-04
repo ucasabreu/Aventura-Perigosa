@@ -38,7 +38,7 @@
     <agent text="Rrrraaaahhhhh!!!!" font-size="16" color="red" x="110" y="430" width="340" height="20" on-trigger="story">
         <story y="-500"/>
     </agent>
-    <agent text="Droga! Se eu soubece que era hora do jantar tinha trago algo alem de deliciosos biscoitos. Você não tem cara de quem gosta de biscoitos." font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
+    <agent text="Droga! Esse " font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
         <story y="430"/>
     </agent>
     
@@ -52,7 +52,7 @@
     
     <agent text="SKILLs:" x="40" y="460" color="white"/>
     <agent img="CerberusFace.png" x="50" y="405" width="50" height="50" on-trigger="story">
-        <story img=""/>
+        <story img="ActorFace.png" width="40" height="40"/>
     </agent> 
    
     <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
