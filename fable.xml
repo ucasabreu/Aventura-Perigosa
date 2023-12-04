@@ -47,7 +47,8 @@
     <agent img="key_01e.png" x="86" y="460" width="35" height="35" on-touch="savekey">
         <savekey />
     </agent> 
-    <agent img="Chests2 (1).png" x="150" y="60" width="48" height="40"/>
+    <agent img="Chests2 (1).png" x="150" y="60" width="48" height="40" 
+        on-trigger="use"></agent>
     <agent img="Chests3 (1).png" x="150" y="10" width="48" height="40"/>
     
     <agent img="Actor3.png" x="430" y="30" width="30" height="52">        
