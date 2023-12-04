@@ -600,7 +600,7 @@
     </agent>
 
     <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="proxLVL">
-        <proxLVL on-touch="_GOTO_PAGE:20"/>
+        <proxLVL img="on-touch="_GOTO_PAGE:20"/>
     </agent>
   
     <agent text="Ah, corajoso aventureiro, tu demonstraste uma habilidade notável ao desvendar o intricado enigma diante de ti.Tua mente aguçada brilha como as estrelas na escuridão, revelando os segredos ocultos." font-size="11" x="100" y="50" width="340" height="20" on-trigger="proxLVL">
