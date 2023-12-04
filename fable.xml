@@ -147,7 +147,7 @@
     </agent>
     
     <agent img="Chests.png" x="-200" y="80" width="34" height="28" on-trigger="story"> 
-        <story x="200" on-touch="_GOTO_PAGE:36"/>
+        <story x="200" on-touch="_GOTO_PAGE:35"/>
     </agent>
     
     <agent img="Chests2.png" x="-200" y="110" width="34" height="28" on-trigger="story" > 
@@ -1445,7 +1445,7 @@
 </agent>
 
 <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
-        <story on-touch="_GOTO_PAGE:5"/>
+        <story on-touch="_GOTO_PAGE:7"/>
 </agent>
 
 <agent text="Caro aventureiro, diante de você está um quebra-cabeça intrigante, uma composição de peças que, quando unidas, revelarão uma imagem crucial para desvendar o poema. " font-size="12" x="100" y="50" width="340" height="20">     
