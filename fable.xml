@@ -951,7 +951,7 @@
     </agent>
 
     <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
-        <story on-touch="_GOTO_PAGE:5"/>
+        <story on-touch="_NEXT_PAGE"/>
     </agent>
 
     <agent text="Vortex de água!" font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
@@ -1019,7 +1019,7 @@
     <agent img="Explosion_two_colors7.png" x="-150" y="-120" width="450" height="450"/>
     
     <agent img="skill_icons22.png" x="158" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:6"/>
-    <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:7"/>
+    <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:32"/>
     
     <agent text="SKILLs:" x="40" y="460" color="white"/>
     <agent img="CerberusFace.png" x="50" y="405" width="50" height="50" on-trigger="story">
