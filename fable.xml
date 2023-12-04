@@ -205,15 +205,15 @@
     </agent>
     <agent img="scroll_01a.png" x="285" y="255" width="34" height="28"
         on-touch="opcao_4">
-        <opcao_4 img="scrollOpen.png" on-touch="_GOTO_PAGE:14"/>
+        <opcao_4 img="scrollOpen.png" on-touch="_GOTO_PAGE:16"/>
     </agent>
     <agent img="scroll_01a.png" x="145" y="255" width="34" height="28"
         on-touch="opcao_2">
-        <opcao_2 img="scrollOpen.png" on-touch="_GOTO_PAGE:13"/>
+        <opcao_2 img="scrollOpen.png" on-touch="_GOTO_PAGE:15"/>
     </agent>
     <agent img="scroll_01a.png" x="359" y="255" width="34" height="28"
         on-touch="opcao_5">
-        <opcao_5 img="scrollOpen.png" on-touch="_GOTO_PAGE:15"/>
+        <opcao_5 img="scrollOpen.png" on-touch="_GOTO_PAGE:17"/>
     </agent>
   
 
