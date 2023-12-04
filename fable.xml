@@ -28,11 +28,11 @@
     </agent>
 
      <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
-        <story img="arrow - left.png"x="10" y="30" width="27" height="27"  on-touch="_NEXT_PAGE"/>
+        <story y="-460"/>
     </agent>
 
     <agent text="Ah, maravilhosos cofres da riqueza! Que segredos e fortunas ocultas aguardam dentro desses baús misteriosos?" font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
-        <story text="Vamos ver quais novos mistérios aguardam do outro lado. "/>
+        <story text="Chegou o momento de descobrir quais tesouros a sorte e a bravura reservaram para mim."/>
     </agent>
         
     <agent text="ITEMs:" x="40" y="460" color="white" on-trigger="savekey">
