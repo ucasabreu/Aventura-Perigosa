@@ -195,7 +195,7 @@
     </agent>
 
     <agent text="Vortex de água!" font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
-        <story text="Mais um ataque surtiu efeito, sera que ele cai."/>
+        <story text="Mais um ataque surtiu efeito, sera que ele cai dessa vez?"/>
     </agent>
     
     <agent img="Cerberus.png" x="10" y="0" width="130" height="210">
