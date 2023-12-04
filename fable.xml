@@ -49,12 +49,12 @@
         <usekeySilver y="-460" />
     </agent> 
     <agent img="Chests2Open (1).png" x="150" y="60" width="48" height="40" 
-       on-touch="dropWepons">
-        <dropItens  y="500"/>
+       on-touch="dropWeapons">
+        <dropWeapons  y="500"/>
         </agent>
     <agent img="Chests3Open (1).png" x="150" y="10" width="48" height="40"
-        on-touch="drop">
-        <usekeyGold  on-touch="_NEXT_PAGE"/>
+        on-touch="dropTreasure">
+        <dropTreasure  on-touch="_NEXT_PAGE"/>
         </agent>
     
     <agent img="Actor3.png" x="230" y="30" width="30" height="52">        
