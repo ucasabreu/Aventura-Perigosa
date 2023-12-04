@@ -2,10 +2,10 @@
     
 <page background="256_Water Shallow 01.png">
 
-    <agent img="4.png" x="0" y="80" 
-        width="500" height="420"/>
-    <agent img="3.png" x="0" y="80" 
-        width="500" height="420"/>
+    <agent img="4.png" x="0" y="140" 
+        width="500" height="360"/>
+    <agent img="3.png" x="0" y="140" 
+        width="500" height="360"/>
     <agent img="1.png" x="0" y="140" 
         width="500" height="360"/>
     
@@ -24,7 +24,13 @@
      <agent img="bones.png" x="80" y="40" 
         width="350" height="220"/>
     
-    
+    <agent img="panel_Example3.png" x="8" y="-20" width="490" height="120" on-trigger="isOpen">
+         <isOpen height="170"/>
+    </agent>
+
+    <agent img="arrow_example.png" x="420" y="20" width="40" height="40" on-touch="story">
+        <story on-touch="_NEXT_PAGE"/>
+    </agent>
    
    
      <agent img="Cerberus.png" x="10" y="60" width="130" height="210"/>
