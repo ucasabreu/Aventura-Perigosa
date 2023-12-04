@@ -14,8 +14,7 @@
         <story on-touch="_NEXT_PAGE"/>
     </agent>
   
-    <agent text="Olá, destemido aventureiro! Antes de permitir sua passagem,
-    devo testar sua sagacidade." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story">
+    <agent text="Bem, dungeon, espero que tenha tomado um bom café da manhã, porque estou prestes a invadir seu espaço sem pedir licença." font-size="12" x="100" y="40" width="340" height="20" on-trigger="story">
         <story text="Lance seu desafio!"/>
     </agent>
         
