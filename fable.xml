@@ -346,7 +346,7 @@
     
     <agent img="Chests3.png" x="285" y="212" width="34" height="28" drop-zone="isOpen">
         <isOpen img="Chests3Open.png" on-touch="item"/>
-        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:12"/>
+        <item img="cookie_01a.png" on-touch="_GOTO_PAGE:13"/>
     </agent>
     
     <agent img="Chests3.png" x="285" y="341" width="34" height="28" drop-zone="isOpen">
