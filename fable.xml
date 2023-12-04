@@ -1118,7 +1118,7 @@
         <story img="CerberusDamage1.png" />
     </agent>
     
-    <agent img="skill_icons16.png" x="194" y="460" width="35" height="35"/>
+    <agent img="skill_icons16.png" x="158" y="460" width="35" height="35"/>
     
     <agent text="SKILLs:" x="40" y="460" color="white"/>
     <agent img="ActorFace.png" x="50" y="405" width="40" height="40" on-trigger="story">
@@ -1169,7 +1169,7 @@
         <useSkill text="(respira aliviado) Uau, pensei que minha saga tinha chegado no capítulo final! Parece que os deuses decidiram que ainda tenho algumas páginas para virar nesta história. Um conselho para o destino: da próxima vez, capricha mais na pontaria!"/>
     </agent>
         
- <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" on-touch="useSkill">
+ <agent img="skill_icons16.png" x="158" y="460" width="35" height="35" on-touch="useSkill">
      <useSkill y="500"/>
  </agent>
     
