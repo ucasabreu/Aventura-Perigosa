@@ -676,7 +676,7 @@
         <liberado y="20" on-touch="_NEXT_PAGE"/>
     </agent>
 
-    <agent text="(analize) Então o segredo está nas torres..." font-size="12" x="100" y="40" width="340" height="20" on-trigger="isOpen">
+    <agent text="(analize) Então o segredo está nas torres...E logo apos pisar no tapete vermelho, de fato um enigma desafiador." font-size="12" x="100" y="40" width="340" height="20" on-trigger="isOpen">
     <isOpen text="Na sala dos quatro destinos, as afinidades são a chave da passagem. Que a PAIXÃO abrace a FLUIDEZ, que a FLUIDEZ nutra a SOLIDEZ, que a SOLIDEZ respire com o SOPRO. Siga a harmonia das afinidades, e a porta oculta se abrirá para os que PISAREM no tapete VERMELHO." y="85"/>
     </agent>
 
