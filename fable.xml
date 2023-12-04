@@ -95,10 +95,10 @@
 
     <agent img="skill_icons3.png" x="86" y="460" width="35" height="35" on-touch="_GOTO_PAGE:3">
     </agent>
-    <agent img="skill_icons47.png" x="122" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:2">
+    <agent img="skill_icons47.png" x="122" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:7">
     </agent>
-    <agent img="skill_icons22.png" x="158" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:2"/>
-    <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:2"/>
+    <agent img="skill_icons22.png" x="158" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:7"/>
+    <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:7"/>
     
     <agent text="SKILLs:" x="40" y="460" color="white"/>
     <agent img="basicscroll.png" x="50" y="405" width="40" height="40" on-trigger="story">
