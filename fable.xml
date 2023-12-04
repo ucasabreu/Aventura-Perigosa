@@ -39,7 +39,8 @@
     </agent>
     <agent img="Explosion_two_colors7.png" x="-150" y="-120" width="450" height="450"/>
      <agent img="Lightning_beginning4.png" x="200" y="10" width="64" height="493"/>
-      <agent img="Lightning_beginning4.png" x="200" y="10" width="64" height="493"/>
+     <agent img="Lightning_beginning4.png" x="300" y="30" width="64" height="493"/>
+     <agent img="Lightning_beginning4.png" x="350" y="30" width="64" height="493"/>
     
     <agent img="skill_icons22.png" x="158" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:1"/>
     <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:4"/>
