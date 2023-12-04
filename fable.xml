@@ -155,7 +155,7 @@
     </agent>
     
     <agent img="Chests3.png" x="-200" y="140" width="34" height="28" on-trigger="story"> 
-        <story x="200" on-touch="_GOTO_PAGE:9"/>
+        <story x="200" on-touch="_GOTO_PAGE:10"/>
     </agent>
     
     <agent img="Actor2.png" x="25" y="85" width="44" height="72"/>
