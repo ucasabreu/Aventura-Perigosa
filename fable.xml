@@ -27,12 +27,12 @@
     <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" >
     </agent>
 
-     <agent img="arrow_example.png" x="420" y="400" width="40" height="40" >
+     <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
         <useSkill y="400" on-touch="_NEXT_PAGE"/>
     </agent>
 
-    <agent text="Chaves misteriosas, símbolos baus de tesouros ainda não abertas. Que segredos escondidos vocês guardam, queridas chaves?" font-size="12" x="110" y="430" width="340" height="20" on-trigger="useSkill">
-        <useSkill text="(respira aliviado) Uau, pensei que minha saga tinha chegado no capítulo final! Parece que os deuses decidiram que ainda tenho algumas páginas para virar nesta história. Um conselho para o destino: da próxima vez, capricha mais na pontaria!"/>
+    <agent text="Chaves misteriosas, símbolos baus de tesouros ainda não abertas. Que segredos escondidos vocês guardam, queridas chaves?" font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
+        <story text="Hora de ir para "/>
     </agent>
         
     <agent text="SKILLs:" x="40" y="460" color="white"/>
