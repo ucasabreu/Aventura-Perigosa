@@ -24,8 +24,9 @@
      <agent img="bones.png" x="80" y="-20" 
         width="350" height="220"/>
 
-    <agent img="Lightning_beginning4.png" x="410" y="90" width="64" height="493">
-        <story />             
+    <agent img="Lightning_beginning4.png" x="410" y="90" width="64" height="493"
+        on-trigger="story">
+        <story x="-500"/>             
     </agent>
     
     <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="">
