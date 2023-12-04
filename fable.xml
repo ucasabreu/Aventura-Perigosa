@@ -607,7 +607,7 @@
 
     <agent img="towershield.png" x="78" y="345" width="63" height="122"/>
     <agent img="towerpink.png" x="178" y="345" width="63" height="122"/>
-    <agent img="toweblue.png" x="278" y="345" width="63" height="122"/>
+    <agent img="towerblue.png" x="278" y="345" width="63" height="122"/>
     <agent img="towerred.png" x="378" y="345" width="63" height="122"/>
     
 
