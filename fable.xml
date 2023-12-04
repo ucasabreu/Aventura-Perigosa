@@ -42,7 +42,8 @@
     </agent> 
    
     <agent img="gold.png" x="122" y="-460" width="35" height="35" on-trigger="dropTreasure">
-        <dropTreasure x="150" y="5"/>
+        <dropTreasure x="150" y="5" on-touch="saveItem"/>
+        <saveItem x="86"/>
     </agent> 
     <agent img="key_01e.png" x="86" y="460" width="35" height="35" 
         on-touch="usekeySilver">
