@@ -33,7 +33,7 @@
     </agent>
 
     <agent text="Ah, maravilhosos cofres da riqueza! Que segredos e fortunas ocultas aguardam dentro desses baús misteriosos?" font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
-        <story text="Chegou o momento de descobrir quais tesouros a sorte e a bravura reservaram para mim."/>
+        <story text="Após explorar os recantos escuros desta dungeon e reunir os frutos da minha coragem, sinto que é o momento de voltar à luz do dia. As riquezas encontradas e as batalhas superadas são troféus que carregarei comigo."/>
     </agent>
         
     <agent text="ITEMs:" x="40" y="460" color="white" on-trigger="savekey">
