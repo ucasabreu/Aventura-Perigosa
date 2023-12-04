@@ -575,7 +575,7 @@
         
 </page> 
    
-<page background="hills&trees.png">
+<page background="hills&trees.png" soundtrack="song2.wav">
 
     <agent img="hills&trees 2.png" x="0" y="100" width="1920" height="400"/>
     
@@ -617,7 +617,7 @@
         <isOpen img="scrollOpen.png"/>
     </agent>    
 </page>  
-<page background="hills&trees.png">
+<page background="hills&trees.png" soundtrack="song2.wav">
 
     <agent img="hills&trees 2.png" x="0" y="100" width="1920" height="400"/>
     
@@ -682,7 +682,7 @@
     <agent img="scrollOpen.png" x="230" y="300" width="34" height="28" on-touch="isOpen">
     </agent>    
 </page> 
-<page background="hills&trees.png">
+<page background="hills&trees.png" soundtrack="song2.wav">
 
     <agent img="hills&trees 2.png" x="0" y="100" width="1920" height="400"/>
     
