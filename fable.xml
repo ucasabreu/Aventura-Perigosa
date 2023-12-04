@@ -37,13 +37,13 @@
         <story y="430"/>
     </agent>
 
-    <agent img="Cerberus.png" x="10" y="0" width="130" height="210" drop-zone="attackBlue">
-        <attackBlue img="CerberusDamage1.png"/>
+    <agent img="Cerberus.png" x="10" y="0" width="130" height="210" drop-zone="attackRed">
+        <attackRed img="CerberusDamage1.png"/>
         
         
     </agent>
 
-    <agent img="skill_icons3.png" x="86" y="460" width="35" height="35" draggable="true" on-drop="attackRed" on-zone="error" on-trigger="error">
+    <agent img="skill_icons3.png" x="86" y="460" width="35" height="35" draggable="true" on-drop="attackRed" on-zone="NEXT_PAGE" on-trigger="error">
         <error y="-460"/>
     </agent>
     <agent img="skill_icons47.png" x="122" y="460" width="35" height="35" draggable="true" on-drop="attackBlue" on-zone="error" on-trigger="error">
