@@ -29,7 +29,7 @@
 
      <agent img="arrow_example.png" x="420" y="-400" width="40" height="40" on-trigger="dropWeapons">
         <dropWeapons y="400" on-touch="story"/>
-        <story />
+        <story img="arrow - left.png" x=""/>
     </agent>
 
     <agent text="Ah, maravilhosos cofres da riqueza! Que segredos e fortunas ocultas aguardam dentro desses baús misteriosos?" font-size="12" x="110" y="430" width="340" height="20" on-trigger="dropTreasure">
