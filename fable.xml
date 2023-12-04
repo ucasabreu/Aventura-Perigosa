@@ -2,7 +2,9 @@
 
 
     
-<page>
+<page background="dungeon background 12.png">
+    <agent text=""/>
+</page>
     
 <page background="256_Water Shallow 01.png">
 
