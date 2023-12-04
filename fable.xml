@@ -39,11 +39,10 @@
         <story y="430"/>
     </agent>
 
-    <agent img="Cerberus.png" x="10" y="0" width="130" height="210" 
+    <agent img="Cerberus.png" x="10" y="0" width="130" height="210">
     </agent>
 
-    <agent img="skill_icons3.png" x="86" y="460" width="35" height="35" on-touch="fireAttack">
-        <fireAttack y="-460"/>
+    <agent img="skill_icons3.png" x="86" y="460" width="35" height="35" on-touch="_GOTO_PAGE:3">
     </agent>
     <agent img="skill_icons47.png" x="122" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:2">
     </agent>
