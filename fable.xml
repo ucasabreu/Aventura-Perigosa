@@ -45,7 +45,7 @@
 
     <agent img="skill_icons3.png" x="86" y="460" width="35" height="35" draggable="true" on-drop="attackRed" on-zone=""></agent>
     <agent img="skill_icons47.png" x="122" y="460" width="35" height="35" draggable="true" on-drop="errorAttack" on-zone="error" on-trigger="error">
-        <error on-/>
+        <error on-touch="_NEXT_PAGE"/>
     </agent>
     <agent img="skill_icons22.png" x="158" y="460" width="35" height="35" draggable="true"/>
     <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" draggable="true"/>
