@@ -54,7 +54,7 @@
         </agent>
     <agent img="Chests3 (1).png" x="150" y="10" width="48" height="40"
         on-trigger="usekeyGold">
-        <usekeyGold img="Chests3Open (1).png" on-touch="dropItem"/>
+        <usekeyGold img="Chests3Open (1).png" on-touch="vani"/>
         </agent>
     
     <agent img="Actor3.png" x="430" y="30" width="30" height="52">        
