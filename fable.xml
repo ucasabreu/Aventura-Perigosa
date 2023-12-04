@@ -51,7 +51,8 @@
     <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:4"/>
     
     <agent text="SKILLs:" x="40" y="460" color="white"/>
-    <agent img="CerberusFace.png" x="50" y="405" width="40" height="40">
+    <agent img="CerberusFace.png" x="50" y="405" width="50" height="50" on-trigger="story">
+        <story img=""/>
     </agent> 
    
     <agent img="Actor3.png" x="430" y="30" width="30" height="52"/>
