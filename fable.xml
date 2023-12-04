@@ -1,6 +1,6 @@
 <fable>
      
-<page background="sky.png">
+<page background="sky.png" soundtrack="song4.wav">
 
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
     <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
@@ -27,7 +27,7 @@
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
     </page>
-<page background="sky.png">
+<page background="sky.png" soundtrack="song4.wav">
 
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
     <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
@@ -54,7 +54,7 @@
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
 </page>
-<page background="sky.png">
+<page background="sky.png" soundtrack="song4.wav">
 
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
     <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
@@ -78,7 +78,7 @@
     <agent img="master2.png" x="300" y="85" width="44" height="72"/>
         
 </page>
-<page background="sky.png">
+<page background="sky.png" >
 
     <agent img="trees&bushes.png" x="0" y="100" width="1920" height="400"/>
     <agent img="grass&road.png" x="0" y="0" width="1920" height="400"/>
