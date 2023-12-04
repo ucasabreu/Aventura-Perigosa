@@ -34,7 +34,9 @@
     <agent text="Rrrraaaahhhhh!!!!" font-size="16" color="red" x="110" y="430" width="340" height="20" on-trigger="story">
         <story y="-500"/>
     </agent>
-    <agent text="Droga! Se eu soubece que era hora do jantar tinha trago algo alem de deliciosos biscoitos. Você não tem cara de quem gosta de biscoitos." font-size="10" color="black" x="110" y="430" width="340" height="20" on-trigger="story">
+    <agent text="Droga! Se eu soubece que era hora do jantar tinha trago algo alem de deliciosos biscoitos. Você não tem cara de quem gosta de biscoitos." font-size="12" x="105" y="-430" width="340" height="20" on-trigger="story">
+        <story y="430"/>
+    </agent>
 
     <agent img="skill_icons3.png" x="86" y="460" width="35" height="35"/>
     <agent img="skill_icons47.png" x="122" y="460" width="35" height="35"/>
