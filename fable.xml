@@ -1,8 +1,57 @@
 <fable>
-
-
     
+<page background="256_Water Shallow 01.png">
+
+    <agent img="4.png" x="0" y="80" 
+        width="500" height="420"/>
+    <agent img="3.png" x="0" y="80" 
+        width="500" height="420"/>
+    <agent img="1.png" x="0" y="80" 
+        width="500" height="420"/>
+    
+    <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="80" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="160" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="240" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="320" y="0" 
+        width="80" height="80"/>
+    <agent img="256_Tiles Square 04 Red Grass.png" x="400" y="0" 
+        width="100" height="80"/>
+     <agent img="bones.png" x="80" y="-20" 
+        width="350" height="220"/>
+    
+    <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" >
+    </agent>
+
+     <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
+        <story img="arrow - left.png"x="10" y="30" width="27" height="27"  on-touch="_NEXT_PAGE"/>
+    </agent>
+
+    <agent text="Chaves misteriosas, símbolos baus de tesouros ainda não abertas. Que segredos escondidos vocês guardam, queridas chaves?" font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
+        <story text="Vamos ver quais novos mistérios aguardam do outro lado. "/>
+    </agent>
+        
+    <agent text="SKILLs:" x="40" y="460" color="white" on-trigger="savekey">
+        <savekey text="ITEMs:"/>
+    </agent>
+    <agent img="ActorFace.png" x="50" y="405" width="40" height="40" on-trigger="useSkill">
+        <useSkill />
+    </agent> 
    
+    <agent img="key_01d.png" x="10" y="30" width="35" height="35" on-touch="savekey">
+        <savekey x="122" y="460"/>
+    </agent> 
+    <agent img="key_01e.png" x="40" y="30" width="35" height="35" on-touch="savekey">
+        <savekey  x="86" y="460"/>
+    </agent> 
+    <agent img="Actor3.png" x="430" y="30" width="30" height="52">        
+    </agent>
+    
+</page>   
     
 <page background="256_Water Shallow 01.png">
 
