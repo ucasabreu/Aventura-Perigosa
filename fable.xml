@@ -31,6 +31,29 @@
     <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
         <story on-touch="_NEXT_PAGE"/>
     </agent>
+
+    <agent img="skill_icons3.png" x="90" y="370" width="35" height="35"
+        on-touch="addSkill">
+        <addSkill x="90" y="80" width="30" height="30"/>    
+    </agent>
+    
+    <agent img="skill_icons47.png" x="122" y="370" width="35" height="35" 
+        on-touch="addSkill">
+        <addSkill x="122" y="80" width="30" height="30"/></agent>
+    
+    <agent img="skill_icons22.png" x="154" y="370" width="35" height="35"
+        on-touch="addSkill">
+        <addSkill x="154" y="80" width="30" height="30"/>
+    </agent>
+    
+    <agent img="skill_icons16.png" x="392" y="370" width="35" height="35"
+        on-touch="addSkill">
+        <addSkill x="186" y="80" width="30" height="30"/>       
+    </agent>
+
+    <agent text="SKILLs:" x="40" y="-80" color="white" on-trigger="addSkill">
+        <addSkill y="80"/>
+    </agent>
    
    
      <agent img="Cerberus.png" x="10" y="0" width="130" height="210"/>
