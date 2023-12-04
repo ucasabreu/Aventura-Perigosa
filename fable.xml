@@ -603,7 +603,7 @@
         <proxLVL on-touch="_GOTO_PAGE:20"/>
     </agent>
   
-    <agent text="Ah, corajoso aventureiro, tu demonstraste uma habilidade notável ao desvendar o intricado enigma diante de ti.Tuas mentes aguçadas brilharam como as estrelas na escuridão, revelando os segredos ocultos." font-size="11" x="100" y="50" width="340" height="20" on-trigger="proxLVL">
+    <agent text="Ah, corajoso aventureiro, tu demonstraste uma habilidade notável ao desvendar o intricado enigma diante de ti.Tua mente aguçada brilha como as estrelas na escuridão, revelando os segredos ocultos." font-size="11" x="100" y="50" width="340" height="20" on-trigger="proxLVL">
         <proxLVL text="Como recompensa por tua astúcia, as portas se abrem, permitindo-te avançar para a próxima área da tua jornada.Prossegue com confiança, pois novos mistérios aguardam, e tua sagacidade será tua guia constante."/>
     </agent>
 
