@@ -28,11 +28,13 @@
     </agent>
 
      <agent img="arrow_example.png" x="420" y="-400" width="40" height="40" on-trigger="dropWeapons">
-        <dropWeapons y="400" on-touch=""/>
+        <dropWeapons y="400" on-touch="story"/>
         <story/>
     </agent>
 
-    <agent text="Ah, maravilhosos cofres da riqueza! Que segredos e fortunas ocultas aguardam dentro desses baús misteriosos?" font-size="12" x="110" y="430" width="340" height="20"></agent>
+    <agent text="Ah, maravilhosos cofres da riqueza! Que segredos e fortunas ocultas aguardam dentro desses baús misteriosos?" font-size="12" x="110" y="430" width="340" height="20" on-trigger="dropTreasure">
+        <dropTreasure text="Após explorar os recantos escuros desta dungeon e reunir os frutos da minha coragem, sinto que é o momento de voltar à luz do dia. As riquezas encontradas e as batalhas superadas são troféus que carregarei comigo."/>
+    </agent>
         
     <agent text="ITEMs:" x="40" y="460" color="white" on-trigger="savekey">
         <savekey />
