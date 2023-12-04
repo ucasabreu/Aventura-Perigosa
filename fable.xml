@@ -2,12 +2,12 @@
     
 <page background="256_Water Shallow 01.png">
 
-    <agent img="4.png" x="0" y="140" 
-        width="500" height="360"/>
-    <agent img="3.png" x="0" y="140" 
-        width="500" height="360"/>
-    <agent img="1.png" x="0" y="50" 
-        width="500" height="360"/>
+    <agent img="4.png" x="0" y="80" 
+        width="500" height="420"/>
+    <agent img="3.png" x="0" y="80" 
+        width="500" height="420"/>
+    <agent img="1.png" x="0" y="80" 
+        width="500" height="420"/>
     
     <agent img="256_Tiles Square 04 Red Grass.png" x="0" y="0" 
         width="80" height="80"/>
