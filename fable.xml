@@ -41,8 +41,8 @@
     <agent img="ActorFace.png" x="50" y="405" width="40" height="40">
     </agent> 
    
-    <agent img="key_01d.png" x="122" y="460" width="35" height="35" on-touch="savekey">
-        <savekey />
+    <agent img="key_01d.png" x="122" y="460" width="35" height="35" on-touch="usekeyGold">
+        <usekeyGold />
     </agent> 
     <agent img="key_01e.png" x="86" y="460" width="35" height="35" on-touch="savekey">
         <savekey />
