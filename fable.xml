@@ -49,9 +49,7 @@
     </agent> 
     <agent img="key_01e.png" x="40" y="30" width="35" height="35">
     </agent> 
-    <agent img="Actor3.png" x="430" y="30" width="52" height="30" 
-    on-trigger="useSkill">
-        <useSkill  width="30" height="52"/>        
+    <agent img="Actor3.png" x="430" y="30" width="30" height="52">        
     </agent>
     
 </page>
