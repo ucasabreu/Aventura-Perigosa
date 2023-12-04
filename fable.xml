@@ -530,7 +530,7 @@
         <nextChance on-touch="_GOTO_PAGE:3"/>
     </agent>
   
-    <agent text="Infelismente essa não é a resposta correta." font-size="12" x="100" y="50" width="340" height="20" on-trigger="nextChance">
+    <agent text="Infelizmente essa não é a resposta correta." font-size="12" x="100" y="50" width="340" height="20" on-trigger="nextChance">
         <nextChance text="Deixe-me tentar novamente, pode repetir novamente o poema?."/>
     </agent>
 
