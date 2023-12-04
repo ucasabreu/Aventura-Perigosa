@@ -32,21 +32,21 @@
         <story on-touch="_NEXT_PAGE"/>
     </agent>
 
-    <agent img="skill_icons3.png" x="90" y="370" width="35" height="35"
+    <agent img="skill_icons3.png" x="86" y="460" width="35" height="35"
         on-touch="addSkill">
         <addSkill x="90" y="80" width="30" height="30"/>    
     </agent>
     
-    <agent img="skill_icons47.png" x="122" y="370" width="35" height="35" 
+    <agent img="skill_icons47.png" x="122" y="460" width="35" height="35" 
         on-touch="addSkill">
         <addSkill x="122" y="80" width="30" height="30"/></agent>
     
-    <agent img="skill_icons22.png" x="154" y="370" width="35" height="35"
+    <agent img="skill_icons22.png" x="158" y="460" width="35" height="35"
         on-touch="addSkill">
         <addSkill x="154" y="80" width="30" height="30"/>
     </agent>
     
-    <agent img="skill_icons16.png" x="186" y="460" width="35" height="35"
+    <agent img="skill_icons16.png" x="194" y="460" width="35" height="35"
         on-touch="addSkill">
         <addSkill x="186" y="80" width="30" height="30"/>       
     </agent>
