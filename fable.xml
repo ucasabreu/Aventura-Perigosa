@@ -35,8 +35,8 @@
         <story y="-500"/>
     </agent>
         
- <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" on-touch="">
-     
+ <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" on-touch="useSkill">
+     <
  </agent>
     
     <agent text="SKILLs:" x="40" y="460" color="white"/>
