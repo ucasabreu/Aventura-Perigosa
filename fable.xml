@@ -48,7 +48,7 @@
 
      <agent img="ring.png" x="150" y="-460" width="35" height="35" on-trigger="dropTreasure">
         <dropTreasure y="5" on-touch="saveItem"/>
-        <saveItem x="86" y="460"/>
+        <saveItem x="120" y="460"/>
     </agent> 
      
     <agent img="key_01e.png" x="86" y="460" width="35" height="35" 
