@@ -191,11 +191,11 @@
     </agent>
 
     <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-touch="story">
-        <story on-touch="_"/>
+        <story on-touch="_GOTO_PAGE:5"/>
     </agent>
 
     <agent text="Vortex de água!" font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
-        <story text="Mais um ataque surtiu efeito, devo continuar usando magia."/>
+        <story text="Mais um ataque surtiu efeito, sera que ele cai."/>
     </agent>
     
     <agent img="Cerberus.png" x="10" y="0" width="130" height="210">
