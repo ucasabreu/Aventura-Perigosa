@@ -27,12 +27,12 @@
     <agent img="panel_Example3.png" x="8" y="360" width="490" height="120" on-trigger="">
     </agent>
 
-     <agent img="arrow_example.png" x="420" y="400" width="40" height="40" on-trigger="useSkill">
-        <useSkill on-touch="_NEXT_PAGE"/>
+     <agent img="arrow_example.png" x="420" y="-400" width="40" height="40" on-trigger="useSkill">
+        <useSkill y="400" on-touch="_NEXT_PAGE"/>
     </agent>
 
-    <agent text="...................." font-size="12" x="110" y="430" width="340" height="20" on-trigger="story">
-        <story y="-500"/>
+    <agent text="...................." font-size="12" x="110" y="430" width="340" height="20" on-trigger="useSkill">
+        <useSkill text=""/>
     </agent>
         
  <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" on-touch="useSkill">
