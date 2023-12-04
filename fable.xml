@@ -41,7 +41,7 @@
     <agent img="ActorFace.png" x="50" y="405" width="40" height="40">
     </agent> 
    
-    <agent img="key_01d.png" x="122" y="460" width="35" height="35" on-touch="usekeyGold">
+    <agent img="gold.png" x="122" y="-460" width="35" height="35" on-trigger="usekeyGold">
         <usekeyGold y="-460"/>
     </agent> 
     <agent img="key_01e.png" x="86" y="460" width="35" height="35" 
@@ -54,7 +54,7 @@
         </agent>
     <agent img="Chests3Open (1).png" x="150" y="10" width="48" height="40"
         on-touch="dropTreasure">
-        <dropTreasure  on-touch="_NEXT_PAGE"/>
+        <dropTreasure  y="500"/>
         </agent>
     
     <agent img="Actor3.png" x="230" y="30" width="30" height="52">        
