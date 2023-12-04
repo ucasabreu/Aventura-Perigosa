@@ -44,7 +44,7 @@
     </agent>
     
     <agent img="Cerberus.png" x="10" y="0" width="130" height="210" on-trigger="story">
-        <story img="Cerberus"/>
+        <story img="CerberusDamage1.png"/>
     </agent>
     
     <agent img="skill_icons16.png" x="194" y="460" width="35" height="35" draggable="true" on-touch="_GOTO_PAGE:4"/>
