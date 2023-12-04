@@ -43,10 +43,9 @@
         
     </agent>
 
-    <agent img="skill_icons3.png" x="86" y="460" width="35" height="35" on-touch="fireAttack" >
-        <fireAttack draggable="true"/>
+    <agent img="skill_icons3.png" x="86" y="460" width="35" height="35" on-touch="fireAttack">
     </agent>
-    <agent img="skill_icons47.png" x="122" y="460" width="35" height="35" draggable="true" on-drop="attackBlue" on-zone="error" on-trigger="error">
+    <agent img="skill_icons47.png" x="122" y="460" width="35" height="35" draggable="true" on-touch="errorAttack">
         <error y="-460"/>
     </agent>
     <agent img="skill_icons22.png" x="158" y="460" width="35" height="35" draggable="true"/>
